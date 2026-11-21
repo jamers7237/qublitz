@@ -1,0 +1,416 @@
+{
+  "kind": "iqm-local-fake-noise",
+  "backend": "fake-garnet",
+  "job_id": "04102401-1617-41e4-b314-dd14dd9b633b",
+  "versions": {
+    "qiskit": "2.1.2",
+    "qiskit-aer": "0.17.2",
+    "iqm-client": "36.0.0",
+    "numpy": "2.5.5"
+  },
+  "records": [
+    {
+      "level": 4,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "01": 20,
+        "11": 13,
+        "10": 37,
+        "00": 186
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.7265625,
+        "syndrome_ci95": [
+          0.6689146042381685,
+          0.7775114608188586
+        ],
+        "decoded_syndrome_counts": {
+          "X": 20,
+          "Y": 13,
+          "Z": 37,
+          "I": 186
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "10": 10,
+        "11": 34,
+        "00": 20,
+        "01": 192
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.75,
+        "syndrome_ci95": [
+          0.6935249374688035,
+          0.7990831343182607
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 10,
+          "Y": 34,
+          "I": 20,
+          "X": 192
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "00": 26,
+        "10": 16,
+        "11": 37,
+        "01": 177
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.69140625,
+        "syndrome_ci95": [
+          0.6323417974638745,
+          0.7448112574980965
+        ],
+        "decoded_syndrome_counts": {
+          "I": 26,
+          "Z": 16,
+          "Y": 37,
+          "X": 177
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "10": 15,
+        "00": 26,
+        "11": 42,
+        "01": 173
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.67578125,
+        "syndrome_ci95": [
+          0.6162096335282949,
+          0.7301554169469846
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 15,
+          "I": 26,
+          "Y": 42,
+          "X": 173
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X3",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "00": 20,
+        "10": 14,
+        "11": 31,
+        "01": 191
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.74609375,
+        "syndrome_ci95": [
+          0.6894097171973202,
+          0.7955013534680712
+        ],
+        "decoded_syndrome_counts": {
+          "I": 20,
+          "Z": 14,
+          "Y": 31,
+          "X": 191
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "01": 33,
+        "10": 16,
+        "00": 8,
+        "11": 199
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.77734375,
+        "syndrome_ci95": [
+          0.7224930899424281,
+          0.8239939896963463
+        ],
+        "decoded_syndrome_counts": {
+          "X": 33,
+          "Z": 16,
+          "I": 8,
+          "Y": 199
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "01": 29,
+        "10": 19,
+        "11": 189,
+        "00": 19
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.73828125,
+        "syndrome_ci95": [
+          0.6811957065092896,
+          0.7883213619127559
+        ],
+        "decoded_syndrome_counts": {
+          "X": 29,
+          "Z": 19,
+          "Y": 189,
+          "I": 19
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "01": 31,
+        "00": 16,
+        "10": 28,
+        "11": 181
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.70703125,
+        "syndrome_ci95": [
+          0.6485479046466456,
+          0.759393154802017
+        ],
+        "decoded_syndrome_counts": {
+          "X": 31,
+          "I": 16,
+          "Z": 28,
+          "Y": 181
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y3",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "01": 30,
+        "10": 14,
+        "00": 13,
+        "11": 199
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.77734375,
+        "syndrome_ci95": [
+          0.7224930899424281,
+          0.8239939896963463
+        ],
+        "decoded_syndrome_counts": {
+          "X": 30,
+          "Z": 14,
+          "I": 13,
+          "Y": 199
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "01": 6,
+        "11": 23,
+        "00": 32,
+        "10": 195
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.76171875,
+        "syndrome_ci95": [
+          0.7059044755184534,
+          0.8097945996336295
+        ],
+        "decoded_syndrome_counts": {
+          "X": 6,
+          "Y": 23,
+          "I": 32,
+          "Z": 195
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "01": 10,
+        "11": 19,
+        "00": 36,
+        "10": 191
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.74609375,
+        "syndrome_ci95": [
+          0.6894097171973202,
+          0.7955013534680712
+        ],
+        "decoded_syndrome_counts": {
+          "X": 10,
+          "Y": 19,
+          "I": 36,
+          "Z": 191
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "01": 21,
+        "11": 19,
+        "00": 30,
+        "10": 186
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.7265625,
+        "syndrome_ci95": [
+          0.6689146042381685,
+          0.7775114608188586
+        ],
+        "decoded_syndrome_counts": {
+          "X": 21,
+          "Y": 19,
+          "I": 30,
+          "Z": 186
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z3",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "01": 10,
+        "11": 27,
+        "00": 38,
+        "10": 181
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.70703125,
+        "syndrome_ci95": [
+          0.6485479046466456,
+          0.759393154802017
+        ],
+        "decoded_syndrome_counts": {
+          "X": 10,
+          "Y": 27,
+          "I": 38,
+          "Z": 181
+        }
+      }
+    }
+  ]
+}

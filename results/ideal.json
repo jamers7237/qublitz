@@ -1,0 +1,6426 @@
+{
+  "kind": "ideal-local-simulation",
+  "seed": 2026,
+  "versions": {
+    "qiskit": "2.1.2",
+    "qiskit-aer": "0.17.2",
+    "iqm-client": "36.0.0",
+    "numpy": "2.5.5"
+  },
+  "records": [
+    {
+      "level": 1,
+      "error": "I",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "zero",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "zero",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "111": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 0.0,
+        "logical_ci95": [
+          0.0,
+          0.0037374040400176777
+        ],
+        "joint_success": 0.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "zero",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "zero",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "one",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "one",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "111": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 0.0,
+        "logical_ci95": [
+          0.0,
+          0.0037374040400176777
+        ],
+        "joint_success": 0.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "one",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "one",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "minus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "minus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "minus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "minus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "111": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 0.0,
+        "logical_ci95": [
+          0.0,
+          0.0037374040400176777
+        ],
+        "joint_success": 0.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "111": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 0.0,
+        "logical_ci95": [
+          0.0,
+          0.0037374040400176777
+        ],
+        "joint_success": 0.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "zero",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "zero",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "111": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 0.0,
+        "logical_ci95": [
+          0.0,
+          0.0037374040400176777
+        ],
+        "joint_success": 0.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "zero",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "zero",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "one",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "one",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "111": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 0.0,
+        "logical_ci95": [
+          0.0,
+          0.0037374040400176777
+        ],
+        "joint_success": 0.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "one",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "one",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "minus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "minus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "minus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "minus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "111": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 0.0,
+        "logical_ci95": [
+          0.0,
+          0.0037374040400176777
+        ],
+        "joint_success": 0.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "111": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 0.0,
+        "logical_ci95": [
+          0.0,
+          0.0037374040400176777
+        ],
+        "joint_success": 0.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "zero",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "zero",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "111": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 0.0,
+        "logical_ci95": [
+          0.0,
+          0.0037374040400176777
+        ],
+        "joint_success": 0.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "zero",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "zero",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "one",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "one",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "111": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 0.0,
+        "logical_ci95": [
+          0.0,
+          0.0037374040400176777
+        ],
+        "joint_success": 0.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "one",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "one",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "minus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "minus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "minus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "minus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "111": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 0.0,
+        "logical_ci95": [
+          0.0,
+          0.0037374040400176777
+        ],
+        "joint_success": 0.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "000": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "None": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "111": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "0": 1024
+        },
+        "logical_fidelity_estimate": 0.0,
+        "logical_ci95": [
+          0.0,
+          0.0037374040400176777
+        ],
+        "joint_success": 0.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "010": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "1": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "100": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "2": 1024
+        },
+        "logical_fidelity_estimate": 1.0,
+        "logical_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "joint_success": 1.0
+      }
+    },
+    {
+      "level": 4,
+      "error": "I",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "00": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "I": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X0",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X1",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X2",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X3",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y0",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y1",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y2",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y3",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z0",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z1",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z2",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z3",
+      "state": "zero",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "I",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "00": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "I": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X0",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X1",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X2",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X3",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y0",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y1",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y2",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y3",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z0",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z1",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z2",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z3",
+      "state": "one",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "00": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "I": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X3",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y3",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z3",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "I",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "00": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "I": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X0",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X1",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X2",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X3",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y0",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y1",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y2",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y3",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z0",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z1",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z2",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z3",
+      "state": "minus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "00": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "I": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X3",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y3",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z3",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "I",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "00": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "I": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X0",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X1",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X2",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "X3",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "01": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "X": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y0",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y1",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y2",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Y3",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "11": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Y": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z0",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z1",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z2",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    },
+    {
+      "level": 4,
+      "error": "Z3",
+      "state": "minus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "10": 1024
+      },
+      "metrics": {
+        "shots": 1024,
+        "syndrome_accuracy": 1.0,
+        "syndrome_ci95": [
+          0.9962625959599825,
+          1.0
+        ],
+        "decoded_syndrome_counts": {
+          "Z": 1024
+        }
+      }
+    }
+  ]
+}

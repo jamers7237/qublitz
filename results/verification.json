@@ -1,0 +1,5687 @@
+{
+  "passed": true,
+  "method": "exact statevector with partial trace; no noise",
+  "seed": 2026,
+  "random_states": 12,
+  "cases": 703,
+  "minimum_fidelity": 0.999999999999996,
+  "minimum_syndrome_probability": 0.9999999999999962,
+  "records": [
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "zero",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "one",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "plus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "minus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "plus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "minus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_00",
+      "fidelity": 0.9999999999999999,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_01",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_02",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_03",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_04",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_05",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_07",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_08",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_09",
+      "fidelity": 1.0000000000000002,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_10",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_11",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "I",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "zero",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "one",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "plus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "minus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "plus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "minus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "random_00",
+      "fidelity": 0.9999999999999999,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "random_01",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "random_02",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "random_03",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "random_04",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "random_05",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "random_07",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "random_08",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "random_09",
+      "fidelity": 1.0000000000000002,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "random_10",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "random_11",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X0",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "zero",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "one",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "plus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "minus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "plus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "minus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "random_00",
+      "fidelity": 0.9999999999999999,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "random_01",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "random_02",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "random_03",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "random_04",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "random_05",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "random_07",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "random_08",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "random_09",
+      "fidelity": 1.0000000000000002,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "random_10",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "random_11",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X1",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "zero",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "one",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "plus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "minus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "plus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "minus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "random_00",
+      "fidelity": 0.9999999999999999,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "random_01",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "random_02",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "random_03",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "random_04",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "random_05",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "random_07",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "random_08",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "random_09",
+      "fidelity": 1.0000000000000002,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "random_10",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "random_11",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "compact",
+      "error": "X2",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "zero",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "one",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "plus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "minus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "plus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "minus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_00",
+      "fidelity": 0.9999999999999999,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_01",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_02",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_03",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_04",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_05",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_07",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_08",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_09",
+      "fidelity": 1.0000000000000002,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_10",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_11",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "I",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "zero",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "one",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "plus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "minus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "plus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "minus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_00",
+      "fidelity": 0.9999999999999999,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_01",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_02",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_03",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_04",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_05",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_07",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_08",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_09",
+      "fidelity": 1.0000000000000002,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_10",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_11",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "zero",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "one",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "plus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "minus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "plus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "minus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_00",
+      "fidelity": 0.9999999999999999,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_01",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_02",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_03",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_04",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_05",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_07",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_08",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_09",
+      "fidelity": 1.0000000000000002,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_10",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_11",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "zero",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "one",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "plus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "minus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "plus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "minus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_00",
+      "fidelity": 0.9999999999999999,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_01",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_02",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_03",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_04",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_05",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_07",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_08",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_09",
+      "fidelity": 1.0000000000000002,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_10",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_11",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 1,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "zero",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "one",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "plus",
+      "fidelity": 0.9999999999999992,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "minus",
+      "fidelity": 0.9999999999999992,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_00",
+      "fidelity": 0.999999999999999,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_01",
+      "fidelity": 0.9999999999999988,
+      "syndrome_probability": 0.9999999999999987
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_02",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999984
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_03",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999986
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_04",
+      "fidelity": 0.999999999999999,
+      "syndrome_probability": 0.9999999999999988
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_05",
+      "fidelity": 0.999999999999999,
+      "syndrome_probability": 0.999999999999999
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_06",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_07",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999987
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_08",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_09",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_10",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999988
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_11",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "I",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999988,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "zero",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "one",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "plus",
+      "fidelity": 0.9999999999999992,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "minus",
+      "fidelity": 0.9999999999999992,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "random_00",
+      "fidelity": 0.999999999999999,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "random_01",
+      "fidelity": 0.9999999999999988,
+      "syndrome_probability": 0.9999999999999987
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "random_02",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999984
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "random_03",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999986
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "random_04",
+      "fidelity": 0.999999999999999,
+      "syndrome_probability": 0.9999999999999988
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "random_05",
+      "fidelity": 0.999999999999999,
+      "syndrome_probability": 0.999999999999999
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "random_06",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "random_07",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999987
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "random_08",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "random_09",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "random_10",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999988
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "random_11",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z0",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999988,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "zero",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "one",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "plus",
+      "fidelity": 0.9999999999999992,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "minus",
+      "fidelity": 0.9999999999999992,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "random_00",
+      "fidelity": 0.999999999999999,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "random_01",
+      "fidelity": 0.9999999999999988,
+      "syndrome_probability": 0.9999999999999987
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "random_02",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999984
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "random_03",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999986
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "random_04",
+      "fidelity": 0.999999999999999,
+      "syndrome_probability": 0.9999999999999988
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "random_05",
+      "fidelity": 0.999999999999999,
+      "syndrome_probability": 0.999999999999999
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "random_06",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "random_07",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999987
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "random_08",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "random_09",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "random_10",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999988
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "random_11",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z1",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999988,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "zero",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "one",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "plus",
+      "fidelity": 0.9999999999999992,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "minus",
+      "fidelity": 0.9999999999999992,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "random_00",
+      "fidelity": 0.999999999999999,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "random_01",
+      "fidelity": 0.9999999999999988,
+      "syndrome_probability": 0.9999999999999987
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "random_02",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999984
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "random_03",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999986
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "random_04",
+      "fidelity": 0.999999999999999,
+      "syndrome_probability": 0.9999999999999988
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "random_05",
+      "fidelity": 0.999999999999999,
+      "syndrome_probability": 0.999999999999999
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "random_06",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "random_07",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999987
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "random_08",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "random_09",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "random_10",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999988
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "random_11",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 2,
+      "mode": "compact",
+      "error": "Z2",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999988,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "zero",
+      "fidelity": 0.9999999999999971,
+      "syndrome_probability": 0.9999999999999971
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "one",
+      "fidelity": 0.9999999999999971,
+      "syndrome_probability": 0.9999999999999971
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "plus",
+      "fidelity": 0.9999999999999973,
+      "syndrome_probability": 0.9999999999999973
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "minus",
+      "fidelity": 0.9999999999999973,
+      "syndrome_probability": 0.9999999999999973
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999971,
+      "syndrome_probability": 0.999999999999997
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999971,
+      "syndrome_probability": 0.999999999999997
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_00",
+      "fidelity": 0.9999999999999966,
+      "syndrome_probability": 0.9999999999999963
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_01",
+      "fidelity": 0.999999999999996,
+      "syndrome_probability": 0.9999999999999962
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_02",
+      "fidelity": 0.9999999999999962,
+      "syndrome_probability": 0.9999999999999962
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_03",
+      "fidelity": 0.9999999999999967,
+      "syndrome_probability": 0.9999999999999969
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_04",
+      "fidelity": 0.9999999999999969,
+      "syndrome_probability": 0.9999999999999969
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_05",
+      "fidelity": 0.9999999999999964,
+      "syndrome_probability": 0.9999999999999964
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_06",
+      "fidelity": 0.9999999999999978,
+      "syndrome_probability": 0.9999999999999973
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_07",
+      "fidelity": 0.9999999999999961,
+      "syndrome_probability": 0.9999999999999962
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_08",
+      "fidelity": 0.9999999999999967,
+      "syndrome_probability": 0.9999999999999967
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_09",
+      "fidelity": 0.9999999999999972,
+      "syndrome_probability": 0.9999999999999973
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_10",
+      "fidelity": 0.9999999999999968,
+      "syndrome_probability": 0.9999999999999969
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_11",
+      "fidelity": 0.9999999999999969,
+      "syndrome_probability": 0.9999999999999968
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "I",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999969,
+      "syndrome_probability": 0.999999999999997
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "zero",
+      "fidelity": 0.9999999999999971,
+      "syndrome_probability": 0.9999999999999971
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "one",
+      "fidelity": 0.9999999999999971,
+      "syndrome_probability": 0.9999999999999971
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "plus",
+      "fidelity": 0.9999999999999973,
+      "syndrome_probability": 0.9999999999999973
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "minus",
+      "fidelity": 0.9999999999999973,
+      "syndrome_probability": 0.9999999999999973
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999971,
+      "syndrome_probability": 0.999999999999997
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999971,
+      "syndrome_probability": 0.999999999999997
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_00",
+      "fidelity": 0.9999999999999966,
+      "syndrome_probability": 0.9999999999999963
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_01",
+      "fidelity": 0.999999999999996,
+      "syndrome_probability": 0.9999999999999962
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_02",
+      "fidelity": 0.9999999999999962,
+      "syndrome_probability": 0.9999999999999962
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_03",
+      "fidelity": 0.9999999999999967,
+      "syndrome_probability": 0.9999999999999969
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_04",
+      "fidelity": 0.9999999999999969,
+      "syndrome_probability": 0.9999999999999969
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_05",
+      "fidelity": 0.9999999999999964,
+      "syndrome_probability": 0.9999999999999964
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_06",
+      "fidelity": 0.9999999999999978,
+      "syndrome_probability": 0.9999999999999973
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_07",
+      "fidelity": 0.9999999999999961,
+      "syndrome_probability": 0.9999999999999962
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_08",
+      "fidelity": 0.9999999999999967,
+      "syndrome_probability": 0.9999999999999967
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_09",
+      "fidelity": 0.9999999999999972,
+      "syndrome_probability": 0.9999999999999973
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_10",
+      "fidelity": 0.9999999999999968,
+      "syndrome_probability": 0.9999999999999969
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_11",
+      "fidelity": 0.9999999999999969,
+      "syndrome_probability": 0.9999999999999968
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999969,
+      "syndrome_probability": 0.999999999999997
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "zero",
+      "fidelity": 0.9999999999999971,
+      "syndrome_probability": 0.9999999999999971
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "one",
+      "fidelity": 0.9999999999999971,
+      "syndrome_probability": 0.9999999999999971
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "plus",
+      "fidelity": 0.9999999999999973,
+      "syndrome_probability": 0.9999999999999973
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "minus",
+      "fidelity": 0.9999999999999973,
+      "syndrome_probability": 0.9999999999999973
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999971,
+      "syndrome_probability": 0.999999999999997
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999971,
+      "syndrome_probability": 0.999999999999997
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_00",
+      "fidelity": 0.9999999999999966,
+      "syndrome_probability": 0.9999999999999963
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_01",
+      "fidelity": 0.999999999999996,
+      "syndrome_probability": 0.9999999999999962
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_02",
+      "fidelity": 0.9999999999999962,
+      "syndrome_probability": 0.9999999999999962
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_03",
+      "fidelity": 0.9999999999999967,
+      "syndrome_probability": 0.9999999999999969
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_04",
+      "fidelity": 0.9999999999999969,
+      "syndrome_probability": 0.9999999999999969
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_05",
+      "fidelity": 0.9999999999999964,
+      "syndrome_probability": 0.9999999999999964
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_06",
+      "fidelity": 0.9999999999999978,
+      "syndrome_probability": 0.9999999999999973
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_07",
+      "fidelity": 0.9999999999999961,
+      "syndrome_probability": 0.9999999999999962
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_08",
+      "fidelity": 0.9999999999999967,
+      "syndrome_probability": 0.9999999999999967
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_09",
+      "fidelity": 0.9999999999999972,
+      "syndrome_probability": 0.9999999999999973
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_10",
+      "fidelity": 0.9999999999999968,
+      "syndrome_probability": 0.9999999999999969
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_11",
+      "fidelity": 0.9999999999999969,
+      "syndrome_probability": 0.9999999999999968
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999969,
+      "syndrome_probability": 0.999999999999997
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "zero",
+      "fidelity": 0.9999999999999971,
+      "syndrome_probability": 0.9999999999999971
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "one",
+      "fidelity": 0.9999999999999971,
+      "syndrome_probability": 0.9999999999999971
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "plus",
+      "fidelity": 0.9999999999999973,
+      "syndrome_probability": 0.9999999999999973
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "minus",
+      "fidelity": 0.9999999999999973,
+      "syndrome_probability": 0.9999999999999973
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999971,
+      "syndrome_probability": 0.999999999999997
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999971,
+      "syndrome_probability": 0.999999999999997
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_00",
+      "fidelity": 0.9999999999999966,
+      "syndrome_probability": 0.9999999999999963
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_01",
+      "fidelity": 0.999999999999996,
+      "syndrome_probability": 0.9999999999999962
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_02",
+      "fidelity": 0.9999999999999962,
+      "syndrome_probability": 0.9999999999999962
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_03",
+      "fidelity": 0.9999999999999967,
+      "syndrome_probability": 0.9999999999999969
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_04",
+      "fidelity": 0.9999999999999969,
+      "syndrome_probability": 0.9999999999999969
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_05",
+      "fidelity": 0.9999999999999964,
+      "syndrome_probability": 0.9999999999999964
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_06",
+      "fidelity": 0.9999999999999978,
+      "syndrome_probability": 0.9999999999999973
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_07",
+      "fidelity": 0.9999999999999961,
+      "syndrome_probability": 0.9999999999999962
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_08",
+      "fidelity": 0.9999999999999967,
+      "syndrome_probability": 0.9999999999999967
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_09",
+      "fidelity": 0.9999999999999972,
+      "syndrome_probability": 0.9999999999999973
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_10",
+      "fidelity": 0.9999999999999968,
+      "syndrome_probability": 0.9999999999999969
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_11",
+      "fidelity": 0.9999999999999969,
+      "syndrome_probability": 0.9999999999999968
+    },
+    {
+      "level": 2,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999969,
+      "syndrome_probability": 0.999999999999997
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "zero",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "one",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "plus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "minus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "plus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "minus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_00",
+      "fidelity": 0.9999999999999999,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_01",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_02",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_03",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_04",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_05",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_07",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_08",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_09",
+      "fidelity": 1.0000000000000002,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_10",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "random_11",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "I",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "zero",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "one",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "plus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "minus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "plus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "minus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "random_00",
+      "fidelity": 0.9999999999999999,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "random_01",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "random_02",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "random_03",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "random_04",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "random_05",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "random_07",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "random_08",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "random_09",
+      "fidelity": 1.0000000000000002,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "random_10",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "random_11",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y0",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "zero",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "one",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "plus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "minus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "plus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "minus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "random_00",
+      "fidelity": 0.9999999999999999,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "random_01",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "random_02",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "random_03",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "random_04",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "random_05",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "random_07",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "random_08",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "random_09",
+      "fidelity": 1.0000000000000002,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "random_10",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "random_11",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y1",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "zero",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "one",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "plus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "minus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "plus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "minus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "random_00",
+      "fidelity": 0.9999999999999999,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "random_01",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "random_02",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "random_03",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "random_04",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "random_05",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "random_07",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "random_08",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "random_09",
+      "fidelity": 1.0000000000000002,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "random_10",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "random_11",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "compact",
+      "error": "Y2",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "zero",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "one",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "plus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "minus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "plus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "minus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_00",
+      "fidelity": 0.9999999999999999,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_01",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_02",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_03",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_04",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_05",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_07",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_08",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_09",
+      "fidelity": 1.0000000000000002,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_10",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_11",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "I",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "zero",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "one",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "plus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "minus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "plus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "minus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_00",
+      "fidelity": 0.9999999999999999,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_01",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_02",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_03",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_04",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_05",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_07",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_08",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_09",
+      "fidelity": 1.0000000000000002,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_10",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_11",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "zero",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "one",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "plus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "minus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "plus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "minus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_00",
+      "fidelity": 0.9999999999999999,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_01",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_02",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_03",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_04",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_05",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_07",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_08",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_09",
+      "fidelity": 1.0000000000000002,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_10",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_11",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "zero",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "one",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "plus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "minus",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "plus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "minus_i",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_00",
+      "fidelity": 0.9999999999999999,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_01",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_02",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_03",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_04",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_05",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_07",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_08",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_09",
+      "fidelity": 1.0000000000000002,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_10",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999999
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_11",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 3,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "bell_reference",
+      "fidelity": 0.9999999999999997,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "zero",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "one",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "plus",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "minus",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_00",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_01",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_02",
+      "fidelity": 0.9999999999999982,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_03",
+      "fidelity": 0.999999999999998,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_04",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_05",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_07",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_08",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_09",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_10",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "random_11",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "I",
+      "state": "bell_reference",
+      "fidelity": 1.0000000000000049,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "zero",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "one",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "plus",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "minus",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_00",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_01",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_02",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_03",
+      "fidelity": 0.9999999999999976,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_04",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_05",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_06",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_07",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_08",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_09",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_10",
+      "fidelity": 1.0000000000000013,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "random_11",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X0",
+      "state": "bell_reference",
+      "fidelity": 1.0000000000000049,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "zero",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "one",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "plus",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "minus",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_00",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_01",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_02",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_03",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_04",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_05",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_07",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_08",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_09",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_10",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "random_11",
+      "fidelity": 0.9999999999999982,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X1",
+      "state": "bell_reference",
+      "fidelity": 1.0000000000000049,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "zero",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "one",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "plus",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "minus",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_00",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_01",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_02",
+      "fidelity": 0.9999999999999982,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_03",
+      "fidelity": 0.999999999999998,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_04",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_05",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_07",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_08",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_09",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_10",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "random_11",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X2",
+      "state": "bell_reference",
+      "fidelity": 1.0000000000000049,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "zero",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "one",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "plus",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "minus",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "random_00",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "random_01",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "random_02",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "random_03",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "random_04",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "random_05",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "random_07",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "random_08",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "random_09",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "random_10",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "random_11",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "X3",
+      "state": "bell_reference",
+      "fidelity": 1.0000000000000049,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "zero",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "one",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "plus",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "minus",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_00",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_01",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_02",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_03",
+      "fidelity": 0.9999999999999976,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_04",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_05",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_06",
+      "fidelity": 1.0,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_07",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_08",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_09",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_10",
+      "fidelity": 1.0000000000000013,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "random_11",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y0",
+      "state": "bell_reference",
+      "fidelity": 1.0000000000000049,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "zero",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "one",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "plus",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "minus",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_00",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_01",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_02",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_03",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_04",
+      "fidelity": 0.9999999999999998,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_05",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_07",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_08",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_09",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_10",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "random_11",
+      "fidelity": 0.9999999999999982,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y1",
+      "state": "bell_reference",
+      "fidelity": 1.0000000000000049,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "zero",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "one",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "plus",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "minus",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_00",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_01",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_02",
+      "fidelity": 0.9999999999999982,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_03",
+      "fidelity": 0.999999999999998,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_04",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_05",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_07",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_08",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_09",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_10",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "random_11",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y2",
+      "state": "bell_reference",
+      "fidelity": 1.0000000000000049,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "zero",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "one",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "plus",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "minus",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "random_00",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "random_01",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "random_02",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "random_03",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "random_04",
+      "fidelity": 1.0,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "random_05",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "random_07",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "random_08",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "random_09",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "random_10",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "random_11",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Y3",
+      "state": "bell_reference",
+      "fidelity": 1.0000000000000049,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "zero",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "one",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "plus",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "minus",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_00",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_01",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_02",
+      "fidelity": 0.9999999999999982,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_03",
+      "fidelity": 0.999999999999998,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_04",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_05",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_07",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_08",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_09",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_10",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "random_11",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z0",
+      "state": "bell_reference",
+      "fidelity": 1.0000000000000049,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "zero",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "one",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "plus",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "minus",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_00",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_01",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_02",
+      "fidelity": 0.9999999999999982,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_03",
+      "fidelity": 0.999999999999998,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_04",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_05",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_07",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_08",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_09",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_10",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "random_11",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z1",
+      "state": "bell_reference",
+      "fidelity": 1.0000000000000049,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "zero",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "one",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "plus",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "minus",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_00",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_01",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_02",
+      "fidelity": 0.9999999999999982,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_03",
+      "fidelity": 0.999999999999998,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_04",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_05",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_07",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_08",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_09",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_10",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "random_11",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z2",
+      "state": "bell_reference",
+      "fidelity": 1.0000000000000049,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "zero",
+      "fidelity": 0.9999999999999993,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "one",
+      "fidelity": 0.9999999999999989,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "plus",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "minus",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "plus_i",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "minus_i",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999994
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "random_00",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "random_01",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "random_02",
+      "fidelity": 0.9999999999999982,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "random_03",
+      "fidelity": 0.999999999999998,
+      "syndrome_probability": 0.9999999999999989
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "random_04",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999992
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "random_05",
+      "fidelity": 0.9999999999999996,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "random_06",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 1.0
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "random_07",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999991
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "random_08",
+      "fidelity": 0.9999999999999984,
+      "syndrome_probability": 0.9999999999999993
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "random_09",
+      "fidelity": 0.9999999999999991,
+      "syndrome_probability": 0.9999999999999998
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "random_10",
+      "fidelity": 1.0000000000000009,
+      "syndrome_probability": 0.9999999999999996
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "random_11",
+      "fidelity": 0.9999999999999987,
+      "syndrome_probability": 0.9999999999999997
+    },
+    {
+      "level": 4,
+      "mode": "explicit",
+      "error": "Z3",
+      "state": "bell_reference",
+      "fidelity": 1.0000000000000049,
+      "syndrome_probability": 0.9999999999999993
+    }
+  ],
+  "theory": {
+    "1": {
+      "stabilizers_qiskit_order": [
+        "IZZ",
+        "ZZI"
+      ],
+      "commutator_norm": 0.0,
+      "encoded_energy_norm": 0.0,
+      "ground_space_dimension": 2,
+      "knill_laflamme_residual_for_all_permitted_errors": 0.0,
+      "full_correction_possible_for_error_set": true
+    },
+    "2": {
+      "stabilizers_qiskit_order": [
+        "IXX",
+        "XXI"
+      ],
+      "commutator_norm": 0.0,
+      "encoded_energy_norm": 0.0,
+      "ground_space_dimension": 2,
+      "knill_laflamme_residual_for_all_permitted_errors": 3.090286522239977e-17,
+      "full_correction_possible_for_error_set": true
+    },
+    "3": {
+      "stabilizers_qiskit_order": [
+        "IZZ",
+        "ZZI"
+      ],
+      "commutator_norm": 0.0,
+      "encoded_energy_norm": 0.0,
+      "ground_space_dimension": 2,
+      "knill_laflamme_residual_for_all_permitted_errors": 0.0,
+      "full_correction_possible_for_error_set": true
+    },
+    "4": {
+      "stabilizers_qiskit_order": [
+        "ZZZZ",
+        "XXXX"
+      ],
+      "commutator_norm": 0.0,
+      "encoded_energy_norm": 0.0,
+      "ground_space_dimension": 4,
+      "knill_laflamme_residual_for_all_permitted_errors": 1.4142135623730947,
+      "full_correction_possible_for_error_set": false
+    }
+  },
+  "versions": {
+    "qiskit": "2.1.2",
+    "qiskit-aer": "0.17.2",
+    "iqm-client": "36.0.0",
+    "numpy": "2.5.5"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "IQMFakeAdonisBackend",
+  "num_qubits": 5,
+  "operation_names": [
+    "cz",
+    "delay",
+    "id",
+    "measure",
+    "r"
+  ],
+  "coupling_map": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ]
+  ],
+  "calibration_set_id": "None"
+}

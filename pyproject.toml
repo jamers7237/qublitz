@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantum-minesweeper"
+version = "0.1.0"
+description = "Four QEC challenge levels with lattice stabilizer reasoning and IQM execution"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.2,<3", "qiskit>=2.1,<2.2", "qiskit-aer>=0.17,<0.18", "iqm-client[qiskit]==36.0.0", "python-dotenv>=1,<2"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+minesweeper = "quantum_minesweeper.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["quantum_minesweeper*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

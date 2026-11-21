@@ -1,0 +1,1097 @@
+{
+  "created_utc": "2026-11-21T19:34:08.538558+00:00",
+  "kind": "iqm-local-fake-noise",
+  "backend": "fake-adonis",
+  "server_url": "https://resonance.iqm.tech",
+  "shots_per_circuit": 256,
+  "total_shots": 12288,
+  "versions": {
+    "qiskit": "2.1.2",
+    "qiskit-aer": "0.17.2",
+    "iqm-client": "36.0.0",
+    "numpy": "2.5.5"
+  },
+  "compilation": {
+    "seed": 1,
+    "two_qubit_gates_total": 408,
+    "depth_total": 912,
+    "candidates": [
+      [
+        408,
+        912,
+        1
+      ],
+      [
+        408,
+        912,
+        7
+      ],
+      [
+        408,
+        912,
+        19
+      ]
+    ]
+  },
+  "experiments": [
+    {
+      "level": 1,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ]
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ]
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ]
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ]
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ]
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ]
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ]
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ]
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ]
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ]
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ]
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ]
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ]
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ]
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ]
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ]
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ]
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ]
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ]
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ]
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ]
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ]
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ]
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ]
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ]
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ]
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ]
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ]
+    }
+  ],
+  "circuits": [
+    {
+      "depth": 27,
+      "width": 5,
+      "operations": {
+        "r": 22,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 10,
+      "width": 5,
+      "operations": {
+        "r": 10,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=1>,\n1: <Qubit register=(3, \"q\"), index=2>,\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 28,
+      "width": 5,
+      "operations": {
+        "r": 23,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 11,
+      "width": 5,
+      "operations": {
+        "r": 11,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=1>,\n1: <Qubit register=(3, \"q\"), index=2>,\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 28,
+      "width": 5,
+      "operations": {
+        "r": 23,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 11,
+      "width": 5,
+      "operations": {
+        "r": 11,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 28,
+      "width": 5,
+      "operations": {
+        "r": 23,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 11,
+      "width": 5,
+      "operations": {
+        "r": 11,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=1>,\n1: <Qubit register=(3, \"q\"), index=2>,\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 27,
+      "width": 5,
+      "operations": {
+        "r": 22,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 10,
+      "width": 5,
+      "operations": {
+        "r": 10,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=1>,\n1: <Qubit register=(3, \"q\"), index=2>,\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 28,
+      "width": 5,
+      "operations": {
+        "r": 23,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 11,
+      "width": 5,
+      "operations": {
+        "r": 11,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=1>,\n1: <Qubit register=(3, \"q\"), index=2>,\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 28,
+      "width": 5,
+      "operations": {
+        "r": 23,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 11,
+      "width": 5,
+      "operations": {
+        "r": 11,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=1>,\n1: <Qubit register=(3, \"q\"), index=2>,\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 28,
+      "width": 5,
+      "operations": {
+        "r": 23,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 11,
+      "width": 5,
+      "operations": {
+        "r": 11,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n0: <Qubit register=(3, \"q\"), index=1>,\n1: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 27,
+      "width": 5,
+      "operations": {
+        "r": 20,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 10,
+      "width": 5,
+      "operations": {
+        "r": 8,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n0: <Qubit register=(3, \"q\"), index=1>,\n1: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 27,
+      "width": 5,
+      "operations": {
+        "r": 20,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 10,
+      "width": 5,
+      "operations": {
+        "r": 8,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 27,
+      "width": 5,
+      "operations": {
+        "r": 20,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 10,
+      "width": 5,
+      "operations": {
+        "r": 8,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=1>,\n1: <Qubit register=(3, \"q\"), index=2>,\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 27,
+      "width": 5,
+      "operations": {
+        "r": 20,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 10,
+      "width": 5,
+      "operations": {
+        "r": 8,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n0: <Qubit register=(3, \"q\"), index=1>,\n1: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 27,
+      "width": 5,
+      "operations": {
+        "r": 20,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 10,
+      "width": 5,
+      "operations": {
+        "r": 8,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=1>,\n1: <Qubit register=(3, \"q\"), index=2>,\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 27,
+      "width": 5,
+      "operations": {
+        "r": 20,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 10,
+      "width": 5,
+      "operations": {
+        "r": 8,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=2>,\n0: <Qubit register=(3, \"q\"), index=1>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 27,
+      "width": 5,
+      "operations": {
+        "r": 20,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 10,
+      "width": 5,
+      "operations": {
+        "r": 8,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=1>,\n1: <Qubit register=(3, \"q\"), index=2>,\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 27,
+      "width": 5,
+      "operations": {
+        "r": 20,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 10,
+      "width": 5,
+      "operations": {
+        "r": 8,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n0: <Qubit register=(3, \"q\"), index=1>,\n1: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 27,
+      "width": 5,
+      "operations": {
+        "r": 22,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 10,
+      "width": 5,
+      "operations": {
+        "r": 10,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=1>,\n1: <Qubit register=(3, \"q\"), index=2>,\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 28,
+      "width": 5,
+      "operations": {
+        "r": 23,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 11,
+      "width": 5,
+      "operations": {
+        "r": 11,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n0: <Qubit register=(3, \"q\"), index=1>,\n1: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 28,
+      "width": 5,
+      "operations": {
+        "r": 23,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 11,
+      "width": 5,
+      "operations": {
+        "r": 11,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n0: <Qubit register=(3, \"q\"), index=1>,\n1: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 28,
+      "width": 5,
+      "operations": {
+        "r": 23,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 11,
+      "width": 5,
+      "operations": {
+        "r": 11,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 27,
+      "width": 5,
+      "operations": {
+        "r": 22,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 10,
+      "width": 5,
+      "operations": {
+        "r": 10,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n0: <Qubit register=(3, \"q\"), index=1>,\n1: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 28,
+      "width": 5,
+      "operations": {
+        "r": 23,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 11,
+      "width": 5,
+      "operations": {
+        "r": 11,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 28,
+      "width": 5,
+      "operations": {
+        "r": 23,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 11,
+      "width": 5,
+      "operations": {
+        "r": 11,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=2>,\n0: <Qubit register=(3, \"q\"), index=1>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 28,
+      "width": 5,
+      "operations": {
+        "r": 23,
+        "cz": 13,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n3: <Qubit register=(3, \"q\"), index=1>,\n0: <Qubit register=(3, \"q\"), index=2>,\n1: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=Layout({\n0: <Qubit register=(5, \"q\"), index=0>,\n1: <Qubit register=(5, \"q\"), index=1>,\n3: <Qubit register=(5, \"q\"), index=2>,\n2: <Qubit register=(5, \"q\"), index=3>,\n4: <Qubit register=(5, \"q\"), index=4>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    },
+    {
+      "depth": 11,
+      "width": 5,
+      "operations": {
+        "r": 11,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n2: <Qubit register=(3, \"q\"), index=0>,\n0: <Qubit register=(3, \"q\"), index=1>,\n1: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(2, \"ancilla\"), index=0>,\n4: <Qubit register=(2, \"ancilla\"), index=1>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(2, \"ancilla\"), index=0>: 3, <Qubit register=(2, \"ancilla\"), index=1>: 4}, final_layout=None, _input_qubit_count=3, _output_qubit_list=[<Qubit register=(5, \"q\"), index=0>, <Qubit register=(5, \"q\"), index=1>, <Qubit register=(5, \"q\"), index=2>, <Qubit register=(5, \"q\"), index=3>, <Qubit register=(5, \"q\"), index=4>])"
+    }
+  ],
+  "pricing": "No dollar estimate: verify current pricing in Resonance before submission."
+}

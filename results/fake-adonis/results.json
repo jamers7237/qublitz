@@ -1,0 +1,1976 @@
+{
+  "kind": "iqm-local-fake-noise",
+  "backend": "fake-adonis",
+  "job_id": "b1802a9a-9b9d-4c82-a47d-4cae6d53dd8b",
+  "versions": {
+    "qiskit": "2.1.2",
+    "qiskit-aer": "0.17.2",
+    "iqm-client": "36.0.0",
+    "numpy": "2.5.5"
+  },
+  "records": [
+    {
+      "level": 1,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "101": 13,
+        "100": 13,
+        "001": 24,
+        "010": 28,
+        "000": 170,
+        "111": 1,
+        "011": 7
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.7578125,
+        "syndrome_ci95": [
+          0.7017722273812026,
+          0.8062298466492075
+        ],
+        "decoded_syndrome_counts": {
+          "2": 26,
+          "None": 194,
+          "1": 35,
+          "0": 1
+        },
+        "logical_fidelity_estimate": 0.82421875,
+        "logical_ci95": [
+          0.7728971415203973,
+          0.8659539515784516
+        ],
+        "joint_success": 0.6640625
+      }
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "111": 2,
+        "011": 4,
+        "100": 13,
+        "001": 18,
+        "110": 4,
+        "101": 7,
+        "010": 8,
+        "000": 200
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.8515625,
+        "syndrome_ci95": [
+          0.8028248479091987,
+          0.8899052530413604
+        ],
+        "decoded_syndrome_counts": {
+          "0": 6,
+          "1": 12,
+          "2": 20,
+          "None": 218
+        },
+        "logical_fidelity_estimate": 0.87890625,
+        "logical_ci95": [
+          0.8332442794764335,
+          0.9133648293258357
+        ],
+        "joint_success": 0.78125
+      }
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "111": 23,
+        "011": 7,
+        "000": 10,
+        "010": 11,
+        "001": 9,
+        "100": 21,
+        "110": 165,
+        "101": 10
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.734375,
+        "syndrome_ci95": [
+          0.6770967582431306,
+          0.7847233090572421
+        ],
+        "decoded_syndrome_counts": {
+          "0": 188,
+          "1": 18,
+          "None": 19,
+          "2": 31
+        },
+        "logical_fidelity_estimate": 0.80859375,
+        "logical_ci95": [
+          0.7559804291899548,
+          0.8520826594222026
+        ],
+        "joint_success": 0.64453125
+      }
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "011": 5,
+        "111": 18,
+        "001": 3,
+        "110": 200,
+        "100": 12,
+        "101": 2,
+        "000": 1,
+        "010": 15
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.8515625,
+        "syndrome_ci95": [
+          0.8028248479091987,
+          0.8899052530413604
+        ],
+        "decoded_syndrome_counts": {
+          "1": 20,
+          "0": 218,
+          "None": 4,
+          "2": 14
+        },
+        "logical_fidelity_estimate": 0.890625,
+        "logical_ci95": [
+          0.8464641652332502,
+          0.9232359469340378
+        ],
+        "joint_success": 0.78125
+      }
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "101": 1,
+        "100": 8,
+        "001": 9,
+        "110": 14,
+        "111": 2,
+        "011": 25,
+        "000": 22,
+        "010": 175
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.78125,
+        "syndrome_ci95": [
+          0.7266556785803728,
+          0.8275284021800744
+        ],
+        "decoded_syndrome_counts": {
+          "2": 9,
+          "None": 31,
+          "0": 16,
+          "1": 200
+        },
+        "logical_fidelity_estimate": 0.85546875,
+        "logical_ci95": [
+          0.8071377780781674,
+          0.8932893239940645
+        ],
+        "joint_success": 0.68359375
+      }
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "101": 1,
+        "011": 28,
+        "111": 4,
+        "010": 195,
+        "000": 9,
+        "100": 1,
+        "001": 6,
+        "110": 12
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.87109375,
+        "syndrome_ci95": [
+          0.8244958864844745,
+          0.9067192200744492
+        ],
+        "decoded_syndrome_counts": {
+          "2": 2,
+          "1": 223,
+          "0": 16,
+          "None": 15
+        },
+        "logical_fidelity_estimate": 0.84765625,
+        "logical_ci95": [
+          0.7985218710820212,
+          0.886511228746865
+        ],
+        "joint_success": 0.76171875
+      }
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "011": 3,
+        "111": 10,
+        "001": 10,
+        "100": 166,
+        "110": 22,
+        "101": 22,
+        "010": 8,
+        "000": 15
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.734375,
+        "syndrome_ci95": [
+          0.6770967582431306,
+          0.7847233090572421
+        ],
+        "decoded_syndrome_counts": {
+          "1": 11,
+          "0": 32,
+          "None": 25,
+          "2": 188
+        },
+        "logical_fidelity_estimate": 0.82421875,
+        "logical_ci95": [
+          0.7728971415203973,
+          0.8659539515784516
+        ],
+        "joint_success": 0.6484375
+      }
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "001": 4,
+        "110": 12,
+        "100": 194,
+        "101": 24,
+        "111": 7,
+        "011": 4,
+        "010": 1,
+        "000": 10
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.8515625,
+        "syndrome_ci95": [
+          0.8028248479091987,
+          0.8899052530413604
+        ],
+        "decoded_syndrome_counts": {
+          "None": 14,
+          "0": 19,
+          "2": 218,
+          "1": 5
+        },
+        "logical_fidelity_estimate": 0.84765625,
+        "logical_ci95": [
+          0.7985218710820212,
+          0.886511228746865
+        ],
+        "joint_success": 0.7578125
+      }
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "011": 2,
+        "111": 1,
+        "001": 22,
+        "100": 14,
+        "110": 9,
+        "000": 177,
+        "010": 22,
+        "101": 9
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.77734375,
+        "syndrome_ci95": [
+          0.7224930899424281,
+          0.8239939896963463
+        ],
+        "decoded_syndrome_counts": {
+          "1": 24,
+          "0": 10,
+          "None": 199,
+          "2": 23
+        },
+        "logical_fidelity_estimate": 0.8671875,
+        "logical_ci95": [
+          0.8201396562762842,
+          0.9033784491609664
+        ],
+        "joint_success": 0.69140625
+      }
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "111": 3,
+        "011": 3,
+        "001": 25,
+        "100": 13,
+        "000": 201,
+        "010": 8,
+        "101": 3
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.8828125,
+        "syndrome_ci95": [
+          0.8376373983055787,
+          0.9166687116183634
+        ],
+        "decoded_syndrome_counts": {
+          "0": 3,
+          "1": 11,
+          "None": 226,
+          "2": 16
+        },
+        "logical_fidelity_estimate": 0.8671875,
+        "logical_ci95": [
+          0.8201396562762842,
+          0.9033784491609664
+        ],
+        "joint_success": 0.78515625
+      }
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "000": 8,
+        "010": 21,
+        "111": 23,
+        "011": 11,
+        "100": 17,
+        "001": 4,
+        "110": 161,
+        "101": 11
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.71875,
+        "syndrome_ci95": [
+          0.6607529778983319,
+          0.7702790849153494
+        ],
+        "decoded_syndrome_counts": {
+          "None": 12,
+          "1": 32,
+          "0": 184,
+          "2": 28
+        },
+        "logical_fidelity_estimate": 0.80859375,
+        "logical_ci95": [
+          0.7559804291899548,
+          0.8520826594222026
+        ],
+        "joint_success": 0.62890625
+      }
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "110": 21,
+        "001": 5,
+        "100": 8,
+        "101": 10,
+        "000": 5,
+        "010": 8,
+        "011": 11,
+        "111": 188
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.81640625,
+        "syndrome_ci95": [
+          0.7644232596319748,
+          0.8590338312235285
+        ],
+        "decoded_syndrome_counts": {
+          "0": 209,
+          "None": 10,
+          "2": 18,
+          "1": 19
+        },
+        "logical_fidelity_estimate": 0.1640625,
+        "logical_ci95": [
+          0.12372760124959209,
+          0.21433030228654026
+        ],
+        "joint_success": 0.08203125
+      }
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "011": 16,
+        "111": 9,
+        "100": 5,
+        "110": 14,
+        "001": 17,
+        "101": 7,
+        "000": 32,
+        "010": 156
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.671875,
+        "syndrome_ci95": [
+          0.6121878040809798,
+          0.7264802452726269
+        ],
+        "decoded_syndrome_counts": {
+          "1": 172,
+          "0": 23,
+          "2": 12,
+          "None": 49
+        },
+        "logical_fidelity_estimate": 0.80859375,
+        "logical_ci95": [
+          0.7559804291899548,
+          0.8520826594222026
+        ],
+        "joint_success": 0.609375
+      }
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "111": 3,
+        "011": 32,
+        "010": 192,
+        "000": 11,
+        "100": 1,
+        "001": 3,
+        "110": 14
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.875,
+        "syndrome_ci95": [
+          0.8288639408674391,
+          0.9100481668131574
+        ],
+        "decoded_syndrome_counts": {
+          "0": 17,
+          "1": 224,
+          "None": 14,
+          "2": 1
+        },
+        "logical_fidelity_estimate": 0.8515625,
+        "logical_ci95": [
+          0.8028248479091987,
+          0.8899052530413604
+        ],
+        "joint_success": 0.75
+      }
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "010": 4,
+        "000": 22,
+        "100": 175,
+        "001": 8,
+        "110": 18,
+        "101": 19,
+        "011": 4,
+        "111": 6
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.7578125,
+        "syndrome_ci95": [
+          0.7017722273812026,
+          0.8062298466492075
+        ],
+        "decoded_syndrome_counts": {
+          "1": 8,
+          "None": 30,
+          "2": 194,
+          "0": 24
+        },
+        "logical_fidelity_estimate": 0.85546875,
+        "logical_ci95": [
+          0.8071377780781674,
+          0.8932893239940645
+        ],
+        "joint_success": 0.68359375
+      }
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "011": 5,
+        "111": 5,
+        "101": 22,
+        "001": 6,
+        "100": 198,
+        "110": 8,
+        "010": 3,
+        "000": 9
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.859375,
+        "syndrome_ci95": [
+          0.8114609871166358,
+          0.8966631160772691
+        ],
+        "decoded_syndrome_counts": {
+          "1": 8,
+          "0": 13,
+          "2": 220,
+          "None": 15
+        },
+        "logical_fidelity_estimate": 0.8515625,
+        "logical_ci95": [
+          0.8028248479091987,
+          0.8899052530413604
+        ],
+        "joint_success": 0.7734375
+      }
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "111": 1,
+        "011": 10,
+        "110": 4,
+        "001": 15,
+        "100": 11,
+        "000": 183,
+        "010": 24,
+        "101": 8
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.7734375,
+        "syndrome_ci95": [
+          0.7183367858970815,
+          0.8204532926200201
+        ],
+        "decoded_syndrome_counts": {
+          "0": 5,
+          "1": 34,
+          "None": 198,
+          "2": 19
+        },
+        "logical_fidelity_estimate": 0.8671875,
+        "logical_ci95": [
+          0.8201396562762842,
+          0.9033784491609664
+        ],
+        "joint_success": 0.71484375
+      }
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "011": 3,
+        "100": 6,
+        "001": 20,
+        "110": 6,
+        "000": 204,
+        "010": 14,
+        "101": 3
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.875,
+        "syndrome_ci95": [
+          0.8288639408674391,
+          0.9100481668131574
+        ],
+        "decoded_syndrome_counts": {
+          "1": 17,
+          "2": 9,
+          "None": 224,
+          "0": 6
+        },
+        "logical_fidelity_estimate": 0.8984375,
+        "logical_ci95": [
+          0.8553490986352725,
+          0.9297450157753611
+        ],
+        "joint_success": 0.796875
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "101": 8,
+        "001": 1,
+        "110": 179,
+        "100": 27,
+        "011": 7,
+        "111": 12,
+        "010": 18,
+        "000": 4
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.74609375,
+        "syndrome_ci95": [
+          0.6894097171973202,
+          0.7955013534680712
+        ],
+        "decoded_syndrome_counts": {
+          "2": 35,
+          "None": 5,
+          "0": 191,
+          "1": 25
+        },
+        "logical_fidelity_estimate": 0.890625,
+        "logical_ci95": [
+          0.8464641652332502,
+          0.9232359469340378
+        ],
+        "joint_success": 0.69921875
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "111": 20,
+        "011": 8,
+        "010": 14,
+        "000": 2,
+        "101": 6,
+        "001": 3,
+        "100": 6,
+        "110": 197
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.84765625,
+        "syndrome_ci95": [
+          0.7985218710820212,
+          0.886511228746865
+        ],
+        "decoded_syndrome_counts": {
+          "0": 217,
+          "1": 22,
+          "None": 5,
+          "2": 12
+        },
+        "logical_fidelity_estimate": 0.85546875,
+        "logical_ci95": [
+          0.8071377780781674,
+          0.8932893239940645
+        ],
+        "joint_success": 0.76953125
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "101": 5,
+        "100": 3,
+        "110": 15,
+        "001": 10,
+        "010": 157,
+        "000": 28,
+        "111": 13,
+        "011": 25
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.7109375,
+        "syndrome_ci95": [
+          0.6526113609415182,
+          0.7630266996288174
+        ],
+        "decoded_syndrome_counts": {
+          "2": 8,
+          "0": 28,
+          "None": 38,
+          "1": 182
+        },
+        "logical_fidelity_estimate": 0.79296875,
+        "logical_ci95": [
+          0.7391823614110307,
+          0.8380927227144352
+        ],
+        "joint_success": 0.61328125
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "101": 2,
+        "100": 3,
+        "001": 4,
+        "110": 8,
+        "111": 4,
+        "011": 16,
+        "000": 13,
+        "010": 206
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.8671875,
+        "syndrome_ci95": [
+          0.8201396562762842,
+          0.9033784491609664
+        ],
+        "decoded_syndrome_counts": {
+          "2": 5,
+          "None": 17,
+          "0": 12,
+          "1": 222
+        },
+        "logical_fidelity_estimate": 0.8984375,
+        "logical_ci95": [
+          0.8553490986352725,
+          0.9297450157753611
+        ],
+        "joint_success": 0.8046875
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "011": 2,
+        "111": 12,
+        "101": 14,
+        "000": 8,
+        "010": 11,
+        "001": 10,
+        "110": 25,
+        "100": 174
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.734375,
+        "syndrome_ci95": [
+          0.6770967582431306,
+          0.7847233090572421
+        ],
+        "decoded_syndrome_counts": {
+          "1": 13,
+          "0": 37,
+          "2": 188,
+          "None": 18
+        },
+        "logical_fidelity_estimate": 0.8515625,
+        "logical_ci95": [
+          0.8028248479091987,
+          0.8899052530413604
+        ],
+        "joint_success": 0.6796875
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "010": 2,
+        "000": 8,
+        "111": 6,
+        "011": 4,
+        "101": 18,
+        "001": 4,
+        "110": 15,
+        "100": 199
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.84765625,
+        "syndrome_ci95": [
+          0.7985218710820212,
+          0.886511228746865
+        ],
+        "decoded_syndrome_counts": {
+          "1": 6,
+          "None": 12,
+          "0": 21,
+          "2": 217
+        },
+        "logical_fidelity_estimate": 0.875,
+        "logical_ci95": [
+          0.8288639408674391,
+          0.9100481668131574
+        ],
+        "joint_success": 0.77734375
+      }
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "101": 6,
+        "011": 9,
+        "111": 4,
+        "000": 175,
+        "010": 20,
+        "100": 12,
+        "001": 18,
+        "110": 12
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.75390625,
+        "syndrome_ci95": [
+          0.6976457450659678,
+          0.8026593278427693
+        ],
+        "decoded_syndrome_counts": {
+          "2": 18,
+          "1": 29,
+          "0": 16,
+          "None": 193
+        },
+        "logical_fidelity_estimate": 0.85546875,
+        "logical_ci95": [
+          0.8071377780781674,
+          0.8932893239940645
+        ],
+        "joint_success": 0.68359375
+      }
+    },
+    {
+      "level": 2,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "101": 6,
+        "100": 6,
+        "001": 21,
+        "110": 5,
+        "111": 1,
+        "011": 6,
+        "010": 6,
+        "000": 205
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.8828125,
+        "syndrome_ci95": [
+          0.8376373983055787,
+          0.9166687116183634
+        ],
+        "decoded_syndrome_counts": {
+          "2": 12,
+          "None": 226,
+          "0": 6,
+          "1": 12
+        },
+        "logical_fidelity_estimate": 0.8671875,
+        "logical_ci95": [
+          0.8201396562762842,
+          0.9033784491609664
+        ],
+        "joint_success": 0.80078125
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "011": 6,
+        "111": 12,
+        "001": 2,
+        "110": 176,
+        "100": 23,
+        "000": 7,
+        "010": 14,
+        "101": 16
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.734375,
+        "syndrome_ci95": [
+          0.6770967582431306,
+          0.7847233090572421
+        ],
+        "decoded_syndrome_counts": {
+          "1": 20,
+          "0": 188,
+          "None": 9,
+          "2": 39
+        },
+        "logical_fidelity_estimate": 0.859375,
+        "logical_ci95": [
+          0.8114609871166358,
+          0.8966631160772691
+        ],
+        "joint_success": 0.6875
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "000": 2,
+        "010": 3,
+        "001": 2,
+        "110": 20,
+        "100": 3,
+        "111": 207,
+        "011": 6,
+        "101": 13
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.88671875,
+        "syndrome_ci95": [
+          0.842043833343102,
+          0.9199592777025132
+        ],
+        "decoded_syndrome_counts": {
+          "None": 4,
+          "1": 9,
+          "0": 227,
+          "2": 16
+        },
+        "logical_fidelity_estimate": 0.109375,
+        "logical_ci95": [
+          0.07676405306596229,
+          0.15353583476674978
+        ],
+        "joint_success": 0.078125
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "011": 19,
+        "111": 7,
+        "010": 176,
+        "000": 20,
+        "101": 4,
+        "100": 5,
+        "001": 12,
+        "110": 13
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.76171875,
+        "syndrome_ci95": [
+          0.7059044755184534,
+          0.8097945996336295
+        ],
+        "decoded_syndrome_counts": {
+          "1": 195,
+          "0": 20,
+          "None": 32,
+          "2": 9
+        },
+        "logical_fidelity_estimate": 0.8359375,
+        "logical_ci95": [
+          0.7856696977134597,
+          0.8762723987504079
+        ],
+        "joint_success": 0.6875
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "011": 22,
+        "111": 7,
+        "100": 1,
+        "001": 6,
+        "110": 7,
+        "000": 13,
+        "010": 200
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.8671875,
+        "syndrome_ci95": [
+          0.8201396562762842,
+          0.9033784491609664
+        ],
+        "decoded_syndrome_counts": {
+          "1": 222,
+          "0": 14,
+          "2": 1,
+          "None": 19
+        },
+        "logical_fidelity_estimate": 0.86328125,
+        "logical_ci95": [
+          0.8157948225987579,
+          0.9000262817168199
+        ],
+        "joint_success": 0.78125
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "011": 7,
+        "111": 9,
+        "101": 18,
+        "100": 154,
+        "110": 25,
+        "001": 11,
+        "010": 6,
+        "000": 26
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.671875,
+        "syndrome_ci95": [
+          0.6121878040809798,
+          0.7264802452726269
+        ],
+        "decoded_syndrome_counts": {
+          "1": 13,
+          "0": 34,
+          "2": 172,
+          "None": 37
+        },
+        "logical_fidelity_estimate": 0.82421875,
+        "logical_ci95": [
+          0.7728971415203973,
+          0.8659539515784516
+        ],
+        "joint_success": 0.6015625
+      }
+    },
+    {
+      "level": 2,
+      "error": "Z2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "011": 2,
+        "111": 4,
+        "000": 10,
+        "010": 2,
+        "101": 15,
+        "110": 12,
+        "001": 6,
+        "100": 205
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.859375,
+        "syndrome_ci95": [
+          0.8114609871166358,
+          0.8966631160772691
+        ],
+        "decoded_syndrome_counts": {
+          "1": 4,
+          "0": 16,
+          "None": 16,
+          "2": 220
+        },
+        "logical_fidelity_estimate": 0.89453125,
+        "logical_ci95": [
+          0.850899024665532,
+          0.9264980886234288
+        ],
+        "joint_success": 0.80078125
+      }
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "011": 9,
+        "111": 4,
+        "100": 8,
+        "001": 28,
+        "110": 7,
+        "000": 170,
+        "010": 16,
+        "101": 14
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.7734375,
+        "syndrome_ci95": [
+          0.7183367858970815,
+          0.8204532926200201
+        ],
+        "decoded_syndrome_counts": {
+          "1": 25,
+          "0": 11,
+          "2": 22,
+          "None": 198
+        },
+        "logical_fidelity_estimate": 0.78515625,
+        "logical_ci95": [
+          0.7308246699718836,
+          0.8310564119102367
+        ],
+        "joint_success": 0.6640625
+      }
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "011": 2,
+        "111": 6,
+        "110": 1,
+        "001": 27,
+        "100": 9,
+        "101": 5,
+        "010": 10,
+        "000": 196
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.87109375,
+        "syndrome_ci95": [
+          0.8244958864844745,
+          0.9067192200744492
+        ],
+        "decoded_syndrome_counts": {
+          "1": 12,
+          "0": 7,
+          "None": 223,
+          "2": 14
+        },
+        "logical_fidelity_estimate": 0.84375,
+        "logical_ci95": [
+          0.7942285422215228,
+          0.8831075564856906
+        ],
+        "joint_success": 0.765625
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "001": 4,
+        "100": 24,
+        "110": 170,
+        "000": 6,
+        "010": 14,
+        "101": 11,
+        "011": 12,
+        "111": 15
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.72265625,
+        "syndrome_ci95": [
+          0.6648312584464792,
+          0.7738978054888749
+        ],
+        "decoded_syndrome_counts": {
+          "None": 10,
+          "2": 35,
+          "0": 185,
+          "1": 26
+        },
+        "logical_fidelity_estimate": 0.8359375,
+        "logical_ci95": [
+          0.7856696977134597,
+          0.8762723987504079
+        ],
+        "joint_success": 0.6640625
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "011": 7,
+        "111": 20,
+        "101": 4,
+        "000": 5,
+        "010": 13,
+        "001": 1,
+        "100": 10,
+        "110": 196
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.84375,
+        "syndrome_ci95": [
+          0.7942285422215228,
+          0.8831075564856906
+        ],
+        "decoded_syndrome_counts": {
+          "1": 20,
+          "0": 216,
+          "2": 14,
+          "None": 6
+        },
+        "logical_fidelity_estimate": 0.875,
+        "logical_ci95": [
+          0.8288639408674391,
+          0.9100481668131574
+        ],
+        "joint_success": 0.765625
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "101": 3,
+        "110": 17,
+        "100": 5,
+        "001": 16,
+        "111": 7,
+        "011": 18,
+        "000": 22,
+        "010": 168
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.7265625,
+        "syndrome_ci95": [
+          0.6689146042381685,
+          0.7775114608188586
+        ],
+        "decoded_syndrome_counts": {
+          "2": 8,
+          "0": 24,
+          "None": 38,
+          "1": 186
+        },
+        "logical_fidelity_estimate": 0.828125,
+        "logical_ci95": [
+          0.7771462145851933,
+          0.8694018796353287
+        ],
+        "joint_success": 0.65625
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "101": 2,
+        "100": 3,
+        "110": 11,
+        "001": 6,
+        "011": 15,
+        "111": 5,
+        "000": 11,
+        "010": 203
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.8515625,
+        "syndrome_ci95": [
+          0.8028248479091987,
+          0.8899052530413604
+        ],
+        "decoded_syndrome_counts": {
+          "2": 5,
+          "0": 16,
+          "None": 17,
+          "1": 218
+        },
+        "logical_fidelity_estimate": 0.890625,
+        "logical_ci95": [
+          0.8464641652332502,
+          0.9232359469340378
+        ],
+        "joint_success": 0.79296875
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "101": 24,
+        "100": 174,
+        "110": 21,
+        "001": 6,
+        "010": 5,
+        "000": 17,
+        "111": 5,
+        "011": 4
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.7734375,
+        "syndrome_ci95": [
+          0.7183367858970815,
+          0.8204532926200201
+        ],
+        "decoded_syndrome_counts": {
+          "2": 198,
+          "0": 26,
+          "None": 23,
+          "1": 9
+        },
+        "logical_fidelity_estimate": 0.84765625,
+        "logical_ci95": [
+          0.7985218710820212,
+          0.886511228746865
+        ],
+        "joint_success": 0.6796875
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "111": 4,
+        "011": 3,
+        "100": 211,
+        "110": 8,
+        "001": 4,
+        "101": 19,
+        "000": 5,
+        "010": 2
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.8984375,
+        "syndrome_ci95": [
+          0.8553490986352725,
+          0.9297450157753611
+        ],
+        "decoded_syndrome_counts": {
+          "0": 12,
+          "1": 5,
+          "2": 230,
+          "None": 9
+        },
+        "logical_fidelity_estimate": 0.8828125,
+        "logical_ci95": [
+          0.8376373983055787,
+          0.9166687116183634
+        ],
+        "joint_success": 0.82421875
+      }
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "110": 6,
+        "100": 20,
+        "001": 18,
+        "111": 5,
+        "011": 9,
+        "101": 9,
+        "010": 19,
+        "000": 170
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.734375,
+        "syndrome_ci95": [
+          0.6770967582431306,
+          0.7847233090572421
+        ],
+        "decoded_syndrome_counts": {
+          "0": 11,
+          "2": 29,
+          "None": 188,
+          "1": 28
+        },
+        "logical_fidelity_estimate": 0.83984375,
+        "logical_ci95": [
+          0.7899445744170772,
+          0.8796945231684632
+        ],
+        "joint_success": 0.6640625
+      }
+    },
+    {
+      "level": 3,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ],
+      "counts": {
+        "101": 7,
+        "110": 3,
+        "100": 12,
+        "001": 19,
+        "111": 3,
+        "011": 2,
+        "010": 14,
+        "000": 196
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.83984375,
+        "syndrome_ci95": [
+          0.7899445744170772,
+          0.8796945231684632
+        ],
+        "decoded_syndrome_counts": {
+          "2": 19,
+          "0": 6,
+          "None": 215,
+          "1": 16
+        },
+        "logical_fidelity_estimate": 0.87890625,
+        "logical_ci95": [
+          0.8332442794764335,
+          0.9133648293258357
+        ],
+        "joint_success": 0.765625
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "001": 2,
+        "110": 173,
+        "100": 28,
+        "111": 15,
+        "011": 8,
+        "101": 8,
+        "000": 8,
+        "010": 14
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.734375,
+        "syndrome_ci95": [
+          0.6770967582431306,
+          0.7847233090572421
+        ],
+        "decoded_syndrome_counts": {
+          "None": 10,
+          "0": 188,
+          "2": 36,
+          "1": 22
+        },
+        "logical_fidelity_estimate": 0.87109375,
+        "logical_ci95": [
+          0.8244958864844745,
+          0.9067192200744492
+        ],
+        "joint_success": 0.67578125
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ],
+      "counts": {
+        "001": 3,
+        "110": 23,
+        "100": 1,
+        "000": 4,
+        "010": 6,
+        "111": 201,
+        "011": 8,
+        "101": 10
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.875,
+        "syndrome_ci95": [
+          0.8288639408674391,
+          0.9100481668131574
+        ],
+        "decoded_syndrome_counts": {
+          "None": 7,
+          "0": 224,
+          "2": 11,
+          "1": 14
+        },
+        "logical_fidelity_estimate": 0.1328125,
+        "logical_ci95": [
+          0.09662155083903351,
+          0.17986034372371584
+        ],
+        "joint_success": 0.08984375
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "101": 1,
+        "110": 12,
+        "100": 8,
+        "001": 14,
+        "111": 7,
+        "011": 22,
+        "000": 19,
+        "010": 173
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.76171875,
+        "syndrome_ci95": [
+          0.7059044755184534,
+          0.8097945996336295
+        ],
+        "decoded_syndrome_counts": {
+          "2": 9,
+          "0": 19,
+          "None": 33,
+          "1": 195
+        },
+        "logical_fidelity_estimate": 0.828125,
+        "logical_ci95": [
+          0.7771462145851933,
+          0.8694018796353287
+        ],
+        "joint_success": 0.67578125
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ],
+      "counts": {
+        "101": 3,
+        "100": 2,
+        "110": 11,
+        "001": 7,
+        "011": 15,
+        "111": 6,
+        "000": 9,
+        "010": 203
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.8515625,
+        "syndrome_ci95": [
+          0.8028248479091987,
+          0.8899052530413604
+        ],
+        "decoded_syndrome_counts": {
+          "2": 5,
+          "0": 17,
+          "None": 16,
+          "1": 218
+        },
+        "logical_fidelity_estimate": 0.87890625,
+        "logical_ci95": [
+          0.8332442794764335,
+          0.9133648293258357
+        ],
+        "joint_success": 0.79296875
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "011": 3,
+        "111": 7,
+        "101": 16,
+        "110": 21,
+        "001": 9,
+        "100": 174,
+        "010": 10,
+        "000": 16
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.7421875,
+        "syndrome_ci95": [
+          0.6853000003835401,
+          0.7919140691601785
+        ],
+        "decoded_syndrome_counts": {
+          "1": 13,
+          "0": 28,
+          "2": 190,
+          "None": 25
+        },
+        "logical_fidelity_estimate": 0.86328125,
+        "logical_ci95": [
+          0.8157948225987579,
+          0.9000262817168199
+        ],
+        "joint_success": 0.6796875
+      }
+    },
+    {
+      "level": 3,
+      "error": "Y2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ],
+      "counts": {
+        "011": 3,
+        "111": 2,
+        "001": 8,
+        "100": 209,
+        "110": 9,
+        "101": 12,
+        "010": 1,
+        "000": 12
+      },
+      "metrics": {
+        "shots": 256,
+        "syndrome_accuracy": 0.86328125,
+        "syndrome_ci95": [
+          0.8157948225987579,
+          0.9000262817168199
+        ],
+        "decoded_syndrome_counts": {
+          "1": 4,
+          "0": 11,
+          "None": 20,
+          "2": 221
+        },
+        "logical_fidelity_estimate": 0.90234375,
+        "logical_ci95": [
+          0.8598151377544601,
+          0.9329759777778466
+        ],
+        "joint_success": 0.81640625
+      }
+    }
+  ]
+}
