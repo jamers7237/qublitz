@@ -6,7 +6,7 @@
 
 You live in Suite 8. Each time you walk in from the hallway, the gramophone plays **one note**: one fresh copy of the same hidden 8-qubit quantum state, measured once. The household objects (window, closet, trash, couch, clock, lamp, juice bottle, radiator) *are* the measured qubits. Map them, decode the music, discover the XOR constraints, find the hidden **Hadamard's Harmonics™** cartridge to hear the phase that ordinary notes can never reveal, and play the vault its sixteen-note melody, from rarest to most probable, with the right closing chord. Then find out what the qubit that was always 1 really was.
 
-Everything quantum runs on a **from-scratch TypeScript statevector simulator** (2 complex amplitudes, real unitary gates, the Born rule, projective collapse). It is cross-checked against Qiskit. No server, account, network or quantum backend is needed.
+Everything quantum runs on a **from-scratch TypeScript statevector simulator** (256 complex amplitudes, real unitary gates, the Born rule, projective collapse). It is cross-checked against Qiskit. No server, account, network or quantum backend is needed.
 
 ---
 
