@@ -19,7 +19,7 @@ python verify_reference.py /path/to/organizer/CircuitHelp.py  # Optional externa
 
 PRISM is submitted as part of the QUBLITZ 2026 monorepo.
 
-The repository-root `submission.py` is a standalone copy of the optimizer in `prism_quantum_circuit_golf/submission.py`. Both implement the official `optimize(circuit, config)` interface and require only NumPy.
+The submission entrypoint is submission.py in this directory. It implements the official optimize(circuit, config) interface and requires only NumPy. For judges: Treat prism_quantum_circuit_golf as the project root and import optimize from submission.py. IMPORTANT: treat this subdirectory as the root.
 
 ### Run the optimizer tests
 
