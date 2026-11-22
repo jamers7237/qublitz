@@ -1,0 +1,41 @@
+/* Design tokens: edit these to re-theme every UI surface. Fonts are bundled (offline). */
+:root {
+  --c-night: #07060f;
+  --c-ink: #0a0814;
+  --c-panel: #0c0a16;
+  --c-panel-2: #151229;
+  --c-navy: #141a33;
+  --c-navy-2: #1d2547;
+  --c-purple: #3b2f5c;
+  --c-purple-2: #6b5a8e;
+  --c-lilac: #c9a7ff;
+  --c-teal: #2f8f8a;
+  --c-teal-2: #5fd3c4;
+  --c-gold: #f2c46d;
+  --c-gold-2: #b8862f;
+  --c-off: #f1ead8;
+  --c-muted: #a9a3bf;
+  --c-rose: #e46b8f;
+  --c-cyan: #6ff3ff;
+  --c-red: #ff6b6b;
+  --c-green: #7ee0a1;
+  --border: #ffffff;
+
+  --font-title: 'Press Start 2P', 'Courier New', monospace;
+  --font-body: 'Pixelify Sans', 'Trebuchet MS', system-ui, sans-serif;
+
+  --fs-body: 19px;
+  --fs-small: 16px;
+  --fs-label: 11px;
+  --lh: 1.38;
+  --radius: 0px;
+  --gap: 12px;
+}
+
+@media (max-width: 640px) {
+  :root {
+    --fs-body: 17px;
+    --fs-small: 15px;
+    --fs-label: 9px;
+  }
+}

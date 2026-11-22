@@ -1,0 +1,276 @@
+{
+  "generatedAt": "2026-11-22T08:47:30.488Z",
+  "engine": "in-browser TypeScript statevector (src/quantum)",
+  "seed": 2025,
+  "shotsPerExperiment": 20000,
+  "circuitPhase0": [
+    "X CAT  # CAT := |1>",
+    "RY(1.9106) I1  # odds 2:1",
+    "RY(2.0944) I0  # odds 3:1",
+    "RY(2.3005) P2  # odds 5:1",
+    "RY(2.4189) P1  # odds 7:1",
+    "CZ I1, I0  # entangle A,B",
+    "CNOT I1 -> P0",
+    "CNOT P2 -> P0",
+    "CNOT I0 -> T1",
+    "CNOT P1 -> T1",
+    "CNOT I1 -> T0",
+    "CNOT P1 -> T0"
+  ],
+  "echoCircuitTail": [
+    "CNOT P1 -> T0  # uncompute",
+    "CNOT I1 -> T0  # uncompute",
+    "CNOT P1 -> T1  # uncompute",
+    "CNOT I0 -> T1  # uncompute",
+    "CNOT P2 -> P0  # uncompute",
+    "CNOT I1 -> P0  # uncompute",
+    "H I1  # ask the X question"
+  ],
+  "validation": [
+    {
+      "name": "State norm = 1",
+      "pass": true,
+      "detail": "1.000000000000000"
+    },
+    {
+      "name": "CAT always 1",
+      "pass": true,
+      "detail": "every supported label starts with 1"
+    },
+    {
+      "name": "Exactly 16 supported labels",
+      "pass": true,
+      "detail": "16 non-zero of 256"
+    },
+    {
+      "name": "All parity relations hold",
+      "pass": true,
+      "detail": "P0 = I1 ⊕ P2; T1 = I0 ⊕ P1; T0 = I1 ⊕ P1"
+    },
+    {
+      "name": "Codebook coverage 4/8/4",
+      "pass": true,
+      "detail": "4 instruments, 8 pitches, 4 durations"
+    },
+    {
+      "name": "Born probs = 2^A3^B5^C7^D/576",
+      "pass": true,
+      "detail": "max |err| = 6.94e-17"
+    },
+    {
+      "name": "All 16 probabilities distinct",
+      "pass": true,
+      "detail": "16 distinct weights"
+    },
+    {
+      "name": "Z distribution phase-invariant",
+      "pass": true,
+      "detail": "max |p(s=0)-p(s=1)| = 0.00e+0"
+    },
+    {
+      "name": "Echo P(0|s) matches theory",
+      "pass": true,
+      "detail": "s=0: 0.2642977396, s=1: 0.7357022604"
+    },
+    {
+      "name": "CZ entangles superposed A,B",
+      "pass": true,
+      "detail": "Tr(rho_A^2): with CZ 0.6667, without 1.0000"
+    }
+  ],
+  "theory": [
+    {
+      "bits": "10000000",
+      "weight": 1,
+      "prob": 0.0017361111111111114,
+      "label": "Felt piano · C3 · Eighth note"
+    },
+    {
+      "bits": "11000101",
+      "weight": 2,
+      "prob": 0.0034722222222222238,
+      "label": "Pizz. cello · D3 · Quarter note"
+    },
+    {
+      "bits": "10100010",
+      "weight": 3,
+      "prob": 0.0052083333333333304,
+      "label": "Music box · C3 · Half note"
+    },
+    {
+      "bits": "10010100",
+      "weight": 5,
+      "prob": 0.008680555555555561,
+      "label": "Felt piano · A3 · Eighth note"
+    },
+    {
+      "bits": "11100111",
+      "weight": 6,
+      "prob": 0.010416666666666664,
+      "label": "Pulse synth · D3 · Whole note"
+    },
+    {
+      "bits": "10001011",
+      "weight": 7,
+      "prob": 0.012152777777777778,
+      "label": "Felt piano · E3 · Whole note"
+    },
+    {
+      "bits": "11010001",
+      "weight": 10,
+      "prob": 0.01736111111111112,
+      "label": "Pizz. cello · G3 · Quarter note"
+    },
+    {
+      "bits": "11001110",
+      "weight": 14,
+      "prob": 0.02430555555555556,
+      "label": "Pizz. cello · F3 · Half note"
+    },
+    {
+      "bits": "10110110",
+      "weight": 15,
+      "prob": 0.026041666666666664,
+      "label": "Music box · A3 · Half note"
+    },
+    {
+      "bits": "10101001",
+      "weight": 21,
+      "prob": 0.036458333333333315,
+      "label": "Music box · E3 · Quarter note"
+    },
+    {
+      "bits": "11110011",
+      "weight": 30,
+      "prob": 0.052083333333333336,
+      "label": "Pulse synth · G3 · Whole note"
+    },
+    {
+      "bits": "10011111",
+      "weight": 35,
+      "prob": 0.060763888888888916,
+      "label": "Felt piano · B3 · Whole note"
+    },
+    {
+      "bits": "11101100",
+      "weight": 42,
+      "prob": 0.07291666666666662,
+      "label": "Pulse synth · F3 · Eighth note"
+    },
+    {
+      "bits": "11011010",
+      "weight": 70,
+      "prob": 0.12152777777777785,
+      "label": "Pizz. cello · B♭3 · Half note"
+    },
+    {
+      "bits": "10111101",
+      "weight": 105,
+      "prob": 0.18229166666666666,
+      "label": "Music box · B3 · Quarter note"
+    },
+    {
+      "bits": "11111000",
+      "weight": 210,
+      "prob": 0.36458333333333337,
+      "label": "Pulse synth · B♭3 · Eighth note"
+    }
+  ],
+  "zDistributionPhaseDifference": 0,
+  "normal": {
+    "phase0": {
+      "counts": {
+        "10000000": 37,
+        "10001011": 235,
+        "10010100": 162,
+        "10011111": 1153,
+        "10100010": 105,
+        "10101001": 745,
+        "10110110": 545,
+        "10111101": 3679,
+        "11000101": 67,
+        "11001110": 451,
+        "11010001": 361,
+        "11011010": 2432,
+        "11100111": 206,
+        "11101100": 1444,
+        "11110011": 1039,
+        "11111000": 7339
+      },
+      "chi2": 9.808685714285785,
+      "dof": 15
+    },
+    "phase1": {
+      "counts": {
+        "10000000": 27,
+        "10001011": 235,
+        "10010100": 183,
+        "10011111": 1273,
+        "10100010": 94,
+        "10101001": 715,
+        "10110110": 518,
+        "10111101": 3686,
+        "11000101": 66,
+        "11001110": 496,
+        "11010001": 335,
+        "11011010": 2395,
+        "11100111": 216,
+        "11101100": 1449,
+        "11110011": 1014,
+        "11111000": 7298
+      },
+      "chi2": 9.363794285714256,
+      "dof": 15
+    }
+  },
+  "echo": {
+    "phase0": {
+      "zeros": 5340,
+      "shots": 20000,
+      "empirical": 0.267,
+      "theory": 0.2642977396044841,
+      "stderr": 0.0031180478223116178
+    },
+    "phase1": {
+      "zeros": 14714,
+      "shots": 20000,
+      "empirical": 0.7357,
+      "theory": 0.7357022603955157,
+      "stderr": 0.0031180478223116186
+    }
+  },
+  "lantern": {
+    "shots": 10000,
+    "agreements": 10000
+  },
+  "entanglement": {
+    "purityA_withCZ": 0.6666666666666666,
+    "purityA_withoutCZ": 1
+  },
+  "echoBudget": [
+    {
+      "echoes": 4,
+      "pMajorityCorrect": 0.8273642505493273
+    },
+    {
+      "echoes": 8,
+      "pMajorityCorrect": 0.9154898984904147
+    },
+    {
+      "echoes": 12,
+      "pMajorityCorrect": 0.9555851429617386
+    },
+    {
+      "echoes": 16,
+      "pMajorityCorrect": 0.9758572150953423
+    },
+    {
+      "echoes": 20,
+      "pMajorityCorrect": 0.9866094294465385
+    },
+    {
+      "echoes": 30,
+      "pMajorityCorrect": 0.9967703165236091
+    }
+  ]
+}
