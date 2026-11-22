@@ -24,6 +24,16 @@
 | `docs/IQM.md` | Credentials, IQM commands, budget, persistence, and experimental interpretation |
 | `docs/DEMO.md` | A short live-demo script and likely judging questions |
 | `docs/HARDWARE_RESULTS.md` | Actual Garnet experiment: job ID, circuit design, all configurations, uncertainty, and interpretation |
+| `docs/SUBMISSION.md` | Complete written submission and section 6/7 assessment crosswalk |
+| `docs/PRESENTER_NOTES.md` | Editable speaking notes for every slide |
+| `scripts/live_demo.py` | Offline walkthrough of circuits, successful cases, expected failures, and saved real QPU measurements |
+| `scripts/export_native_circuit.py` | Reads the actual compiled QPY and exports the native phase-sensitive witness circuit |
+| `scripts/presentation_content.py` | Editable main/appendix slide copy and speaker explanations |
+| `scripts/build_submission.py` | Builds the PDF talk, guide with circuit images, and written report |
+| `scripts/render_submission.py` | Renders every page and checks text stays within page boundaries |
+| `output/pdf/Quantum_Minesweeper_Presentation.pdf` | The presentation for live judging |
+| `output/pdf/Presenter_Guide.pdf` | Speaker guide with circuit diagrams, examples, and run instructions |
+| `output/pdf/Submission_Report.pdf` | Written results and assessment evidence for submission |
 | `circuits/*.txt` | Seven representative readable quantum circuit drawings |
 | `circuits/*.qasm` | The same seven circuits as OpenQASM 3 |
 | `results/verification.json` | All exact-state records and Hamiltonian/correction checks |

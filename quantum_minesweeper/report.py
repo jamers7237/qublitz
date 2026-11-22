@@ -46,7 +46,7 @@ def hardware_writeup(directory, output):
         a = by_key[(state, error, True)]["metrics"]
         b = by_key[(state, error, False)]["metrics"]
         aci, bci = a["logical_ci95"], b["logical_ci95"]
-        label = "|+⟩" if state == "plus" else "|+i⟩"
+        label = r"\|+⟩" if state == "plus" else r"\|+i⟩"
         lines.append(f"| {label} | {error} | {a['logical_fidelity_estimate']:.2%} | {aci[0]:.2%}–{aci[1]:.2%} | "
                      f"{b['logical_fidelity_estimate']:.2%} | {bci[0]:.2%}–{bci[1]:.2%} | {a['syndrome_accuracy']:.2%} |")
     lines += ["", "## Interpretation and limits", "",

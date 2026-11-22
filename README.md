@@ -4,6 +4,24 @@ All four levels are implemented and verified in simulation. **Level 1 has also r
 
 The design uses the stabilizer-Hamiltonian viewpoint from lattice field theory. Small repetition and error-detecting codes are the right tools for the specified error sets; no continuum field simulation is needed. See [the derivation](docs/THEORY.md), [file guide](docs/FILE_GUIDE.md), [hardware guide](docs/IQM.md), and [live-demo notes](docs/DEMO.md).
 
+## Presentation and submission package
+
+- [PDF presentation](output/pdf/Quantum_Minesweeper_Presentation.pdf): 19 main slides plus 11 appendices, with worked examples, logical circuits, real hardware results, and the actual native Garnet witness circuit.
+- [Presenter guide](output/pdf/Presenter_Guide.pdf): speaker notes with embedded circuit diagrams and gate-by-gate explanations.
+- [Submission report](output/pdf/Submission_Report.pdf): completed levels, verification, IQM observations, limitations, and a section 6/7 assessment crosswalk.
+- [Editable submission text](docs/SUBMISSION.md) and [speaker notes](docs/PRESENTER_NOTES.md).
+
+For a five-minute talk, use slides 1, 4, 7, 9, 12, 13, 15, 17, and 18, with the appendices ready for questions. The live demonstration can run offline and show the saved real QPU evidence:
+
+```sh
+python scripts/live_demo.py --verify
+# Add --pause to wait for Enter between demonstration steps.
+```
+
+The ideal recovery is deterministic under the specified single-fault model. Real gates, routing, storage, and readout introduce additional errors, so hardware survival is below 100%. Finite sampling adds uncertainty but cannot alone produce failures if the ideal success probability is exactly one.
+
+To rebuild these PDFs, install the optional artifact dependencies and run `python scripts/export_native_circuit.py` followed by `python scripts/build_submission.py`. The artifact scripts do not submit a new QPU job.
+
 ## Run locally
 
 Python **3.11 or newer** is required. The checked environment uses Python 3.12, IQM client 36.0.0, Qiskit 2.1.2, and Aer 0.17.2. Python 3.9 selects an obsolete IQM distribution without the current adapter.

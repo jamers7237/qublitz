@@ -1,0 +1,550 @@
+{
+  "source": "results/iqm-pilot/compiled.qpy",
+  "circuit_index": 10,
+  "experiment": {
+    "level": 1,
+    "error": "X0",
+    "state": "plus_i",
+    "mode": "compact",
+    "correction": true,
+    "expected_syndrome": [
+      1,
+      1
+    ]
+  },
+  "depth": 28,
+  "operation_counts": {
+    "r": 26,
+    "cz": 13,
+    "barrier": 4,
+    "measure": 3
+  },
+  "global_phase_radians": 1.963495408493631,
+  "active_physical_qubits": [
+    0,
+    1,
+    3,
+    4
+  ],
+  "instructions": [
+    {
+      "name": "r",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [
+        1.5707963267948963,
+        1.5707963267948966
+      ],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [
+        1.5707963267948968,
+        4.71238898038469
+      ],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [
+        1.5707963267948968,
+        4.71238898038469
+      ],
+      "label": null
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "label": null
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        1,
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [
+        1.5707963267948968,
+        7.853981633974483
+      ],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [
+        1.5707963267948968,
+        7.853981633974483
+      ],
+      "label": null
+    },
+    {
+      "name": "barrier",
+      "qubits": [
+        0,
+        3,
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "label": "encoded"
+    },
+    {
+      "name": "r",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [
+        3.141592653589793,
+        -1.5707963267948966
+      ],
+      "label": null
+    },
+    {
+      "name": "barrier",
+      "qubits": [
+        0,
+        3,
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "label": "hidden_fault"
+    },
+    {
+      "name": "r",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [
+        1.5707963267948968,
+        10.995574287564276
+      ],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [
+        1.5707963267948968,
+        10.995574287564276
+      ],
+      "label": null
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "label": null
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        1,
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [
+        1.5707963267948968,
+        14.137166941154069
+      ],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [
+        1.5707963267948968,
+        14.137166941154069
+      ],
+      "label": null
+    },
+    {
+      "name": "barrier",
+      "qubits": [
+        0,
+        3,
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "label": "syndrome"
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        1,
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [
+        0.7853981633974486,
+        1.5707963267948966
+      ],
+      "label": null
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [
+        0.7853981633974486,
+        -1.5707963267948966
+      ],
+      "label": null
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        1,
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [
+        0.7853981633974486,
+        1.5707963267948963
+      ],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [
+        1.570796326794897,
+        16.493361431346415
+      ],
+      "label": null
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        0
+      ],
+      "clbits": [],
+      "params": [],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [
+        0.7853981633974486,
+        -1.5707963267948968
+      ],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [
+        1.5707963267948966,
+        12.566370614359172
+      ],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        4
+      ],
+      "clbits": [],
+      "params": [
+        1.5707963267948966,
+        0.0
+      ],
+      "label": null
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [
+        1.5707963267948966,
+        12.566370614359172
+      ],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        4
+      ],
+      "clbits": [],
+      "params": [
+        1.5707963267948966,
+        0.0
+      ],
+      "label": null
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [
+        1.5707963267948966,
+        12.566370614359172
+      ],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        4
+      ],
+      "clbits": [],
+      "params": [
+        1.5707963267948966,
+        0.0
+      ],
+      "label": null
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        3,
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "label": null
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        1,
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [
+        0.7853981633974486,
+        18.06415775814131
+      ],
+      "label": null
+    },
+    {
+      "name": "cz",
+      "qubits": [
+        1,
+        4
+      ],
+      "clbits": [],
+      "params": [],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        1
+      ],
+      "clbits": [],
+      "params": [
+        1.5707963267948968,
+        19.634954084936204
+      ],
+      "label": null
+    },
+    {
+      "name": "barrier",
+      "qubits": [
+        0,
+        4,
+        1
+      ],
+      "clbits": [],
+      "params": [],
+      "label": "verification"
+    },
+    {
+      "name": "r",
+      "qubits": [
+        0
+      ],
+      "clbits": [],
+      "params": [
+        1.570796326794896,
+        -1.570796326794897
+      ],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [
+        -3.141592653589793,
+        0.0
+      ],
+      "label": null
+    },
+    {
+      "name": "r",
+      "qubits": [
+        3
+      ],
+      "clbits": [],
+      "params": [
+        3.141592653589793,
+        -6.283185307179586
+      ],
+      "label": null
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        0
+      ],
+      "clbits": [
+        0
+      ],
+      "params": [],
+      "label": null
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        4
+      ],
+      "clbits": [
+        1
+      ],
+      "params": [],
+      "label": null
+    },
+    {
+      "name": "measure",
+      "qubits": [
+        1
+      ],
+      "clbits": [
+        2
+      ],
+      "params": [],
+      "label": null
+    }
+  ]
+}

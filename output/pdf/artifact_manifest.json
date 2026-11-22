@@ -1,0 +1,12 @@
+{
+  "slides": 30,
+  "main_slides": 19,
+  "appendix_slides": 11,
+  "pdfs": [
+    "Quantum_Minesweeper_Presentation.pdf",
+    "Presenter_Guide.pdf",
+    "Submission_Report.pdf"
+  ],
+  "evidence_job_id": "01a1ffa5-97e8-77e2-ac14-9a55f2083731",
+  "circuits_include_native_witness": true
+}
