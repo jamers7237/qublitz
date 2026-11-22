@@ -135,9 +135,9 @@ deco('deco.armchair', 'armchair', 24, 24, 'Armchair');
 // Photo-referenced dorm furniture, drawn locally at native pixel resolution.
 for (const [id, w, h] of [
   ['led', 384, 8], ['collage', 84, 30], ['whiteboard', 50, 28],
-  ['dino', 40, 64], ['desk', 64, 34], ['chair', 24, 28],
+  ['dino', 40, 64], ['desk', 64, 38], ['chair', 24, 28],
   ['ottoman', 30, 24], ['wardrobe', 44, 64], ['blinds', 80, 40],
-  ['sconce', 18, 14], ['rack', 30, 54], ['bed.blue', 60, 40], ['bed.sage', 40, 60], ['bed.sage.horizontal', 60, 40], ['couch', 48, 28], ['recliner', 24, 32],
+  ['sconce', 18, 14], ['rack', 30, 54], ['bed.blue', 60, 40], ['bed.sage', 40, 60], ['bed.sage.horizontal', 60, 40], ['couch', 48, 28], ['couch.faceRight', 28, 48], ['couch.faceLeft', 28, 48], ['recliner', 24, 32],
 ] as const) deco(`dorm.${id}`, `dorm_${id}`, w, h, `D107 reference: ${id}`);
 
 // Items (16x16 icons, also used for world pickups)

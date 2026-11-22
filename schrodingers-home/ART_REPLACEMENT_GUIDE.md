@@ -187,7 +187,7 @@ Regenerate this table at any time with `npx tsx scripts/asset-table.ts`.
 | `dorm.collage` | decor | `public/assets/sprites/objects/dorm_collage.png` | 84×30 | 0.5, 1 | D107 reference: collage |
 | `dorm.whiteboard` | decor | `public/assets/sprites/objects/dorm_whiteboard.png` | 50×28 | 0.5, 1 | D107 reference: whiteboard |
 | `dorm.dino` | decor | `public/assets/sprites/objects/dorm_dino.png` | 40×64 | 0.5, 1 | D107 reference: dino |
-| `dorm.desk` | decor | `public/assets/sprites/objects/dorm_desk.png` | 64×34 | 0.5, 1 | D107 reference: desk |
+| `dorm.desk` | decor | `public/assets/sprites/objects/dorm_desk.png` | 64×38 | 0.5, 1 | D107 reference: desk |
 | `dorm.chair` | decor | `public/assets/sprites/objects/dorm_chair.png` | 24×28 | 0.5, 1 | D107 reference: chair |
 | `dorm.ottoman` | decor | `public/assets/sprites/objects/dorm_ottoman.png` | 30×24 | 0.5, 1 | D107 reference: ottoman |
 | `dorm.wardrobe` | decor | `public/assets/sprites/objects/dorm_wardrobe.png` | 44×64 | 0.5, 1 | D107 reference: wardrobe |
@@ -198,6 +198,8 @@ Regenerate this table at any time with `npx tsx scripts/asset-table.ts`.
 | `dorm.bed.sage` | decor | `public/assets/sprites/objects/dorm_bed.sage.png` | 40×60 | 0.5, 1 | D107 reference: bed.sage |
 | `dorm.bed.sage.horizontal` | decor | `public/assets/sprites/objects/dorm_bed.sage.horizontal.png` | 60×40 | 0.5, 1 | D107 reference: bed.sage.horizontal |
 | `dorm.couch` | decor | `public/assets/sprites/objects/dorm_couch.png` | 48×28 | 0.5, 1 | D107 reference: couch |
+| `dorm.couch.faceRight` | decor | `public/assets/sprites/objects/dorm_couch.faceRight.png` | 28×48 | 0.5, 1 | D107 reference: couch.faceRight |
+| `dorm.couch.faceLeft` | decor | `public/assets/sprites/objects/dorm_couch.faceLeft.png` | 28×48 | 0.5, 1 | D107 reference: couch.faceLeft |
 | `dorm.recliner` | decor | `public/assets/sprites/objects/dorm_recliner.png` | 24×32 | 0.5, 1 | D107 reference: recliner |
 | `item.prism` | item | `public/assets/sprites/items/prism.png` | 16×16 | 0.5, 1 | Small glass prism |
 | `item.cassette` | item | `public/assets/sprites/items/cassette.png` | 16×16 | 0.5, 1 | Red cassette tape |

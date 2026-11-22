@@ -176,15 +176,18 @@ The white hover outline is generated from whatever texture is loaded, so replace
 
 The three main rooms now use the supplied suite photographs: pale dorm walls,
 wood floors, four-pane bay window and mini hoop, LED strip, photo collage,
-whiteboard, four corner desks, three couches, one recliner, red ottoman, mini fridge and green dinosaur
+whiteboard, four corner desks with tucked-in chairs, three couches, one recliner, red ottoman, mini fridge and green dinosaur
 balloon in common; two beds, wood wardrobes, roller blinds, storage and garment
 racks in each bedroom. The left room has two blue horizontal beds on opposite walls. The right has a
 sage horizontal bed at the top and a vertical bed along the far-right wall.
 
 The floor plan is rotated for the game's view: hallway below, common in the
 middle, bay window ahead, bedrooms on either side. Furniture and circulation are
-adapted to the 512×288 canvas. Each main room has a 24×12-tile floor, down from
-30×14 (31.4% less floor area), with furniture and player sizes preserved. The
+adapted to the 512×288 canvas. The common room has a 28×14-tile floor and each
+bedroom a compact 22×11 floor, making common about 62% larger. Two vertical
+sofas face each other around the ottoman, with a third couch and recliner completing
+the lounge. Chairs are part of the desk sprites to keep circulation clear. Furniture
+and player sizes are preserved. The
 address-7 sensor is now a sealed/spilled juice bottle on the floor, with an orange stain in the spilled state. The vault door and quantum gadgets remain
 fictional gameplay additions. Original photos and resident names are not bundled;
 furniture is drawn as original pixel art in `src/assets/dorm.ts`.

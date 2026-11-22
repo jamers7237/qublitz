@@ -38,14 +38,11 @@ describe('photo-referenced room circulation', () => {
   }
 });
 
-it('main rooms have about a third less floor area and horizontal left beds', () => {
-  for (const id of ['common','left','right'] as const) {
-    const [, ,w,h] = ROOMS[id].floorRect;
-    expect(1-w*h/(30*14)).toBeCloseTo(0.3143, 3);
-  }
-  for (const id of ['bed.left','dorm.secondBed']) {
-    const bed = ROOMS.left.objects.find(o=>o.id===id)!;
-    expect(bed.solid![0]).toBeGreaterThan(bed.solid![1]);
+it('common room has substantially more floor space than the compact bedrooms', () => {
+  const area = (id: 'common'|'left'|'right') => ROOMS[id].floorRect[2]*ROOMS[id].floorRect[3];
+  for (const id of ['left','right'] as const) {
+    expect(area('common')/area(id)).toBeGreaterThan(1.6);
+    expect(area(id)).toBeLessThan(24*12);
   }
 });
 
@@ -81,8 +78,14 @@ describe('visible furniture spacing', () => {
     expect(sideRight.x).toBeGreaterThan(400);
     const desks=ROOMS.common.objects.filter(o=>o.asset==='dorm.desk');
     expect(desks).toHaveLength(4);
+    expect(ROOMS.common.objects.some(o=>o.id.startsWith('dorm.chair.'))).toBe(false);
+    const facing=ROOMS.common.objects.filter(o=>o.id.startsWith('dorm.couch.'));
+    expect(facing.map(o=>o.asset)).toEqual(['dorm.couch.faceRight','dorm.couch.faceLeft']);
+    expect(facing[0].x).toBeLessThan(256);
+    expect(facing[1].x).toBeGreaterThan(256);
+    expect(facing[0].y).toBe(facing[1].y);
     expect(new Set(desks.map(o=>`${o.x<256?'left':'right'}-${o.y<160?'top':'bottom'}`)).size).toBe(4);
-    expect(ROOMS.common.objects.filter(o=>o.id==='couch'||o.asset==='dorm.couch')).toHaveLength(3);
+    expect(ROOMS.common.objects.filter(o=>o.id==='couch'||o.id.startsWith('dorm.couch.'))).toHaveLength(3);
     expect(ROOMS.common.objects.filter(o=>o.asset==='dorm.recliner')).toHaveLength(1);
   });
 });

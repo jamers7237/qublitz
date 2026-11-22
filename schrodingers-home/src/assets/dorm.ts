@@ -45,11 +45,22 @@ export const bayWindow:Drawer = (g,w,h) => {
   box(g,55,16,19,13,'#cec4be');box(g,59,20,11,6,'#8a4a4d');
   r(g,60,26,10,1,'#cd795d');for(let x=61;x<70;x+=3)r(g,x,27,1,7,'#d8d2c7');
 };
+/** Back rests on the outside of the lounge; cushions face the ottoman. */
+const verticalCouch = (faceLeft:boolean):Drawer => (g) => {
+  g.save();
+  if(faceLeft){g.translate(28,0);g.scale(-1,1);}
+  box(g,2,1,24,45,'#687578');
+  box(g,1,2,9,43,'#929b9b');
+  for(const y of [8,19,30]) box(g,11,y,13,11,'#879293');
+  box(g,2,0,24,7,'#7e8889');box(g,2,41,24,7,'#7e8889');
+  r(g,4,46,3,2,edge);r(g,22,46,3,2,edge);
+  g.restore();
+};
 export const DORM:Record<string,Drawer> = {
   'dorm.led':(g,w)=>{r(g,0,2,w,4,'#8a8dbc');r(g,0,3,w,1,'#c3c7ef');for(let x=2;x<w;x+=6)r(g,x,2,2,2,'#f3f1ff');},
   'dorm.collage':(g)=>{for(let i=0;i<23;i++){const x=(i*17)%77,y=(i%3)*9;box(g,x,y,7,8,['#a8a6b8','#6a7b82','#b18a82','#d5b9a1'][i%4]);r(g,x+2,y+2,3,3,'#e1cec2');}},
   'dorm.whiteboard':(g)=>{box(g,0,0,50,28,'#dfdfd7');for(let y=6;y<23;y+=4)r(g,5,y,18+(y%7),1,'#7f8994');r(g,31,9,10,1,'#ad665e');r(g,37,6,1,12,'#ad665e');r(g,7,26,35,2,'#7a7d82');},
-  'dorm.desk':(g)=>{grain(g,0,10,64,10);r(g,0,10,64,1,'#e7c697');box(g,3,20,17,14,'#ad865c');r(g,6,25,11,1,edge);r(g,6,30,11,1,edge);r(g,58,20,3,14,edge);box(g,24,4,21,12,'#454953');r(g,26,6,17,7,'#808b9e');r(g,23,17,24,2,'#484852');box(g,5,5,9,6,'#ede4ce');r(g,51,6,4,7,'#a96762');r(g,52,4,2,2,'#e2dfd3');},
+  'dorm.desk':(g)=>{box(g,25,22,22,12,'#6b7578');r(g,28,25,16,7,'#969d9b');r(g,34,34,2,3,ink);r(g,28,37,14,1,ink);grain(g,0,10,64,10);r(g,0,10,64,1,'#e7c697');box(g,3,20,17,14,'#ad865c');r(g,6,25,11,1,edge);r(g,6,30,11,1,edge);r(g,58,20,3,14,edge);box(g,24,4,21,12,'#454953');r(g,26,6,17,7,'#808b9e');r(g,23,17,24,2,'#484852');box(g,5,5,9,6,'#ede4ce');r(g,51,6,4,7,'#a96762');r(g,52,4,2,2,'#e2dfd3');},
   'dorm.chair':(g)=>{box(g,3,0,18,18,'#7d8587');r(g,5,2,14,13,'#969d9b');box(g,1,15,22,8,'#6b7578');r(g,11,23,2,4,ink);r(g,4,27,16,1,ink);},
   'dorm.couch':(g)=>{
     box(g,0,4,48,22,'#687578'); box(g,1,1,46,10,'#929b9b');
@@ -57,6 +68,8 @@ export const DORM:Record<string,Drawer> = {
     for(const x of [7,19,30]) box(g,x,12,12,10,'#879293');
     r(g,3,26,3,2,edge);r(g,42,26,3,2,edge);
   },
+  'dorm.couch.faceRight':verticalCouch(false),
+  'dorm.couch.faceLeft':verticalCouch(true),
   'dorm.recliner':(g)=>{
     box(g,2,0,20,17,'#878c87'); box(g,0,7,6,17,'#6b756f');
     box(g,18,7,6,17,'#6b756f');box(g,6,15,12,9,'#9ba29a');
