@@ -1,10 +1,5 @@
 # Research review, method selection, and attribution
 
-This is a **focused literature selection**, not an impossible claim to have
-read every paper ever published on quantum circuit optimization.
-
-## Why the second choice?
-
 **First in intellectual interest:** general equality-saturation with e-graphs,
 as exemplified by the 2026 Quasar paper. It explores broad equivalence spaces,
 but implementing a trustworthy full system in ~24 hours has high risk.
@@ -55,10 +50,7 @@ placement is explored across several deterministic choices.
 
 ## AI attribution
 
-This source code, test framework, explanatory files, and chosen integration
-were designed and written with OpenAI ChatGPT assistance in November 2026.
-The team must inspect, understand, validate, and acknowledge AI-assisted work
-in its final hackathon presentation and repository. Research references are
-conceptual inspirations; PRISM is an independently written implementation,
-not a copied research-code repository.
+This source code, test framework, and some files were designed and written with 
+OpenAI ChatGPT assistance in November 2026. PRISM is an independently written 
+implementation, not a copied research-code repository.
 
