@@ -43,7 +43,7 @@ Turn the volume up. Every note is synthesized live.
 ## Rubric mapping (for Q&A)
 
 - **Quantum connection (25%):** every mechanic comes from the circuit: one copy, one measurement, collapse, phase-invisible Z statistics, X-basis interference, partial measurement (lantern).
-- **Technical understanding (25%):** derivations in `QUANTUM_EXPLANATION.md`; 56 tests including a Qiskit cross-check; the debug quantum tab.
+- **Technical understanding (25%):** derivations in `QUANTUM_EXPLANATION.md`; 67 tests including a Qiskit cross-check; the debug quantum tab.
 - **Creativity (25%):** the house as a measurement device, routes as binary addresses, prime-weighted melody, the cat qubit.
 - **Functionality (15%):** full golden path tested for both phases; 32-check browser smoke test.
 - **UX (5%):** hints with three tiers, keyboard/mouse/touch, reduced motion, readable fonts, colour-blind-safe sensor text.
