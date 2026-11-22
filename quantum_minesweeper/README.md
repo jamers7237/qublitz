@@ -4,6 +4,8 @@
 
 All four levels are implemented and verified in simulation. **Level 1 has also run successfully on real IQM Garnet hardware:** 16 circuits, 4,096 circuit-shots, 93.4% mean logical input survival with recovery versus 84.6% with recovery disabled. See [the hardware experiment](docs/HARDWARE_RESULTS.md). Levels 2–4 currently have simulation evidence only. The IQM runner compiles native circuits, runs local noise models, and submits/retrieves real Resonance jobs.
 
+The expanded [submission report](output/pdf/Submission_Report.pdf) now also includes real runs of the original circuit on **Sirius (78.61% corrected survival)** and **Emerald (95.46%)**, with controls, job IDs, per-case confidence intervals, and native resources. See [the three-device comparison](docs/HARDWARE_COMPARISON.md). These are separate device/calibration snapshots, not a general device ranking. The circuit and noise models remain the original versions.
+
 The design uses the stabilizer-Hamiltonian viewpoint from lattice field theory. Small repetition and error-detecting codes are the right tools for the specified error sets; no continuum field simulation is needed. See [the derivation](docs/THEORY.md), [file guide](docs/FILE_GUIDE.md), [hardware guide](docs/IQM.md), and [live-demo notes](docs/DEMO.md).
 
 ## Presentation and submission package

@@ -408,6 +408,7 @@ def document_styles():
     styles["Title"].fontName="QB"; styles["Title"].fontSize=27; styles["Title"].leading=33
     styles["Heading1"].fontName="QB"; styles["Heading1"].fontSize=17; styles["Heading1"].leading=22; styles["Heading1"].spaceBefore=16
     styles["Heading2"].fontName="QB"; styles["Heading2"].fontSize=13; styles["Heading2"].leading=18; styles["Heading2"].spaceBefore=12
+    styles["Heading2"].keepWithNext=True
     styles.add(ParagraphStyle("CodeQ",fontName="QC",fontSize=8.1,leading=11,spaceAfter=12))
     styles.add(ParagraphStyle("CellQ",fontName="Q",fontSize=8.5,leading=11))
     styles.add(ParagraphStyle("SourceQ",fontName="Q",fontSize=8.4,leading=11,textColor=MUTED,spaceAfter=10))
@@ -454,6 +455,7 @@ def markdown_story(value, styles):
             story += [t,Spacer(1,12)]; continue
         if row.startswith("# "): story.append(Paragraph(inline(row[2:]),styles["Title"]))
         elif row.startswith("## "): story.append(Paragraph(inline(row[3:]),styles["Heading1"]))
+        elif row.startswith("### "): story.append(Paragraph(inline(row[4:]),styles["Heading2"]))
         elif row.startswith("- "): story.append(Paragraph("• "+inline(row[2:]),styles["Normal"]))
         else:
             collected=[row]; i+=1
@@ -533,9 +535,16 @@ def guide(slides, styles):
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--renderer",default=sys.executable)
+    parser.add_argument("--report-only",action="store_true",help="rebuild and render the written report without changing the presentation or guide")
     args=parser.parse_args()
     OUT.mkdir(parents=True,exist_ok=True); TMP.mkdir(parents=True,exist_ok=True)
     fonts()
+    if args.report_only:
+        styles=document_styles()
+        pdf_document(OUT/"Submission_Report.pdf",markdown_story((ROOT/"docs/SUBMISSION.md").read_text(),styles))
+        subprocess.run([args.renderer,str(ROOT/"scripts/render_submission.py"),str(OUT/"Submission_Report.pdf"),str(TMP/"Submission_Report")],check=True)
+        print("Updated submission report only. Presentation and guide unchanged.")
+        return
     data=json.loads((ROOT/"results/iqm-pilot/results.json").read_text())
     native=json.loads((ROOT/"results/iqm-pilot/native_witness.json").read_text())
     slides=list(SLIDES)

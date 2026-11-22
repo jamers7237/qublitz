@@ -24,6 +24,11 @@
 | `docs/IQM.md` | Credentials, IQM commands, budget, persistence, and experimental interpretation |
 | `docs/DEMO.md` | A short live-demo script and likely judging questions |
 | `docs/HARDWARE_RESULTS.md` | Actual Garnet experiment: job ID, circuit design, all configurations, uncertainty, and interpretation |
+| `docs/HARDWARE_COMPARISON.md` | Original-circuit real runs on Garnet, Sirius, and Emerald, including per-case intervals and native resource comparisons |
+| `scripts/extend_hardware_report.py` | Adds saved Sirius/Emerald hardware results to the written submission without submitting jobs |
+| `results/iqm-sirius/` | Real Sirius job, compiled MOVE/CZ circuits, topology snapshot, and raw counts |
+| `results/iqm-emerald/` | Real Emerald job, compiled native circuits, topology snapshot, and raw counts |
+| `results/hardware_comparison.json` | Machine-readable comparison of the three real-device pilot datasets |
 | `docs/SUBMISSION.md` | Complete written submission and section 6/7 assessment crosswalk |
 | `docs/PRESENTER_NOTES.md` | Editable speaking notes for every slide |
 | `scripts/live_demo.py` | Offline walkthrough of circuits, successful cases, expected failures, and saved real QPU measurements |

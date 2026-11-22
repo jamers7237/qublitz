@@ -1,0 +1,505 @@
+{
+  "created_utc": "2026-11-22T07:39:25.110985+00:00",
+  "kind": "iqm-hardware",
+  "backend": "sirius",
+  "server_url": "https://resonance.iqm.tech",
+  "shots_per_circuit": 256,
+  "total_shots": 4096,
+  "versions": {
+    "qiskit": "2.1.2",
+    "qiskit-aer": "0.17.2",
+    "iqm-client": "36.0.0",
+    "numpy": "2.5.5"
+  },
+  "compilation": {
+    "seed": 1,
+    "two_qubit_gates_total": 240,
+    "depth_total": 308,
+    "candidates": [
+      [
+        240,
+        308,
+        1
+      ],
+      [
+        240,
+        308,
+        7
+      ],
+      [
+        240,
+        308,
+        19
+      ]
+    ]
+  },
+  "experiments": [
+    {
+      "level": 1,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ]
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "plus",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        0
+      ]
+    },
+    {
+      "level": 1,
+      "error": "I",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        0
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X0",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        1,
+        0
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X1",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        1,
+        0
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": true,
+      "expected_syndrome": [
+        0,
+        1
+      ]
+    },
+    {
+      "level": 1,
+      "error": "X2",
+      "state": "plus_i",
+      "mode": "compact",
+      "correction": false,
+      "expected_syndrome": [
+        0,
+        1
+      ]
+    }
+  ],
+  "circuits": [
+    {
+      "depth": 26,
+      "width": 17,
+      "active_physical_qubits": [
+        0,
+        1,
+        2,
+        16
+      ],
+      "operations": {
+        "r": 17,
+        "move": 12,
+        "cz": 10,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(13, \"ancilla\"), index=0>,\n4: <Qubit register=(13, \"ancilla\"), index=1>,\n5: <Qubit register=(13, \"ancilla\"), index=2>,\n6: <Qubit register=(13, \"ancilla\"), index=3>,\n7: <Qubit register=(13, \"ancilla\"), index=4>,\n8: <Qubit register=(13, \"ancilla\"), index=5>,\n9: <Qubit register=(13, \"ancilla\"), index=6>,\n10: <Qubit register=(13, \"ancilla\"), index=7>,\n11: <Qubit register=(13, \"ancilla\"), index=8>,\n12: <Qubit register=(13, \"ancilla\"), index=9>,\n13: <Qubit register=(13, \"ancilla\"), index=10>,\n14: <Qubit register=(13, \"ancilla\"), index=11>,\n15: <Qubit register=(13, \"ancilla\"), index=12>,\n16: <Qubit register=(1, \"resonators\"), index=0>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(13, \"ancilla\"), index=0>: 3, <Qubit register=(13, \"ancilla\"), index=1>: 4, <Qubit register=(13, \"ancilla\"), index=2>: 5, <Qubit register=(13, \"ancilla\"), index=3>: 6, <Qubit register=(13, \"ancilla\"), index=4>: 7, <Qubit register=(13, \"ancilla\"), index=5>: 8, <Qubit register=(13, \"ancilla\"), index=6>: 9, <Qubit register=(13, \"ancilla\"), index=7>: 10, <Qubit register=(13, \"ancilla\"), index=8>: 11, <Qubit register=(13, \"ancilla\"), index=9>: 12, <Qubit register=(13, \"ancilla\"), index=10>: 13, <Qubit register=(13, \"ancilla\"), index=11>: 14, <Qubit register=(13, \"ancilla\"), index=12>: 15, <Qubit register=(1, \"resonators\"), index=0>: 16}, final_layout=Layout({\n0: <Qubit register=(17, \"q\"), index=0>,\n1: <Qubit register=(17, \"q\"), index=1>,\n2: <Qubit register=(17, \"q\"), index=2>,\n3: <Qubit register=(17, \"q\"), index=3>,\n4: <Qubit register=(17, \"q\"), index=4>,\n5: <Qubit register=(17, \"q\"), index=5>,\n6: <Qubit register=(17, \"q\"), index=6>,\n7: <Qubit register=(17, \"q\"), index=7>,\n8: <Qubit register=(17, \"q\"), index=8>,\n9: <Qubit register=(17, \"q\"), index=9>,\n10: <Qubit register=(17, \"q\"), index=10>,\n11: <Qubit register=(17, \"q\"), index=11>,\n12: <Qubit register=(17, \"q\"), index=12>,\n13: <Qubit register=(17, \"q\"), index=13>,\n14: <Qubit register=(17, \"q\"), index=14>,\n15: <Qubit register=(17, \"q\"), index=15>,\n16: <Qubit register=(17, \"q\"), index=16>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(17, \"q\"), index=0>, <Qubit register=(17, \"q\"), index=1>, <Qubit register=(17, \"q\"), index=2>, <Qubit register=(17, \"q\"), index=3>, <Qubit register=(17, \"q\"), index=4>, <Qubit register=(17, \"q\"), index=5>, <Qubit register=(17, \"q\"), index=6>, <Qubit register=(17, \"q\"), index=7>, <Qubit register=(17, \"q\"), index=8>, <Qubit register=(17, \"q\"), index=9>, <Qubit register=(17, \"q\"), index=10>, <Qubit register=(17, \"q\"), index=11>, <Qubit register=(17, \"q\"), index=12>, <Qubit register=(17, \"q\"), index=13>, <Qubit register=(17, \"q\"), index=14>, <Qubit register=(17, \"q\"), index=15>, <Qubit register=(17, \"q\"), index=16>])"
+    },
+    {
+      "depth": 11,
+      "width": 17,
+      "active_physical_qubits": [
+        0,
+        1,
+        2,
+        16
+      ],
+      "operations": {
+        "r": 10,
+        "move": 4,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(13, \"ancilla\"), index=0>,\n4: <Qubit register=(13, \"ancilla\"), index=1>,\n5: <Qubit register=(13, \"ancilla\"), index=2>,\n6: <Qubit register=(13, \"ancilla\"), index=3>,\n7: <Qubit register=(13, \"ancilla\"), index=4>,\n8: <Qubit register=(13, \"ancilla\"), index=5>,\n9: <Qubit register=(13, \"ancilla\"), index=6>,\n10: <Qubit register=(13, \"ancilla\"), index=7>,\n11: <Qubit register=(13, \"ancilla\"), index=8>,\n12: <Qubit register=(13, \"ancilla\"), index=9>,\n13: <Qubit register=(13, \"ancilla\"), index=10>,\n14: <Qubit register=(13, \"ancilla\"), index=11>,\n15: <Qubit register=(13, \"ancilla\"), index=12>,\n16: <Qubit register=(1, \"resonators\"), index=0>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(13, \"ancilla\"), index=0>: 3, <Qubit register=(13, \"ancilla\"), index=1>: 4, <Qubit register=(13, \"ancilla\"), index=2>: 5, <Qubit register=(13, \"ancilla\"), index=3>: 6, <Qubit register=(13, \"ancilla\"), index=4>: 7, <Qubit register=(13, \"ancilla\"), index=5>: 8, <Qubit register=(13, \"ancilla\"), index=6>: 9, <Qubit register=(13, \"ancilla\"), index=7>: 10, <Qubit register=(13, \"ancilla\"), index=8>: 11, <Qubit register=(13, \"ancilla\"), index=9>: 12, <Qubit register=(13, \"ancilla\"), index=10>: 13, <Qubit register=(13, \"ancilla\"), index=11>: 14, <Qubit register=(13, \"ancilla\"), index=12>: 15, <Qubit register=(1, \"resonators\"), index=0>: 16}, final_layout=Layout({\n0: <Qubit register=(17, \"q\"), index=0>,\n1: <Qubit register=(17, \"q\"), index=1>,\n2: <Qubit register=(17, \"q\"), index=2>,\n3: <Qubit register=(17, \"q\"), index=3>,\n4: <Qubit register=(17, \"q\"), index=4>,\n5: <Qubit register=(17, \"q\"), index=5>,\n6: <Qubit register=(17, \"q\"), index=6>,\n7: <Qubit register=(17, \"q\"), index=7>,\n8: <Qubit register=(17, \"q\"), index=8>,\n9: <Qubit register=(17, \"q\"), index=9>,\n10: <Qubit register=(17, \"q\"), index=10>,\n11: <Qubit register=(17, \"q\"), index=11>,\n12: <Qubit register=(17, \"q\"), index=12>,\n13: <Qubit register=(17, \"q\"), index=13>,\n14: <Qubit register=(17, \"q\"), index=14>,\n15: <Qubit register=(17, \"q\"), index=15>,\n16: <Qubit register=(17, \"q\"), index=16>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(17, \"q\"), index=0>, <Qubit register=(17, \"q\"), index=1>, <Qubit register=(17, \"q\"), index=2>, <Qubit register=(17, \"q\"), index=3>, <Qubit register=(17, \"q\"), index=4>, <Qubit register=(17, \"q\"), index=5>, <Qubit register=(17, \"q\"), index=6>, <Qubit register=(17, \"q\"), index=7>, <Qubit register=(17, \"q\"), index=8>, <Qubit register=(17, \"q\"), index=9>, <Qubit register=(17, \"q\"), index=10>, <Qubit register=(17, \"q\"), index=11>, <Qubit register=(17, \"q\"), index=12>, <Qubit register=(17, \"q\"), index=13>, <Qubit register=(17, \"q\"), index=14>, <Qubit register=(17, \"q\"), index=15>, <Qubit register=(17, \"q\"), index=16>])"
+    },
+    {
+      "depth": 27,
+      "width": 17,
+      "active_physical_qubits": [
+        0,
+        1,
+        2,
+        16
+      ],
+      "operations": {
+        "r": 18,
+        "move": 12,
+        "cz": 10,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(13, \"ancilla\"), index=0>,\n4: <Qubit register=(13, \"ancilla\"), index=1>,\n5: <Qubit register=(13, \"ancilla\"), index=2>,\n6: <Qubit register=(13, \"ancilla\"), index=3>,\n7: <Qubit register=(13, \"ancilla\"), index=4>,\n8: <Qubit register=(13, \"ancilla\"), index=5>,\n9: <Qubit register=(13, \"ancilla\"), index=6>,\n10: <Qubit register=(13, \"ancilla\"), index=7>,\n11: <Qubit register=(13, \"ancilla\"), index=8>,\n12: <Qubit register=(13, \"ancilla\"), index=9>,\n13: <Qubit register=(13, \"ancilla\"), index=10>,\n14: <Qubit register=(13, \"ancilla\"), index=11>,\n15: <Qubit register=(13, \"ancilla\"), index=12>,\n16: <Qubit register=(1, \"resonators\"), index=0>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(13, \"ancilla\"), index=0>: 3, <Qubit register=(13, \"ancilla\"), index=1>: 4, <Qubit register=(13, \"ancilla\"), index=2>: 5, <Qubit register=(13, \"ancilla\"), index=3>: 6, <Qubit register=(13, \"ancilla\"), index=4>: 7, <Qubit register=(13, \"ancilla\"), index=5>: 8, <Qubit register=(13, \"ancilla\"), index=6>: 9, <Qubit register=(13, \"ancilla\"), index=7>: 10, <Qubit register=(13, \"ancilla\"), index=8>: 11, <Qubit register=(13, \"ancilla\"), index=9>: 12, <Qubit register=(13, \"ancilla\"), index=10>: 13, <Qubit register=(13, \"ancilla\"), index=11>: 14, <Qubit register=(13, \"ancilla\"), index=12>: 15, <Qubit register=(1, \"resonators\"), index=0>: 16}, final_layout=Layout({\n0: <Qubit register=(17, \"q\"), index=0>,\n1: <Qubit register=(17, \"q\"), index=1>,\n2: <Qubit register=(17, \"q\"), index=2>,\n3: <Qubit register=(17, \"q\"), index=3>,\n4: <Qubit register=(17, \"q\"), index=4>,\n5: <Qubit register=(17, \"q\"), index=5>,\n6: <Qubit register=(17, \"q\"), index=6>,\n7: <Qubit register=(17, \"q\"), index=7>,\n8: <Qubit register=(17, \"q\"), index=8>,\n9: <Qubit register=(17, \"q\"), index=9>,\n10: <Qubit register=(17, \"q\"), index=10>,\n11: <Qubit register=(17, \"q\"), index=11>,\n12: <Qubit register=(17, \"q\"), index=12>,\n13: <Qubit register=(17, \"q\"), index=13>,\n14: <Qubit register=(17, \"q\"), index=14>,\n15: <Qubit register=(17, \"q\"), index=15>,\n16: <Qubit register=(17, \"q\"), index=16>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(17, \"q\"), index=0>, <Qubit register=(17, \"q\"), index=1>, <Qubit register=(17, \"q\"), index=2>, <Qubit register=(17, \"q\"), index=3>, <Qubit register=(17, \"q\"), index=4>, <Qubit register=(17, \"q\"), index=5>, <Qubit register=(17, \"q\"), index=6>, <Qubit register=(17, \"q\"), index=7>, <Qubit register=(17, \"q\"), index=8>, <Qubit register=(17, \"q\"), index=9>, <Qubit register=(17, \"q\"), index=10>, <Qubit register=(17, \"q\"), index=11>, <Qubit register=(17, \"q\"), index=12>, <Qubit register=(17, \"q\"), index=13>, <Qubit register=(17, \"q\"), index=14>, <Qubit register=(17, \"q\"), index=15>, <Qubit register=(17, \"q\"), index=16>])"
+    },
+    {
+      "depth": 12,
+      "width": 17,
+      "active_physical_qubits": [
+        0,
+        1,
+        2,
+        16
+      ],
+      "operations": {
+        "r": 11,
+        "move": 4,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(13, \"ancilla\"), index=0>,\n4: <Qubit register=(13, \"ancilla\"), index=1>,\n5: <Qubit register=(13, \"ancilla\"), index=2>,\n6: <Qubit register=(13, \"ancilla\"), index=3>,\n7: <Qubit register=(13, \"ancilla\"), index=4>,\n8: <Qubit register=(13, \"ancilla\"), index=5>,\n9: <Qubit register=(13, \"ancilla\"), index=6>,\n10: <Qubit register=(13, \"ancilla\"), index=7>,\n11: <Qubit register=(13, \"ancilla\"), index=8>,\n12: <Qubit register=(13, \"ancilla\"), index=9>,\n13: <Qubit register=(13, \"ancilla\"), index=10>,\n14: <Qubit register=(13, \"ancilla\"), index=11>,\n15: <Qubit register=(13, \"ancilla\"), index=12>,\n16: <Qubit register=(1, \"resonators\"), index=0>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(13, \"ancilla\"), index=0>: 3, <Qubit register=(13, \"ancilla\"), index=1>: 4, <Qubit register=(13, \"ancilla\"), index=2>: 5, <Qubit register=(13, \"ancilla\"), index=3>: 6, <Qubit register=(13, \"ancilla\"), index=4>: 7, <Qubit register=(13, \"ancilla\"), index=5>: 8, <Qubit register=(13, \"ancilla\"), index=6>: 9, <Qubit register=(13, \"ancilla\"), index=7>: 10, <Qubit register=(13, \"ancilla\"), index=8>: 11, <Qubit register=(13, \"ancilla\"), index=9>: 12, <Qubit register=(13, \"ancilla\"), index=10>: 13, <Qubit register=(13, \"ancilla\"), index=11>: 14, <Qubit register=(13, \"ancilla\"), index=12>: 15, <Qubit register=(1, \"resonators\"), index=0>: 16}, final_layout=Layout({\n0: <Qubit register=(17, \"q\"), index=0>,\n1: <Qubit register=(17, \"q\"), index=1>,\n2: <Qubit register=(17, \"q\"), index=2>,\n3: <Qubit register=(17, \"q\"), index=3>,\n4: <Qubit register=(17, \"q\"), index=4>,\n5: <Qubit register=(17, \"q\"), index=5>,\n6: <Qubit register=(17, \"q\"), index=6>,\n7: <Qubit register=(17, \"q\"), index=7>,\n8: <Qubit register=(17, \"q\"), index=8>,\n9: <Qubit register=(17, \"q\"), index=9>,\n10: <Qubit register=(17, \"q\"), index=10>,\n11: <Qubit register=(17, \"q\"), index=11>,\n12: <Qubit register=(17, \"q\"), index=12>,\n13: <Qubit register=(17, \"q\"), index=13>,\n14: <Qubit register=(17, \"q\"), index=14>,\n15: <Qubit register=(17, \"q\"), index=15>,\n16: <Qubit register=(17, \"q\"), index=16>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(17, \"q\"), index=0>, <Qubit register=(17, \"q\"), index=1>, <Qubit register=(17, \"q\"), index=2>, <Qubit register=(17, \"q\"), index=3>, <Qubit register=(17, \"q\"), index=4>, <Qubit register=(17, \"q\"), index=5>, <Qubit register=(17, \"q\"), index=6>, <Qubit register=(17, \"q\"), index=7>, <Qubit register=(17, \"q\"), index=8>, <Qubit register=(17, \"q\"), index=9>, <Qubit register=(17, \"q\"), index=10>, <Qubit register=(17, \"q\"), index=11>, <Qubit register=(17, \"q\"), index=12>, <Qubit register=(17, \"q\"), index=13>, <Qubit register=(17, \"q\"), index=14>, <Qubit register=(17, \"q\"), index=15>, <Qubit register=(17, \"q\"), index=16>])"
+    },
+    {
+      "depth": 27,
+      "width": 17,
+      "active_physical_qubits": [
+        0,
+        1,
+        2,
+        16
+      ],
+      "operations": {
+        "r": 18,
+        "move": 12,
+        "cz": 10,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(13, \"ancilla\"), index=0>,\n4: <Qubit register=(13, \"ancilla\"), index=1>,\n5: <Qubit register=(13, \"ancilla\"), index=2>,\n6: <Qubit register=(13, \"ancilla\"), index=3>,\n7: <Qubit register=(13, \"ancilla\"), index=4>,\n8: <Qubit register=(13, \"ancilla\"), index=5>,\n9: <Qubit register=(13, \"ancilla\"), index=6>,\n10: <Qubit register=(13, \"ancilla\"), index=7>,\n11: <Qubit register=(13, \"ancilla\"), index=8>,\n12: <Qubit register=(13, \"ancilla\"), index=9>,\n13: <Qubit register=(13, \"ancilla\"), index=10>,\n14: <Qubit register=(13, \"ancilla\"), index=11>,\n15: <Qubit register=(13, \"ancilla\"), index=12>,\n16: <Qubit register=(1, \"resonators\"), index=0>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(13, \"ancilla\"), index=0>: 3, <Qubit register=(13, \"ancilla\"), index=1>: 4, <Qubit register=(13, \"ancilla\"), index=2>: 5, <Qubit register=(13, \"ancilla\"), index=3>: 6, <Qubit register=(13, \"ancilla\"), index=4>: 7, <Qubit register=(13, \"ancilla\"), index=5>: 8, <Qubit register=(13, \"ancilla\"), index=6>: 9, <Qubit register=(13, \"ancilla\"), index=7>: 10, <Qubit register=(13, \"ancilla\"), index=8>: 11, <Qubit register=(13, \"ancilla\"), index=9>: 12, <Qubit register=(13, \"ancilla\"), index=10>: 13, <Qubit register=(13, \"ancilla\"), index=11>: 14, <Qubit register=(13, \"ancilla\"), index=12>: 15, <Qubit register=(1, \"resonators\"), index=0>: 16}, final_layout=Layout({\n0: <Qubit register=(17, \"q\"), index=0>,\n1: <Qubit register=(17, \"q\"), index=1>,\n2: <Qubit register=(17, \"q\"), index=2>,\n3: <Qubit register=(17, \"q\"), index=3>,\n4: <Qubit register=(17, \"q\"), index=4>,\n5: <Qubit register=(17, \"q\"), index=5>,\n6: <Qubit register=(17, \"q\"), index=6>,\n7: <Qubit register=(17, \"q\"), index=7>,\n8: <Qubit register=(17, \"q\"), index=8>,\n9: <Qubit register=(17, \"q\"), index=9>,\n10: <Qubit register=(17, \"q\"), index=10>,\n11: <Qubit register=(17, \"q\"), index=11>,\n12: <Qubit register=(17, \"q\"), index=12>,\n13: <Qubit register=(17, \"q\"), index=13>,\n14: <Qubit register=(17, \"q\"), index=14>,\n15: <Qubit register=(17, \"q\"), index=15>,\n16: <Qubit register=(17, \"q\"), index=16>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(17, \"q\"), index=0>, <Qubit register=(17, \"q\"), index=1>, <Qubit register=(17, \"q\"), index=2>, <Qubit register=(17, \"q\"), index=3>, <Qubit register=(17, \"q\"), index=4>, <Qubit register=(17, \"q\"), index=5>, <Qubit register=(17, \"q\"), index=6>, <Qubit register=(17, \"q\"), index=7>, <Qubit register=(17, \"q\"), index=8>, <Qubit register=(17, \"q\"), index=9>, <Qubit register=(17, \"q\"), index=10>, <Qubit register=(17, \"q\"), index=11>, <Qubit register=(17, \"q\"), index=12>, <Qubit register=(17, \"q\"), index=13>, <Qubit register=(17, \"q\"), index=14>, <Qubit register=(17, \"q\"), index=15>, <Qubit register=(17, \"q\"), index=16>])"
+    },
+    {
+      "depth": 12,
+      "width": 17,
+      "active_physical_qubits": [
+        0,
+        1,
+        2,
+        16
+      ],
+      "operations": {
+        "r": 11,
+        "move": 4,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(13, \"ancilla\"), index=0>,\n4: <Qubit register=(13, \"ancilla\"), index=1>,\n5: <Qubit register=(13, \"ancilla\"), index=2>,\n6: <Qubit register=(13, \"ancilla\"), index=3>,\n7: <Qubit register=(13, \"ancilla\"), index=4>,\n8: <Qubit register=(13, \"ancilla\"), index=5>,\n9: <Qubit register=(13, \"ancilla\"), index=6>,\n10: <Qubit register=(13, \"ancilla\"), index=7>,\n11: <Qubit register=(13, \"ancilla\"), index=8>,\n12: <Qubit register=(13, \"ancilla\"), index=9>,\n13: <Qubit register=(13, \"ancilla\"), index=10>,\n14: <Qubit register=(13, \"ancilla\"), index=11>,\n15: <Qubit register=(13, \"ancilla\"), index=12>,\n16: <Qubit register=(1, \"resonators\"), index=0>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(13, \"ancilla\"), index=0>: 3, <Qubit register=(13, \"ancilla\"), index=1>: 4, <Qubit register=(13, \"ancilla\"), index=2>: 5, <Qubit register=(13, \"ancilla\"), index=3>: 6, <Qubit register=(13, \"ancilla\"), index=4>: 7, <Qubit register=(13, \"ancilla\"), index=5>: 8, <Qubit register=(13, \"ancilla\"), index=6>: 9, <Qubit register=(13, \"ancilla\"), index=7>: 10, <Qubit register=(13, \"ancilla\"), index=8>: 11, <Qubit register=(13, \"ancilla\"), index=9>: 12, <Qubit register=(13, \"ancilla\"), index=10>: 13, <Qubit register=(13, \"ancilla\"), index=11>: 14, <Qubit register=(13, \"ancilla\"), index=12>: 15, <Qubit register=(1, \"resonators\"), index=0>: 16}, final_layout=Layout({\n0: <Qubit register=(17, \"q\"), index=0>,\n1: <Qubit register=(17, \"q\"), index=1>,\n2: <Qubit register=(17, \"q\"), index=2>,\n3: <Qubit register=(17, \"q\"), index=3>,\n4: <Qubit register=(17, \"q\"), index=4>,\n5: <Qubit register=(17, \"q\"), index=5>,\n6: <Qubit register=(17, \"q\"), index=6>,\n7: <Qubit register=(17, \"q\"), index=7>,\n8: <Qubit register=(17, \"q\"), index=8>,\n9: <Qubit register=(17, \"q\"), index=9>,\n10: <Qubit register=(17, \"q\"), index=10>,\n11: <Qubit register=(17, \"q\"), index=11>,\n12: <Qubit register=(17, \"q\"), index=12>,\n13: <Qubit register=(17, \"q\"), index=13>,\n14: <Qubit register=(17, \"q\"), index=14>,\n15: <Qubit register=(17, \"q\"), index=15>,\n16: <Qubit register=(17, \"q\"), index=16>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(17, \"q\"), index=0>, <Qubit register=(17, \"q\"), index=1>, <Qubit register=(17, \"q\"), index=2>, <Qubit register=(17, \"q\"), index=3>, <Qubit register=(17, \"q\"), index=4>, <Qubit register=(17, \"q\"), index=5>, <Qubit register=(17, \"q\"), index=6>, <Qubit register=(17, \"q\"), index=7>, <Qubit register=(17, \"q\"), index=8>, <Qubit register=(17, \"q\"), index=9>, <Qubit register=(17, \"q\"), index=10>, <Qubit register=(17, \"q\"), index=11>, <Qubit register=(17, \"q\"), index=12>, <Qubit register=(17, \"q\"), index=13>, <Qubit register=(17, \"q\"), index=14>, <Qubit register=(17, \"q\"), index=15>, <Qubit register=(17, \"q\"), index=16>])"
+    },
+    {
+      "depth": 27,
+      "width": 17,
+      "active_physical_qubits": [
+        0,
+        1,
+        2,
+        16
+      ],
+      "operations": {
+        "r": 18,
+        "move": 12,
+        "cz": 10,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(13, \"ancilla\"), index=0>,\n4: <Qubit register=(13, \"ancilla\"), index=1>,\n5: <Qubit register=(13, \"ancilla\"), index=2>,\n6: <Qubit register=(13, \"ancilla\"), index=3>,\n7: <Qubit register=(13, \"ancilla\"), index=4>,\n8: <Qubit register=(13, \"ancilla\"), index=5>,\n9: <Qubit register=(13, \"ancilla\"), index=6>,\n10: <Qubit register=(13, \"ancilla\"), index=7>,\n11: <Qubit register=(13, \"ancilla\"), index=8>,\n12: <Qubit register=(13, \"ancilla\"), index=9>,\n13: <Qubit register=(13, \"ancilla\"), index=10>,\n14: <Qubit register=(13, \"ancilla\"), index=11>,\n15: <Qubit register=(13, \"ancilla\"), index=12>,\n16: <Qubit register=(1, \"resonators\"), index=0>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(13, \"ancilla\"), index=0>: 3, <Qubit register=(13, \"ancilla\"), index=1>: 4, <Qubit register=(13, \"ancilla\"), index=2>: 5, <Qubit register=(13, \"ancilla\"), index=3>: 6, <Qubit register=(13, \"ancilla\"), index=4>: 7, <Qubit register=(13, \"ancilla\"), index=5>: 8, <Qubit register=(13, \"ancilla\"), index=6>: 9, <Qubit register=(13, \"ancilla\"), index=7>: 10, <Qubit register=(13, \"ancilla\"), index=8>: 11, <Qubit register=(13, \"ancilla\"), index=9>: 12, <Qubit register=(13, \"ancilla\"), index=10>: 13, <Qubit register=(13, \"ancilla\"), index=11>: 14, <Qubit register=(13, \"ancilla\"), index=12>: 15, <Qubit register=(1, \"resonators\"), index=0>: 16}, final_layout=Layout({\n0: <Qubit register=(17, \"q\"), index=0>,\n1: <Qubit register=(17, \"q\"), index=1>,\n2: <Qubit register=(17, \"q\"), index=2>,\n3: <Qubit register=(17, \"q\"), index=3>,\n4: <Qubit register=(17, \"q\"), index=4>,\n5: <Qubit register=(17, \"q\"), index=5>,\n6: <Qubit register=(17, \"q\"), index=6>,\n7: <Qubit register=(17, \"q\"), index=7>,\n8: <Qubit register=(17, \"q\"), index=8>,\n9: <Qubit register=(17, \"q\"), index=9>,\n10: <Qubit register=(17, \"q\"), index=10>,\n11: <Qubit register=(17, \"q\"), index=11>,\n12: <Qubit register=(17, \"q\"), index=12>,\n13: <Qubit register=(17, \"q\"), index=13>,\n14: <Qubit register=(17, \"q\"), index=14>,\n15: <Qubit register=(17, \"q\"), index=15>,\n16: <Qubit register=(17, \"q\"), index=16>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(17, \"q\"), index=0>, <Qubit register=(17, \"q\"), index=1>, <Qubit register=(17, \"q\"), index=2>, <Qubit register=(17, \"q\"), index=3>, <Qubit register=(17, \"q\"), index=4>, <Qubit register=(17, \"q\"), index=5>, <Qubit register=(17, \"q\"), index=6>, <Qubit register=(17, \"q\"), index=7>, <Qubit register=(17, \"q\"), index=8>, <Qubit register=(17, \"q\"), index=9>, <Qubit register=(17, \"q\"), index=10>, <Qubit register=(17, \"q\"), index=11>, <Qubit register=(17, \"q\"), index=12>, <Qubit register=(17, \"q\"), index=13>, <Qubit register=(17, \"q\"), index=14>, <Qubit register=(17, \"q\"), index=15>, <Qubit register=(17, \"q\"), index=16>])"
+    },
+    {
+      "depth": 12,
+      "width": 17,
+      "active_physical_qubits": [
+        0,
+        1,
+        2,
+        16
+      ],
+      "operations": {
+        "r": 11,
+        "move": 4,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(13, \"ancilla\"), index=0>,\n4: <Qubit register=(13, \"ancilla\"), index=1>,\n5: <Qubit register=(13, \"ancilla\"), index=2>,\n6: <Qubit register=(13, \"ancilla\"), index=3>,\n7: <Qubit register=(13, \"ancilla\"), index=4>,\n8: <Qubit register=(13, \"ancilla\"), index=5>,\n9: <Qubit register=(13, \"ancilla\"), index=6>,\n10: <Qubit register=(13, \"ancilla\"), index=7>,\n11: <Qubit register=(13, \"ancilla\"), index=8>,\n12: <Qubit register=(13, \"ancilla\"), index=9>,\n13: <Qubit register=(13, \"ancilla\"), index=10>,\n14: <Qubit register=(13, \"ancilla\"), index=11>,\n15: <Qubit register=(13, \"ancilla\"), index=12>,\n16: <Qubit register=(1, \"resonators\"), index=0>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(13, \"ancilla\"), index=0>: 3, <Qubit register=(13, \"ancilla\"), index=1>: 4, <Qubit register=(13, \"ancilla\"), index=2>: 5, <Qubit register=(13, \"ancilla\"), index=3>: 6, <Qubit register=(13, \"ancilla\"), index=4>: 7, <Qubit register=(13, \"ancilla\"), index=5>: 8, <Qubit register=(13, \"ancilla\"), index=6>: 9, <Qubit register=(13, \"ancilla\"), index=7>: 10, <Qubit register=(13, \"ancilla\"), index=8>: 11, <Qubit register=(13, \"ancilla\"), index=9>: 12, <Qubit register=(13, \"ancilla\"), index=10>: 13, <Qubit register=(13, \"ancilla\"), index=11>: 14, <Qubit register=(13, \"ancilla\"), index=12>: 15, <Qubit register=(1, \"resonators\"), index=0>: 16}, final_layout=Layout({\n0: <Qubit register=(17, \"q\"), index=0>,\n1: <Qubit register=(17, \"q\"), index=1>,\n2: <Qubit register=(17, \"q\"), index=2>,\n3: <Qubit register=(17, \"q\"), index=3>,\n4: <Qubit register=(17, \"q\"), index=4>,\n5: <Qubit register=(17, \"q\"), index=5>,\n6: <Qubit register=(17, \"q\"), index=6>,\n7: <Qubit register=(17, \"q\"), index=7>,\n8: <Qubit register=(17, \"q\"), index=8>,\n9: <Qubit register=(17, \"q\"), index=9>,\n10: <Qubit register=(17, \"q\"), index=10>,\n11: <Qubit register=(17, \"q\"), index=11>,\n12: <Qubit register=(17, \"q\"), index=12>,\n13: <Qubit register=(17, \"q\"), index=13>,\n14: <Qubit register=(17, \"q\"), index=14>,\n15: <Qubit register=(17, \"q\"), index=15>,\n16: <Qubit register=(17, \"q\"), index=16>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(17, \"q\"), index=0>, <Qubit register=(17, \"q\"), index=1>, <Qubit register=(17, \"q\"), index=2>, <Qubit register=(17, \"q\"), index=3>, <Qubit register=(17, \"q\"), index=4>, <Qubit register=(17, \"q\"), index=5>, <Qubit register=(17, \"q\"), index=6>, <Qubit register=(17, \"q\"), index=7>, <Qubit register=(17, \"q\"), index=8>, <Qubit register=(17, \"q\"), index=9>, <Qubit register=(17, \"q\"), index=10>, <Qubit register=(17, \"q\"), index=11>, <Qubit register=(17, \"q\"), index=12>, <Qubit register=(17, \"q\"), index=13>, <Qubit register=(17, \"q\"), index=14>, <Qubit register=(17, \"q\"), index=15>, <Qubit register=(17, \"q\"), index=16>])"
+    },
+    {
+      "depth": 26,
+      "width": 17,
+      "active_physical_qubits": [
+        0,
+        1,
+        2,
+        16
+      ],
+      "operations": {
+        "r": 17,
+        "move": 12,
+        "cz": 10,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(13, \"ancilla\"), index=0>,\n4: <Qubit register=(13, \"ancilla\"), index=1>,\n5: <Qubit register=(13, \"ancilla\"), index=2>,\n6: <Qubit register=(13, \"ancilla\"), index=3>,\n7: <Qubit register=(13, \"ancilla\"), index=4>,\n8: <Qubit register=(13, \"ancilla\"), index=5>,\n9: <Qubit register=(13, \"ancilla\"), index=6>,\n10: <Qubit register=(13, \"ancilla\"), index=7>,\n11: <Qubit register=(13, \"ancilla\"), index=8>,\n12: <Qubit register=(13, \"ancilla\"), index=9>,\n13: <Qubit register=(13, \"ancilla\"), index=10>,\n14: <Qubit register=(13, \"ancilla\"), index=11>,\n15: <Qubit register=(13, \"ancilla\"), index=12>,\n16: <Qubit register=(1, \"resonators\"), index=0>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(13, \"ancilla\"), index=0>: 3, <Qubit register=(13, \"ancilla\"), index=1>: 4, <Qubit register=(13, \"ancilla\"), index=2>: 5, <Qubit register=(13, \"ancilla\"), index=3>: 6, <Qubit register=(13, \"ancilla\"), index=4>: 7, <Qubit register=(13, \"ancilla\"), index=5>: 8, <Qubit register=(13, \"ancilla\"), index=6>: 9, <Qubit register=(13, \"ancilla\"), index=7>: 10, <Qubit register=(13, \"ancilla\"), index=8>: 11, <Qubit register=(13, \"ancilla\"), index=9>: 12, <Qubit register=(13, \"ancilla\"), index=10>: 13, <Qubit register=(13, \"ancilla\"), index=11>: 14, <Qubit register=(13, \"ancilla\"), index=12>: 15, <Qubit register=(1, \"resonators\"), index=0>: 16}, final_layout=Layout({\n0: <Qubit register=(17, \"q\"), index=0>,\n1: <Qubit register=(17, \"q\"), index=1>,\n2: <Qubit register=(17, \"q\"), index=2>,\n3: <Qubit register=(17, \"q\"), index=3>,\n4: <Qubit register=(17, \"q\"), index=4>,\n5: <Qubit register=(17, \"q\"), index=5>,\n6: <Qubit register=(17, \"q\"), index=6>,\n7: <Qubit register=(17, \"q\"), index=7>,\n8: <Qubit register=(17, \"q\"), index=8>,\n9: <Qubit register=(17, \"q\"), index=9>,\n10: <Qubit register=(17, \"q\"), index=10>,\n11: <Qubit register=(17, \"q\"), index=11>,\n12: <Qubit register=(17, \"q\"), index=12>,\n13: <Qubit register=(17, \"q\"), index=13>,\n14: <Qubit register=(17, \"q\"), index=14>,\n15: <Qubit register=(17, \"q\"), index=15>,\n16: <Qubit register=(17, \"q\"), index=16>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(17, \"q\"), index=0>, <Qubit register=(17, \"q\"), index=1>, <Qubit register=(17, \"q\"), index=2>, <Qubit register=(17, \"q\"), index=3>, <Qubit register=(17, \"q\"), index=4>, <Qubit register=(17, \"q\"), index=5>, <Qubit register=(17, \"q\"), index=6>, <Qubit register=(17, \"q\"), index=7>, <Qubit register=(17, \"q\"), index=8>, <Qubit register=(17, \"q\"), index=9>, <Qubit register=(17, \"q\"), index=10>, <Qubit register=(17, \"q\"), index=11>, <Qubit register=(17, \"q\"), index=12>, <Qubit register=(17, \"q\"), index=13>, <Qubit register=(17, \"q\"), index=14>, <Qubit register=(17, \"q\"), index=15>, <Qubit register=(17, \"q\"), index=16>])"
+    },
+    {
+      "depth": 11,
+      "width": 17,
+      "active_physical_qubits": [
+        0,
+        1,
+        2,
+        16
+      ],
+      "operations": {
+        "r": 10,
+        "move": 4,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(13, \"ancilla\"), index=0>,\n4: <Qubit register=(13, \"ancilla\"), index=1>,\n5: <Qubit register=(13, \"ancilla\"), index=2>,\n6: <Qubit register=(13, \"ancilla\"), index=3>,\n7: <Qubit register=(13, \"ancilla\"), index=4>,\n8: <Qubit register=(13, \"ancilla\"), index=5>,\n9: <Qubit register=(13, \"ancilla\"), index=6>,\n10: <Qubit register=(13, \"ancilla\"), index=7>,\n11: <Qubit register=(13, \"ancilla\"), index=8>,\n12: <Qubit register=(13, \"ancilla\"), index=9>,\n13: <Qubit register=(13, \"ancilla\"), index=10>,\n14: <Qubit register=(13, \"ancilla\"), index=11>,\n15: <Qubit register=(13, \"ancilla\"), index=12>,\n16: <Qubit register=(1, \"resonators\"), index=0>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(13, \"ancilla\"), index=0>: 3, <Qubit register=(13, \"ancilla\"), index=1>: 4, <Qubit register=(13, \"ancilla\"), index=2>: 5, <Qubit register=(13, \"ancilla\"), index=3>: 6, <Qubit register=(13, \"ancilla\"), index=4>: 7, <Qubit register=(13, \"ancilla\"), index=5>: 8, <Qubit register=(13, \"ancilla\"), index=6>: 9, <Qubit register=(13, \"ancilla\"), index=7>: 10, <Qubit register=(13, \"ancilla\"), index=8>: 11, <Qubit register=(13, \"ancilla\"), index=9>: 12, <Qubit register=(13, \"ancilla\"), index=10>: 13, <Qubit register=(13, \"ancilla\"), index=11>: 14, <Qubit register=(13, \"ancilla\"), index=12>: 15, <Qubit register=(1, \"resonators\"), index=0>: 16}, final_layout=Layout({\n0: <Qubit register=(17, \"q\"), index=0>,\n1: <Qubit register=(17, \"q\"), index=1>,\n2: <Qubit register=(17, \"q\"), index=2>,\n3: <Qubit register=(17, \"q\"), index=3>,\n4: <Qubit register=(17, \"q\"), index=4>,\n5: <Qubit register=(17, \"q\"), index=5>,\n6: <Qubit register=(17, \"q\"), index=6>,\n7: <Qubit register=(17, \"q\"), index=7>,\n8: <Qubit register=(17, \"q\"), index=8>,\n9: <Qubit register=(17, \"q\"), index=9>,\n10: <Qubit register=(17, \"q\"), index=10>,\n11: <Qubit register=(17, \"q\"), index=11>,\n12: <Qubit register=(17, \"q\"), index=12>,\n13: <Qubit register=(17, \"q\"), index=13>,\n14: <Qubit register=(17, \"q\"), index=14>,\n15: <Qubit register=(17, \"q\"), index=15>,\n16: <Qubit register=(17, \"q\"), index=16>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(17, \"q\"), index=0>, <Qubit register=(17, \"q\"), index=1>, <Qubit register=(17, \"q\"), index=2>, <Qubit register=(17, \"q\"), index=3>, <Qubit register=(17, \"q\"), index=4>, <Qubit register=(17, \"q\"), index=5>, <Qubit register=(17, \"q\"), index=6>, <Qubit register=(17, \"q\"), index=7>, <Qubit register=(17, \"q\"), index=8>, <Qubit register=(17, \"q\"), index=9>, <Qubit register=(17, \"q\"), index=10>, <Qubit register=(17, \"q\"), index=11>, <Qubit register=(17, \"q\"), index=12>, <Qubit register=(17, \"q\"), index=13>, <Qubit register=(17, \"q\"), index=14>, <Qubit register=(17, \"q\"), index=15>, <Qubit register=(17, \"q\"), index=16>])"
+    },
+    {
+      "depth": 27,
+      "width": 17,
+      "active_physical_qubits": [
+        0,
+        1,
+        2,
+        16
+      ],
+      "operations": {
+        "r": 18,
+        "move": 12,
+        "cz": 10,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(13, \"ancilla\"), index=0>,\n4: <Qubit register=(13, \"ancilla\"), index=1>,\n5: <Qubit register=(13, \"ancilla\"), index=2>,\n6: <Qubit register=(13, \"ancilla\"), index=3>,\n7: <Qubit register=(13, \"ancilla\"), index=4>,\n8: <Qubit register=(13, \"ancilla\"), index=5>,\n9: <Qubit register=(13, \"ancilla\"), index=6>,\n10: <Qubit register=(13, \"ancilla\"), index=7>,\n11: <Qubit register=(13, \"ancilla\"), index=8>,\n12: <Qubit register=(13, \"ancilla\"), index=9>,\n13: <Qubit register=(13, \"ancilla\"), index=10>,\n14: <Qubit register=(13, \"ancilla\"), index=11>,\n15: <Qubit register=(13, \"ancilla\"), index=12>,\n16: <Qubit register=(1, \"resonators\"), index=0>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(13, \"ancilla\"), index=0>: 3, <Qubit register=(13, \"ancilla\"), index=1>: 4, <Qubit register=(13, \"ancilla\"), index=2>: 5, <Qubit register=(13, \"ancilla\"), index=3>: 6, <Qubit register=(13, \"ancilla\"), index=4>: 7, <Qubit register=(13, \"ancilla\"), index=5>: 8, <Qubit register=(13, \"ancilla\"), index=6>: 9, <Qubit register=(13, \"ancilla\"), index=7>: 10, <Qubit register=(13, \"ancilla\"), index=8>: 11, <Qubit register=(13, \"ancilla\"), index=9>: 12, <Qubit register=(13, \"ancilla\"), index=10>: 13, <Qubit register=(13, \"ancilla\"), index=11>: 14, <Qubit register=(13, \"ancilla\"), index=12>: 15, <Qubit register=(1, \"resonators\"), index=0>: 16}, final_layout=Layout({\n0: <Qubit register=(17, \"q\"), index=0>,\n1: <Qubit register=(17, \"q\"), index=1>,\n2: <Qubit register=(17, \"q\"), index=2>,\n3: <Qubit register=(17, \"q\"), index=3>,\n4: <Qubit register=(17, \"q\"), index=4>,\n5: <Qubit register=(17, \"q\"), index=5>,\n6: <Qubit register=(17, \"q\"), index=6>,\n7: <Qubit register=(17, \"q\"), index=7>,\n8: <Qubit register=(17, \"q\"), index=8>,\n9: <Qubit register=(17, \"q\"), index=9>,\n10: <Qubit register=(17, \"q\"), index=10>,\n11: <Qubit register=(17, \"q\"), index=11>,\n12: <Qubit register=(17, \"q\"), index=12>,\n13: <Qubit register=(17, \"q\"), index=13>,\n14: <Qubit register=(17, \"q\"), index=14>,\n15: <Qubit register=(17, \"q\"), index=15>,\n16: <Qubit register=(17, \"q\"), index=16>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(17, \"q\"), index=0>, <Qubit register=(17, \"q\"), index=1>, <Qubit register=(17, \"q\"), index=2>, <Qubit register=(17, \"q\"), index=3>, <Qubit register=(17, \"q\"), index=4>, <Qubit register=(17, \"q\"), index=5>, <Qubit register=(17, \"q\"), index=6>, <Qubit register=(17, \"q\"), index=7>, <Qubit register=(17, \"q\"), index=8>, <Qubit register=(17, \"q\"), index=9>, <Qubit register=(17, \"q\"), index=10>, <Qubit register=(17, \"q\"), index=11>, <Qubit register=(17, \"q\"), index=12>, <Qubit register=(17, \"q\"), index=13>, <Qubit register=(17, \"q\"), index=14>, <Qubit register=(17, \"q\"), index=15>, <Qubit register=(17, \"q\"), index=16>])"
+    },
+    {
+      "depth": 12,
+      "width": 17,
+      "active_physical_qubits": [
+        0,
+        1,
+        2,
+        16
+      ],
+      "operations": {
+        "r": 11,
+        "move": 4,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(13, \"ancilla\"), index=0>,\n4: <Qubit register=(13, \"ancilla\"), index=1>,\n5: <Qubit register=(13, \"ancilla\"), index=2>,\n6: <Qubit register=(13, \"ancilla\"), index=3>,\n7: <Qubit register=(13, \"ancilla\"), index=4>,\n8: <Qubit register=(13, \"ancilla\"), index=5>,\n9: <Qubit register=(13, \"ancilla\"), index=6>,\n10: <Qubit register=(13, \"ancilla\"), index=7>,\n11: <Qubit register=(13, \"ancilla\"), index=8>,\n12: <Qubit register=(13, \"ancilla\"), index=9>,\n13: <Qubit register=(13, \"ancilla\"), index=10>,\n14: <Qubit register=(13, \"ancilla\"), index=11>,\n15: <Qubit register=(13, \"ancilla\"), index=12>,\n16: <Qubit register=(1, \"resonators\"), index=0>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(13, \"ancilla\"), index=0>: 3, <Qubit register=(13, \"ancilla\"), index=1>: 4, <Qubit register=(13, \"ancilla\"), index=2>: 5, <Qubit register=(13, \"ancilla\"), index=3>: 6, <Qubit register=(13, \"ancilla\"), index=4>: 7, <Qubit register=(13, \"ancilla\"), index=5>: 8, <Qubit register=(13, \"ancilla\"), index=6>: 9, <Qubit register=(13, \"ancilla\"), index=7>: 10, <Qubit register=(13, \"ancilla\"), index=8>: 11, <Qubit register=(13, \"ancilla\"), index=9>: 12, <Qubit register=(13, \"ancilla\"), index=10>: 13, <Qubit register=(13, \"ancilla\"), index=11>: 14, <Qubit register=(13, \"ancilla\"), index=12>: 15, <Qubit register=(1, \"resonators\"), index=0>: 16}, final_layout=Layout({\n0: <Qubit register=(17, \"q\"), index=0>,\n1: <Qubit register=(17, \"q\"), index=1>,\n2: <Qubit register=(17, \"q\"), index=2>,\n3: <Qubit register=(17, \"q\"), index=3>,\n4: <Qubit register=(17, \"q\"), index=4>,\n5: <Qubit register=(17, \"q\"), index=5>,\n6: <Qubit register=(17, \"q\"), index=6>,\n7: <Qubit register=(17, \"q\"), index=7>,\n8: <Qubit register=(17, \"q\"), index=8>,\n9: <Qubit register=(17, \"q\"), index=9>,\n10: <Qubit register=(17, \"q\"), index=10>,\n11: <Qubit register=(17, \"q\"), index=11>,\n12: <Qubit register=(17, \"q\"), index=12>,\n13: <Qubit register=(17, \"q\"), index=13>,\n14: <Qubit register=(17, \"q\"), index=14>,\n15: <Qubit register=(17, \"q\"), index=15>,\n16: <Qubit register=(17, \"q\"), index=16>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(17, \"q\"), index=0>, <Qubit register=(17, \"q\"), index=1>, <Qubit register=(17, \"q\"), index=2>, <Qubit register=(17, \"q\"), index=3>, <Qubit register=(17, \"q\"), index=4>, <Qubit register=(17, \"q\"), index=5>, <Qubit register=(17, \"q\"), index=6>, <Qubit register=(17, \"q\"), index=7>, <Qubit register=(17, \"q\"), index=8>, <Qubit register=(17, \"q\"), index=9>, <Qubit register=(17, \"q\"), index=10>, <Qubit register=(17, \"q\"), index=11>, <Qubit register=(17, \"q\"), index=12>, <Qubit register=(17, \"q\"), index=13>, <Qubit register=(17, \"q\"), index=14>, <Qubit register=(17, \"q\"), index=15>, <Qubit register=(17, \"q\"), index=16>])"
+    },
+    {
+      "depth": 27,
+      "width": 17,
+      "active_physical_qubits": [
+        0,
+        1,
+        2,
+        16
+      ],
+      "operations": {
+        "r": 18,
+        "move": 12,
+        "cz": 10,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(13, \"ancilla\"), index=0>,\n4: <Qubit register=(13, \"ancilla\"), index=1>,\n5: <Qubit register=(13, \"ancilla\"), index=2>,\n6: <Qubit register=(13, \"ancilla\"), index=3>,\n7: <Qubit register=(13, \"ancilla\"), index=4>,\n8: <Qubit register=(13, \"ancilla\"), index=5>,\n9: <Qubit register=(13, \"ancilla\"), index=6>,\n10: <Qubit register=(13, \"ancilla\"), index=7>,\n11: <Qubit register=(13, \"ancilla\"), index=8>,\n12: <Qubit register=(13, \"ancilla\"), index=9>,\n13: <Qubit register=(13, \"ancilla\"), index=10>,\n14: <Qubit register=(13, \"ancilla\"), index=11>,\n15: <Qubit register=(13, \"ancilla\"), index=12>,\n16: <Qubit register=(1, \"resonators\"), index=0>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(13, \"ancilla\"), index=0>: 3, <Qubit register=(13, \"ancilla\"), index=1>: 4, <Qubit register=(13, \"ancilla\"), index=2>: 5, <Qubit register=(13, \"ancilla\"), index=3>: 6, <Qubit register=(13, \"ancilla\"), index=4>: 7, <Qubit register=(13, \"ancilla\"), index=5>: 8, <Qubit register=(13, \"ancilla\"), index=6>: 9, <Qubit register=(13, \"ancilla\"), index=7>: 10, <Qubit register=(13, \"ancilla\"), index=8>: 11, <Qubit register=(13, \"ancilla\"), index=9>: 12, <Qubit register=(13, \"ancilla\"), index=10>: 13, <Qubit register=(13, \"ancilla\"), index=11>: 14, <Qubit register=(13, \"ancilla\"), index=12>: 15, <Qubit register=(1, \"resonators\"), index=0>: 16}, final_layout=Layout({\n0: <Qubit register=(17, \"q\"), index=0>,\n1: <Qubit register=(17, \"q\"), index=1>,\n2: <Qubit register=(17, \"q\"), index=2>,\n3: <Qubit register=(17, \"q\"), index=3>,\n4: <Qubit register=(17, \"q\"), index=4>,\n5: <Qubit register=(17, \"q\"), index=5>,\n6: <Qubit register=(17, \"q\"), index=6>,\n7: <Qubit register=(17, \"q\"), index=7>,\n8: <Qubit register=(17, \"q\"), index=8>,\n9: <Qubit register=(17, \"q\"), index=9>,\n10: <Qubit register=(17, \"q\"), index=10>,\n11: <Qubit register=(17, \"q\"), index=11>,\n12: <Qubit register=(17, \"q\"), index=12>,\n13: <Qubit register=(17, \"q\"), index=13>,\n14: <Qubit register=(17, \"q\"), index=14>,\n15: <Qubit register=(17, \"q\"), index=15>,\n16: <Qubit register=(17, \"q\"), index=16>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(17, \"q\"), index=0>, <Qubit register=(17, \"q\"), index=1>, <Qubit register=(17, \"q\"), index=2>, <Qubit register=(17, \"q\"), index=3>, <Qubit register=(17, \"q\"), index=4>, <Qubit register=(17, \"q\"), index=5>, <Qubit register=(17, \"q\"), index=6>, <Qubit register=(17, \"q\"), index=7>, <Qubit register=(17, \"q\"), index=8>, <Qubit register=(17, \"q\"), index=9>, <Qubit register=(17, \"q\"), index=10>, <Qubit register=(17, \"q\"), index=11>, <Qubit register=(17, \"q\"), index=12>, <Qubit register=(17, \"q\"), index=13>, <Qubit register=(17, \"q\"), index=14>, <Qubit register=(17, \"q\"), index=15>, <Qubit register=(17, \"q\"), index=16>])"
+    },
+    {
+      "depth": 12,
+      "width": 17,
+      "active_physical_qubits": [
+        0,
+        1,
+        2,
+        16
+      ],
+      "operations": {
+        "r": 11,
+        "move": 4,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(13, \"ancilla\"), index=0>,\n4: <Qubit register=(13, \"ancilla\"), index=1>,\n5: <Qubit register=(13, \"ancilla\"), index=2>,\n6: <Qubit register=(13, \"ancilla\"), index=3>,\n7: <Qubit register=(13, \"ancilla\"), index=4>,\n8: <Qubit register=(13, \"ancilla\"), index=5>,\n9: <Qubit register=(13, \"ancilla\"), index=6>,\n10: <Qubit register=(13, \"ancilla\"), index=7>,\n11: <Qubit register=(13, \"ancilla\"), index=8>,\n12: <Qubit register=(13, \"ancilla\"), index=9>,\n13: <Qubit register=(13, \"ancilla\"), index=10>,\n14: <Qubit register=(13, \"ancilla\"), index=11>,\n15: <Qubit register=(13, \"ancilla\"), index=12>,\n16: <Qubit register=(1, \"resonators\"), index=0>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(13, \"ancilla\"), index=0>: 3, <Qubit register=(13, \"ancilla\"), index=1>: 4, <Qubit register=(13, \"ancilla\"), index=2>: 5, <Qubit register=(13, \"ancilla\"), index=3>: 6, <Qubit register=(13, \"ancilla\"), index=4>: 7, <Qubit register=(13, \"ancilla\"), index=5>: 8, <Qubit register=(13, \"ancilla\"), index=6>: 9, <Qubit register=(13, \"ancilla\"), index=7>: 10, <Qubit register=(13, \"ancilla\"), index=8>: 11, <Qubit register=(13, \"ancilla\"), index=9>: 12, <Qubit register=(13, \"ancilla\"), index=10>: 13, <Qubit register=(13, \"ancilla\"), index=11>: 14, <Qubit register=(13, \"ancilla\"), index=12>: 15, <Qubit register=(1, \"resonators\"), index=0>: 16}, final_layout=Layout({\n0: <Qubit register=(17, \"q\"), index=0>,\n1: <Qubit register=(17, \"q\"), index=1>,\n2: <Qubit register=(17, \"q\"), index=2>,\n3: <Qubit register=(17, \"q\"), index=3>,\n4: <Qubit register=(17, \"q\"), index=4>,\n5: <Qubit register=(17, \"q\"), index=5>,\n6: <Qubit register=(17, \"q\"), index=6>,\n7: <Qubit register=(17, \"q\"), index=7>,\n8: <Qubit register=(17, \"q\"), index=8>,\n9: <Qubit register=(17, \"q\"), index=9>,\n10: <Qubit register=(17, \"q\"), index=10>,\n11: <Qubit register=(17, \"q\"), index=11>,\n12: <Qubit register=(17, \"q\"), index=12>,\n13: <Qubit register=(17, \"q\"), index=13>,\n14: <Qubit register=(17, \"q\"), index=14>,\n15: <Qubit register=(17, \"q\"), index=15>,\n16: <Qubit register=(17, \"q\"), index=16>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(17, \"q\"), index=0>, <Qubit register=(17, \"q\"), index=1>, <Qubit register=(17, \"q\"), index=2>, <Qubit register=(17, \"q\"), index=3>, <Qubit register=(17, \"q\"), index=4>, <Qubit register=(17, \"q\"), index=5>, <Qubit register=(17, \"q\"), index=6>, <Qubit register=(17, \"q\"), index=7>, <Qubit register=(17, \"q\"), index=8>, <Qubit register=(17, \"q\"), index=9>, <Qubit register=(17, \"q\"), index=10>, <Qubit register=(17, \"q\"), index=11>, <Qubit register=(17, \"q\"), index=12>, <Qubit register=(17, \"q\"), index=13>, <Qubit register=(17, \"q\"), index=14>, <Qubit register=(17, \"q\"), index=15>, <Qubit register=(17, \"q\"), index=16>])"
+    },
+    {
+      "depth": 27,
+      "width": 17,
+      "active_physical_qubits": [
+        0,
+        1,
+        2,
+        16
+      ],
+      "operations": {
+        "r": 18,
+        "move": 12,
+        "cz": 10,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(13, \"ancilla\"), index=0>,\n4: <Qubit register=(13, \"ancilla\"), index=1>,\n5: <Qubit register=(13, \"ancilla\"), index=2>,\n6: <Qubit register=(13, \"ancilla\"), index=3>,\n7: <Qubit register=(13, \"ancilla\"), index=4>,\n8: <Qubit register=(13, \"ancilla\"), index=5>,\n9: <Qubit register=(13, \"ancilla\"), index=6>,\n10: <Qubit register=(13, \"ancilla\"), index=7>,\n11: <Qubit register=(13, \"ancilla\"), index=8>,\n12: <Qubit register=(13, \"ancilla\"), index=9>,\n13: <Qubit register=(13, \"ancilla\"), index=10>,\n14: <Qubit register=(13, \"ancilla\"), index=11>,\n15: <Qubit register=(13, \"ancilla\"), index=12>,\n16: <Qubit register=(1, \"resonators\"), index=0>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(13, \"ancilla\"), index=0>: 3, <Qubit register=(13, \"ancilla\"), index=1>: 4, <Qubit register=(13, \"ancilla\"), index=2>: 5, <Qubit register=(13, \"ancilla\"), index=3>: 6, <Qubit register=(13, \"ancilla\"), index=4>: 7, <Qubit register=(13, \"ancilla\"), index=5>: 8, <Qubit register=(13, \"ancilla\"), index=6>: 9, <Qubit register=(13, \"ancilla\"), index=7>: 10, <Qubit register=(13, \"ancilla\"), index=8>: 11, <Qubit register=(13, \"ancilla\"), index=9>: 12, <Qubit register=(13, \"ancilla\"), index=10>: 13, <Qubit register=(13, \"ancilla\"), index=11>: 14, <Qubit register=(13, \"ancilla\"), index=12>: 15, <Qubit register=(1, \"resonators\"), index=0>: 16}, final_layout=Layout({\n0: <Qubit register=(17, \"q\"), index=0>,\n1: <Qubit register=(17, \"q\"), index=1>,\n2: <Qubit register=(17, \"q\"), index=2>,\n3: <Qubit register=(17, \"q\"), index=3>,\n4: <Qubit register=(17, \"q\"), index=4>,\n5: <Qubit register=(17, \"q\"), index=5>,\n6: <Qubit register=(17, \"q\"), index=6>,\n7: <Qubit register=(17, \"q\"), index=7>,\n8: <Qubit register=(17, \"q\"), index=8>,\n9: <Qubit register=(17, \"q\"), index=9>,\n10: <Qubit register=(17, \"q\"), index=10>,\n11: <Qubit register=(17, \"q\"), index=11>,\n12: <Qubit register=(17, \"q\"), index=12>,\n13: <Qubit register=(17, \"q\"), index=13>,\n14: <Qubit register=(17, \"q\"), index=14>,\n15: <Qubit register=(17, \"q\"), index=15>,\n16: <Qubit register=(17, \"q\"), index=16>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(17, \"q\"), index=0>, <Qubit register=(17, \"q\"), index=1>, <Qubit register=(17, \"q\"), index=2>, <Qubit register=(17, \"q\"), index=3>, <Qubit register=(17, \"q\"), index=4>, <Qubit register=(17, \"q\"), index=5>, <Qubit register=(17, \"q\"), index=6>, <Qubit register=(17, \"q\"), index=7>, <Qubit register=(17, \"q\"), index=8>, <Qubit register=(17, \"q\"), index=9>, <Qubit register=(17, \"q\"), index=10>, <Qubit register=(17, \"q\"), index=11>, <Qubit register=(17, \"q\"), index=12>, <Qubit register=(17, \"q\"), index=13>, <Qubit register=(17, \"q\"), index=14>, <Qubit register=(17, \"q\"), index=15>, <Qubit register=(17, \"q\"), index=16>])"
+    },
+    {
+      "depth": 12,
+      "width": 17,
+      "active_physical_qubits": [
+        0,
+        1,
+        2,
+        16
+      ],
+      "operations": {
+        "r": 11,
+        "move": 4,
+        "cz": 4,
+        "barrier": 4,
+        "measure": 3
+      },
+      "layout": "TranspileLayout(initial_layout=Layout({\n0: <Qubit register=(3, \"q\"), index=0>,\n1: <Qubit register=(3, \"q\"), index=1>,\n2: <Qubit register=(3, \"q\"), index=2>,\n3: <Qubit register=(13, \"ancilla\"), index=0>,\n4: <Qubit register=(13, \"ancilla\"), index=1>,\n5: <Qubit register=(13, \"ancilla\"), index=2>,\n6: <Qubit register=(13, \"ancilla\"), index=3>,\n7: <Qubit register=(13, \"ancilla\"), index=4>,\n8: <Qubit register=(13, \"ancilla\"), index=5>,\n9: <Qubit register=(13, \"ancilla\"), index=6>,\n10: <Qubit register=(13, \"ancilla\"), index=7>,\n11: <Qubit register=(13, \"ancilla\"), index=8>,\n12: <Qubit register=(13, \"ancilla\"), index=9>,\n13: <Qubit register=(13, \"ancilla\"), index=10>,\n14: <Qubit register=(13, \"ancilla\"), index=11>,\n15: <Qubit register=(13, \"ancilla\"), index=12>,\n16: <Qubit register=(1, \"resonators\"), index=0>\n}), input_qubit_mapping={<Qubit register=(3, \"q\"), index=0>: 0, <Qubit register=(3, \"q\"), index=1>: 1, <Qubit register=(3, \"q\"), index=2>: 2, <Qubit register=(13, \"ancilla\"), index=0>: 3, <Qubit register=(13, \"ancilla\"), index=1>: 4, <Qubit register=(13, \"ancilla\"), index=2>: 5, <Qubit register=(13, \"ancilla\"), index=3>: 6, <Qubit register=(13, \"ancilla\"), index=4>: 7, <Qubit register=(13, \"ancilla\"), index=5>: 8, <Qubit register=(13, \"ancilla\"), index=6>: 9, <Qubit register=(13, \"ancilla\"), index=7>: 10, <Qubit register=(13, \"ancilla\"), index=8>: 11, <Qubit register=(13, \"ancilla\"), index=9>: 12, <Qubit register=(13, \"ancilla\"), index=10>: 13, <Qubit register=(13, \"ancilla\"), index=11>: 14, <Qubit register=(13, \"ancilla\"), index=12>: 15, <Qubit register=(1, \"resonators\"), index=0>: 16}, final_layout=Layout({\n0: <Qubit register=(17, \"q\"), index=0>,\n1: <Qubit register=(17, \"q\"), index=1>,\n2: <Qubit register=(17, \"q\"), index=2>,\n3: <Qubit register=(17, \"q\"), index=3>,\n4: <Qubit register=(17, \"q\"), index=4>,\n5: <Qubit register=(17, \"q\"), index=5>,\n6: <Qubit register=(17, \"q\"), index=6>,\n7: <Qubit register=(17, \"q\"), index=7>,\n8: <Qubit register=(17, \"q\"), index=8>,\n9: <Qubit register=(17, \"q\"), index=9>,\n10: <Qubit register=(17, \"q\"), index=10>,\n11: <Qubit register=(17, \"q\"), index=11>,\n12: <Qubit register=(17, \"q\"), index=12>,\n13: <Qubit register=(17, \"q\"), index=13>,\n14: <Qubit register=(17, \"q\"), index=14>,\n15: <Qubit register=(17, \"q\"), index=15>,\n16: <Qubit register=(17, \"q\"), index=16>\n}), _input_qubit_count=3, _output_qubit_list=[<Qubit register=(17, \"q\"), index=0>, <Qubit register=(17, \"q\"), index=1>, <Qubit register=(17, \"q\"), index=2>, <Qubit register=(17, \"q\"), index=3>, <Qubit register=(17, \"q\"), index=4>, <Qubit register=(17, \"q\"), index=5>, <Qubit register=(17, \"q\"), index=6>, <Qubit register=(17, \"q\"), index=7>, <Qubit register=(17, \"q\"), index=8>, <Qubit register=(17, \"q\"), index=9>, <Qubit register=(17, \"q\"), index=10>, <Qubit register=(17, \"q\"), index=11>, <Qubit register=(17, \"q\"), index=12>, <Qubit register=(17, \"q\"), index=13>, <Qubit register=(17, \"q\"), index=14>, <Qubit register=(17, \"q\"), index=15>, <Qubit register=(17, \"q\"), index=16>])"
+    }
+  ],
+  "pricing": "No dollar estimate: verify current pricing in Resonance before submission."
+}

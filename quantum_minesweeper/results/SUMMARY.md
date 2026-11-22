@@ -16,7 +16,9 @@ For levels 1–3 fidelity means recovered logical/reference fidelity; for level 
 | iqm-local-fake-noise / fake-adonis | 2 | 8 | 73.5840% | 84.7168% | 78.2715% |
 | iqm-local-fake-noise / fake-adonis | 3 | 8 | 74.6094% | 83.7402% | 78.5645% |
 | iqm-local-fake-noise / fake-garnet | 4 | 13 | 73.3173% | not measured | — |
+| iqm-hardware / emerald | 1 | 8 | 94.5801% | 95.4590% | 85.3516% |
 | iqm-hardware / garnet | 1 | 8 | 88.8184% | 93.4082% | 84.5703% |
+| iqm-hardware / sirius | 1 | 8 | 72.7051% | 78.6133% | 81.2012% |
 
 ![Simulation and hardware comparison](comparison.svg)
 
@@ -32,6 +34,8 @@ Recovery-disabled controls retain encoding and decoding and omit the final recov
 
 ## Actual IQM hardware jobs
 
+- Backend `emerald`, job `01a20234-8532-73f6-90dc-f3a025d72609`: `results/iqm-emerald/results.json`.
 - Backend `garnet`, job `01a1ffa5-97e8-77e2-ac14-9a55f2083731`: `results/iqm-pilot/results.json`.
+- Backend `sirius`, job `01a20232-ba40-74f0-9633-3d669a73cf7b`: `results/iqm-sirius/results.json`.
 
 See `docs/HARDWARE_RESULTS.md` for the pilot's complete per-configuration comparison and limitations. Hardware evidence currently covers level 1; levels 2–4 are verified in simulation.
