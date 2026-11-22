@@ -6,7 +6,7 @@
 
 You live in Suite 8. Each time you walk in from the hallway, the gramophone plays **one note**: one fresh copy of the same hidden 8-qubit quantum state, measured once. The household objects (window, closet, trash, couch, clock, lamp, juice bottle, radiator) *are* the measured qubits. Map them, decode the music, discover the XOR constraints, find the hidden **Hadamard's Harmonics™** cartridge to hear the phase that ordinary notes can never reveal, and play the vault its sixteen-note melody, from rarest to most probable, with the right closing chord. Then find out what the qubit that was always 1 really was.
 
-Everything quantum runs on a **from-scratch TypeScript statevector simulator** (256 complex amplitudes, real unitary gates, the Born rule, projective collapse). It is cross-checked against Qiskit. No server, account, network or quantum backend is needed.
+Everything quantum runs on a **from-scratch TypeScript statevector simulator** (2 complex amplitudes, real unitary gates, the Born rule, projective collapse). It is cross-checked against Qiskit. No server, account, network or quantum backend is needed.
 
 ---
 
@@ -144,7 +144,7 @@ The white hover outline is generated from whatever texture is loaded, so replace
 | Criterion | How we meet it |
 |---|---|
 | **Quantum connection (25%)** | Every mechanic is a quantum rule: one copy → one measurement; the household objects are measured qubits; collapse (the lantern's partial measurement and conditional sampling); CNOT parity encoding (16 supported outcomes); CZ entanglement; a phase invisible to Z but visible to an X-basis interference experiment; Born-rule weights decide the vault order. Nothing is "random theatrics". |
-| **Technical understanding / ownership (25%)** | Hand-written statevector engine; derivations in QUANTUM_EXPLANATION (amplitudes, Born rule, reduced-state purity, why the uncomputation is needed, partial measurement, simulation ≠ speed-up); 56 tests; Qiskit cross-check; debug quantum tab. |
+| **Technical understanding / ownership (25%)** | Hand-written statevector engine; derivations in QUANTUM_EXPLANATION (amplitudes, Born rule, reduced-state purity, why the uncomputation is needed, partial measurement, simulation ≠ speed-up); 67 tests; Qiskit cross-check; debug quantum tab. |
 | **Creativity (25%)** | Bedroom routes as binary addresses, the house as a measurement apparatus, prime-weighted melody, Hadamard's Harmonics™, the Many-Worlds Toaster, a cat qubit foreshadowed by a window that never closes, the editable House Manual. |
 | **Functionality (15%)** | Complete golden path (tested for both phases and two seeds), autosave, rewinds that keep research, three-tier hints for 15 puzzles, a side quest that never gates, procedural fallback for every asset. |
 | **UX (5%)** | Undertale-*inspired* (not copied) dialogue box with typewriter text and skip, white outlines on everything actionable, keyboard/mouse/touch, portrait phone camera, reduced motion, text speed, colour-blind-safe sensor descriptions, offline bundled pixel fonts. |
