@@ -1,5 +1,7 @@
 # Quantum Minesweeper — QUBLITZ 2026
 
+> **Also in this repository:** the QUBLITZ 2026 **Magic State Verification** challenge (Theory / Algorithms). See [`magic_state_verification/`](magic_state_verification/).
+
 All four levels are implemented and verified in simulation. **Level 1 has also run successfully on real IQM Garnet hardware:** 16 circuits, 4,096 circuit-shots, 93.4% mean logical input survival with recovery versus 84.6% with recovery disabled. See [the hardware experiment](docs/HARDWARE_RESULTS.md). Levels 2–4 currently have simulation evidence only. The IQM runner compiles native circuits, runs local noise models, and submits/retrieves real Resonance jobs.
 
 The design uses the stabilizer-Hamiltonian viewpoint from lattice field theory. Small repetition and error-detecting codes are the right tools for the specified error sets; no continuum field simulation is needed. See [the derivation](docs/THEORY.md), [file guide](docs/FILE_GUIDE.md), [hardware guide](docs/IQM.md), and [live-demo notes](docs/DEMO.md).
