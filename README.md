@@ -1,6 +1,6 @@
 # QUBLITZ 2026
 
-This repository contains two challenge projects:
+This repository contains four challenge projects:
 
 - [Quantum Minesweeper](quantum_minesweeper/): quantum error correction challenge, IQM hardware results, and presentation materials.
 - [Magic State Verification](magic_state_verification/): the Theory / Algorithms challenge.
