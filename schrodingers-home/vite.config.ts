@@ -45,6 +45,8 @@ function assetIndex(): Plugin {
 export default defineConfig({
   plugins: [react(), assetIndex()],
   base: './',
+  // Phaser's development source map is large; keep dependency prebundling lean.
+  optimizeDeps: { esbuildOptions: { sourcemap: false } },
   define: { __BUILD_HASH__: JSON.stringify(Date.now().toString(36)) },
   server: { port: 5173, host: true },
   build: {

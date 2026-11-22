@@ -53,6 +53,8 @@ await new Promise((res, rej) => {
 const browser = await chromium.launch({ channel: process.env.CHROME_PATH ? undefined : 'chrome', executablePath: process.env.CHROME_PATH, headless: true, args: ['--autoplay-policy=no-user-gesture-required'] });
 const errors = [];
 let page;
+// Low-disk runs can still verify every interaction without saving PNGs.
+const snap = (options) => process.env.SMOKE_SCREENSHOTS === '0' ? Promise.resolve() : page.screenshot(options);
 const sh = (fn, arg) => page.evaluate(fn, arg);
 const ui = () => sh(() => window.__sh.uiStore.get());
 const gs = () => sh(() => window.__sh.gameStore.get());
@@ -77,6 +79,8 @@ async function toScreen(x, y) {
   return { x: b.x + x * z, y: b.y + y * z };
 }
 async function clickWorld(x, y) {
+  // The fictional vault doorway now sits beside the photo-referenced bay window.
+  if ((await gs()).room === 'common' && x === 256 && y <= 30) x = 448;
   const p = await toScreen(x, y);
   await page.mouse.move(p.x, p.y);
   await page.waitForTimeout(80);
@@ -97,18 +101,18 @@ try {
   await page.evaluate(() => localStorage.clear());
   await page.reload();
   await page.waitForSelector('[data-testid=title]');
-  await page.screenshot({ path: `${OUT}/01-title.png` });
+  await snap({ path: `${OUT}/01-title.png` });
   check('title screen renders', true);
   const fontsOk = await page.evaluate(async () => { await document.fonts.ready; return document.fonts.check('12px "Press Start 2P"') && document.fonts.check('16px "Pixelify Sans"'); });
   check('bundled pixel fonts load offline', fontsOk);
 
   await page.click('[data-testid=new-game]');
   await page.fill('[data-testid=name-input]', 'Ada');
-  await page.screenshot({ path: `${OUT}/02-name.png` });
+  await snap({ path: `${OUT}/02-name.png` });
   await page.click('[data-testid=begin]');
   await page.waitForSelector('canvas');
   await page.waitForTimeout(1200);
-  await page.screenshot({ path: `${OUT}/03-foyer-intro.png` });
+  await snap({ path: `${OUT}/03-foyer-intro.png` });
   check('game canvas boots with intro dialogue', (await ui()).dialogue.length > 0);
   const zoom = (await page.locator('canvas').boundingBox()).width / 512;
   check('integer pixel scaling at 1280x800', Number.isInteger(zoom), `zoom=${zoom}`);
@@ -121,11 +125,11 @@ try {
   await page.waitForTimeout(700);
   let s = await gs();
   check('walking in from the foyer prepares exactly one shot', s.journal.shots.length === 1 && s.timeline.status === 'active', `shots=${s.journal.shots.length}`);
-  await page.screenshot({ path: `${OUT}/04-common-first-note.png` });
+  await snap({ path: `${OUT}/04-common-first-note.png` });
   await drain();
 
   // hover outline + prompt on the window
-  const w = await toScreen(96, 28);
+  const w = await toScreen(256, 26);
   await page.mouse.move(w.x, w.y);
   await page.waitForTimeout(250);
   const prompt = await page.locator('[data-testid=prompt]').textContent().catch(() => '');
@@ -135,7 +139,7 @@ try {
     return sc.children.list.some((o) => o.texture?.key?.endsWith('__ring') && o.visible);
   });
   check('white outline overlay visible on hover', ring);
-  await page.screenshot({ path: `${OUT}/05-hover-window.png`, clip: { x: w.x - 120, y: w.y - 90, width: 300, height: 220 } });
+  await snap({ path: `${OUT}/05-hover-window.png`, clip: { x: w.x - 120, y: w.y - 90, width: 300, height: 220 } });
   await page.mouse.click(w.x, w.y);
   await page.waitForTimeout(300);
   const d = (await ui()).dialogue.map((l) => l.text).join(' ');
@@ -150,7 +154,7 @@ try {
   // prologue: vault -> forced rewind
   await clickWorld(256, 24); // north door
   await waitRoom('vault');
-  await page.screenshot({ path: `${OUT}/06-vault-room.png` });
+  await snap({ path: `${OUT}/06-vault-room.png` });
   await clickWorld(256, 30);
   await drain();
   await page.waitForTimeout(900);
@@ -165,7 +169,7 @@ try {
   await clickWorld(8, 160);
   await waitRoom('left');
   await drain();
-  await page.screenshot({ path: `${OUT}/07-left-bedroom.png` });
+  await snap({ path: `${OUT}/07-left-bedroom.png` });
   await clickWorld(504, 160);
   await waitRoom('common');
   s = await gs();
@@ -184,7 +188,7 @@ try {
   await clickWorld(190, 100);
   await drain();
   check('notebook match minigame opens', JSON.stringify((await ui()).panel).includes('notebookMatch'));
-  await page.screenshot({ path: `${OUT}/08-notebook-match.png` });
+  await snap({ path: `${OUT}/08-notebook-match.png` });
   const buttons = page.getByRole('button', { name: 'This one' });
   for (let i = 0; i < 3; i++) {
     if (!(await gs()).inventory.keyItems.includes('notebook')) await buttons.nth(i).click().catch(() => {});
@@ -193,13 +197,13 @@ try {
   await drain();
   await page.keyboard.press('n');
   await page.waitForTimeout(300);
-  await page.screenshot({ path: `${OUT}/09-notebook.png` });
+  await snap({ path: `${OUT}/09-notebook.png` });
   await page.getByRole('tab', { name: 'House Manual' }).click();
   await page.getByLabel('Route guess for row 3').fill('R R');
   await page.getByLabel('Notes for row 3').fill('typing wasd e works');
   s = await gs();
   check('House Manual accepts typing (incl. W/A/S/D/E keys)', s.manual[2].route === 'R R' && s.manual[2].notes === 'typing wasd e works');
-  await page.screenshot({ path: `${OUT}/10-house-manual.png` });
+  await snap({ path: `${OUT}/10-house-manual.png` });
   await page.keyboard.press('Escape');
 
   // checkpoint (debug) -> vault solve -> ending
@@ -212,9 +216,9 @@ try {
   await page.getByRole('button', { name: 'vault', exact: true }).first().click();
   await page.waitForTimeout(600);
   await drain();
-  await page.screenshot({ path: `${OUT}/11-debug-checkpoint.png` });
+  await snap({ path: `${OUT}/11-debug-checkpoint.png` });
   await page.getByRole('button', { name: 'quantum' }).click();
-  await page.screenshot({ path: `${OUT}/12-debug-quantum.png` });
+  await snap({ path: `${OUT}/12-debug-quantum.png` });
   await page.getByRole('button', { name: '▼' }).click();
   // fresh live shot from the foyer, then the vault
   await sh(() => window.__sh.session.loadCheckpoint('vault'));
@@ -228,7 +232,7 @@ try {
   await clickWorld(256, 30);
   await drain();
   check('vault sequencer opens when ready', JSON.stringify((await ui()).panel).includes('vault'));
-  await page.screenshot({ path: `${OUT}/13-vault-sequencer.png` });
+  await snap({ path: `${OUT}/13-vault-sequencer.png` });
   // wrong chord first: rewind, same secret
   const secret = await sh(() => ({ seed: window.__sh.gameStore.get().seed, phase: window.__sh.gameStore.get().phase }));
   await sh(() => { const p = window.__sh.puzzles; p.setVaultOrder(window.__sh.correctScore()); });
@@ -237,7 +241,7 @@ try {
   await page.waitForTimeout(500);
   s = await gs();
   check('wrong vault answer rewinds with the same secret', s.room === 'foyer' && s.seed === secret.seed && s.phase === secret.phase);
-  await page.screenshot({ path: `${OUT}/14-wrong-vault-rewind.png` });
+  await snap({ path: `${OUT}/14-wrong-vault-rewind.png` });
   await drain();
   await clickWorld(256, 30); await waitRoom('common'); await drain();
   await clickWorld(256, 24); await waitRoom('vault');
@@ -255,11 +259,11 @@ try {
   check('"dead" is a fake reset that asks again', (await page.textContent('body')).includes('No cats were harmed'));
   await btn('Alive').click();
   await page.waitForTimeout(300);
-  await page.screenshot({ path: `${OUT}/15-cat-alive.png` });
+  await snap({ path: `${OUT}/15-cat-alive.png` });
   await btn('…').click();
-  await page.screenshot({ path: `${OUT}/16-james-joke.png` });
+  await snap({ path: `${OUT}/16-james-joke.png` });
   await btn('Continue').click();
-  await page.screenshot({ path: `${OUT}/17-victory-stats.png` });
+  await snap({ path: `${OUT}/17-victory-stats.png` });
 
   // ---- minigame sweep: every overlay renders; solve mirror / ledger / toaster through the real UI
   page = await ctx.newPage();
@@ -275,7 +279,7 @@ try {
   for (const id of ['calibration', 'listening', 'switchboard', 'lantern', 'gramophone']) {
     await open(id);
     await page.waitForTimeout(250);
-    await page.screenshot({ path: `${OUT}/mg-${id}.png` });
+    await snap({ path: `${OUT}/mg-${id}.png` });
     await page.keyboard.press('Escape');
   }
   // listening: flip a wire (classical audition, no new shot)
@@ -297,23 +301,23 @@ try {
   const mid1 = await page.textContent('.modal');
   await shard(2).click();
   const mid2 = await page.textContent('.modal');
-  await page.screenshot({ path: `${OUT}/mg-mirror-partial.png` });
+  await snap({ path: `${OUT}/mg-mirror-partial.png` });
   for (let i = 0; i < 3; i++) await shard(3).click();
   check('Mirror shows intermediate beam states then opens the latch', /threads two|first shard/.test(mid1 + mid2) && (await gs()).puzzles.mirror.solved);
-  await page.screenshot({ path: `${OUT}/mg-mirror-solved.png` });
+  await snap({ path: `${OUT}/mg-mirror-solved.png` });
   await drain();
   await page.keyboard.press('Escape');
   // cartridge + ledger + toaster on the late checkpoint
   await sh(() => window.__sh.session.loadCheckpoint('late'));
   await drain();
   await open('cartridge');
-  await page.screenshot({ path: `${OUT}/mg-cartridge.png` });
+  await snap({ path: `${OUT}/mg-cartridge.png` });
   await page.keyboard.press('Escape');
   await open('ledger');
   const tile = (t) => page.getByRole('button', { name: `ratio ${t} to 1` });
   const slot = (a) => page.locator(`[aria-label^="switch ${a}"]`);
   for (const [a, t] of [[2, 2], [3, 3], [4, 5], [5, 7]]) { await tile(t).click(); await slot(a).click(); }
-  await page.screenshot({ path: `${OUT}/mg-ledger.png` });
+  await snap({ path: `${OUT}/mg-ledger.png` });
   await page.getByRole('button', { name: 'Balance the ledger' }).click();
   await drain();
   check('Prime Ledger solved through tile placement', (await gs()).puzzles.ledger.solved);
@@ -331,14 +335,14 @@ try {
   await drain();
   const g2 = await gs();
   check('Toaster: quiz unlocks it; one press = 4 shots; timeline untouched', g2.journal.shots.length === nShots + 4 && JSON.stringify(g2.timeline) === tl);
-  await page.screenshot({ path: `${OUT}/mg-toaster.png` });
+  await snap({ path: `${OUT}/mg-toaster.png` });
   await page.keyboard.press('Escape');
   // notebook pages all render
   await page.keyboard.press('n');
   for (const tab of ['Loops', 'House Manual', 'Room Symbols', 'Sound Comparison', 'Parity Notes', 'Prime Ledger', 'Phase / Echo', 'Draft Score']) {
     await page.getByRole('tab', { name: tab }).click();
     await page.waitForTimeout(120);
-    await page.screenshot({ path: `${OUT}/nb-${tab.replace(/[^a-z]/gi, '')}.png` });
+    await snap({ path: `${OUT}/nb-${tab.replace(/[^a-z]/gi, '')}.png` });
   }
   check('all eight notebook pages render', true);
   await page.keyboard.press('Escape');
@@ -353,7 +357,7 @@ try {
   await page.fill('[data-testid=name-input]', 'Mo');
   await page.click('[data-testid=begin]');
   await page.waitForTimeout(1200);
-  await page.screenshot({ path: `${OUT}/18-narrow-phone.png` });
+  await snap({ path: `${OUT}/18-narrow-phone.png` });
   const hasPad = await page.locator('[aria-label="Movement pad"]').count();
   check('narrow/touch viewport shows on-screen controls', hasPad === 1);
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
@@ -366,7 +370,7 @@ try {
   const winPath = path.resolve('public/assets/sprites/objects/window_open.png');
   const photoPath = path.resolve('public/assets/photos/james.jpg');
   fs.mkdirSync(path.dirname(winPath), { recursive: true });
-  fs.writeFileSync(winPath, png(32, 28, (x, y) => (x === 0 || y === 0 || x === 31 || y === 27 ? [10, 8, 20, 255] : (x + y) % 6 < 3 ? [255, 120, 40, 255] : [40, 200, 120, 255])));
+  fs.writeFileSync(winPath, png(128, 44, (x, y) => (x === 0 || y === 0 || x === 127 || y === 43 ? [10, 8, 20, 255] : (x + y) % 6 < 3 ? [255, 120, 40, 255] : [40, 200, 120, 255])));
   fs.writeFileSync(photoPath, png(240, 300, (x, y) => [(x * 255) / 240, 80, (y * 255) / 300, 255]));
   await page.waitForTimeout(1200);
   await page.goto(BASE + '?debug=1&seed=4242');
@@ -380,20 +384,20 @@ try {
   await drain();
   const loaded = await sh(() => window.__sh.loadReport.loaded);
   check('replacement sprite loaded from manifest path', loaded.includes('obj.window.open'));
-  const w2 = await toScreen(96, 28);
+  const w2 = await toScreen(256, 26);
   await page.mouse.move(w2.x, w2.y);
   await page.waitForTimeout(250);
   const ring2 = await page.evaluate(() => window.__game.scene.getScene('world').children.list.some((o) => o.texture?.key === 'obj.window.open__ring' && o.visible));
   check('replaced sprite inherits the white hover outline', ring2);
-  await page.screenshot({ path: `${OUT}/19-replaced-sprite-hover.png`, clip: { x: w2.x - 120, y: w2.y - 90, width: 300, height: 220 } });
+  await snap({ path: `${OUT}/19-replaced-sprite-hover.png`, clip: { x: w2.x - 120, y: w2.y - 90, width: 300, height: 220 } });
   await clickWorld(504, 160);
   await waitRoom('right');
-  await clickWorld(300, 26);
+  await clickWorld(320, 26);
   await drain();
   await page.waitForTimeout(300);
   const imgOk = await page.evaluate(() => [...document.querySelectorAll('.photo-frame img')].some((i) => i.src.includes('james.jpg') && i.naturalWidth > 0));
   check('replacement photo renders in the zoom modal (only on click)', imgOk);
-  await page.screenshot({ path: `${OUT}/20-photo-modal.png` });
+  await snap({ path: `${OUT}/20-photo-modal.png` });
   fs.unlinkSync(winPath);
   fs.unlinkSync(photoPath);
 } catch (e) {
@@ -404,7 +408,7 @@ try {
     const sc = await page.evaluate(() => { const w = window.__game.scene.getScene('world'); return { transitioning: w.transitioning, sceneRoom: w.room?.id, fade: w.cameras.main.fadeEffect.isRunning, flash: w.cameras.main.flashEffect.isRunning, lastClosed: window.__sh.uiStore.get().lastClosedAt, now: performance.now() }; });
     console.log('SCENE', JSON.stringify(sc));
     console.log('STATE AT FAILURE', JSON.stringify({ room: g.room, panel: u.panel, dialogue: u.dialogue.length, effect: u.effect, prompt: u.prompt, timeline: g.timeline }));
-    await page.screenshot({ path: `${OUT}/zz-failure.png` });
+    await snap({ path: `${OUT}/zz-failure.png` });
   } catch {}
 } finally {
   const real = errors.filter((e) => !/favicon/.test(e));

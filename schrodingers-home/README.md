@@ -171,3 +171,21 @@ The white hover outline is generated from whatever texture is loaded, so replace
 - Fonts (bundled via Fontsource, SIL Open Font License 1.1): **Press Start 2P** by CodeMan38; **Pixelify Sans** by Stefie Justprince.
 - Libraries: Phaser 3 (MIT), React (MIT), Vite (MIT), Vitest (MIT), Playwright (Apache-2.0, dev only).
 - All sprites and sounds are original procedural creations. No Undertale (or other game) sprites, fonts, music, dialogue or layouts are included. The dialogue box and pacing are inspired by the *feel* of classic story RPGs.
+
+## D107 photo-reference update
+
+The three main rooms now use the supplied suite photographs: pale dorm walls,
+wood floors, four-pane bay window and mini hoop, LED strip, photo collage,
+whiteboard, study desks, gray seating, red ottoman, mini fridge and green dinosaur
+balloon in common; two beds, wood wardrobes, roller blinds, storage and garment
+racks in each bedroom. Left bedding is blue; right bedding is sage/gray.
+
+The floor plan is rotated for the game's view: hallway below, common in the
+middle, bay window ahead, bedrooms on either side. Furniture and circulation are
+adapted to the 512×288 canvas. The vault door, sink and quantum gadgets remain
+fictional gameplay additions. Original photos and resident names are not bundled;
+furniture is drawn as original pixel art in `src/assets/dorm.ts`.
+
+For a quick playthrough use `?debug=1&seed=2025`, then **tools → Quick finale · fill
+correct score**, or explore via **world → teleport**. All routes, puzzle solutions
+and the sixteen-note melody are in [DEBUGGING.md](DEBUGGING.md#quick-play-and-complete-solutions-spoilers).

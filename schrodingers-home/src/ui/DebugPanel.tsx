@@ -7,7 +7,7 @@ import { rewind, teleport } from '../game/timeline';
 import { loadReport } from '../game/scenes/BootScene';
 import { describeGate, preparationGates } from '../quantum/circuit';
 import { bitAt, toBits } from '../quantum/codebook';
-import { echoProbabilityZero, preparedState, sampleNormal, supportedEvents } from '../quantum/model';
+import { correctScore, echoProbabilityZero, preparedState, sampleNormal, supportedEvents } from '../quantum/model';
 import { mulberry32, randomSeed } from '../quantum/rng';
 import { runValidation } from '../quantum/validation';
 import { deleteSave } from '../state/persistence';
@@ -135,6 +135,16 @@ observed: ${s.journal.echoes.filter((e) => e.bit === 0).length}/${s.journal.echo
         <>
           <h4>Demo checkpoints (clearly labelled archive)</h4>
           {(['prologue', 'midpoint', 'late', 'vault'] as CheckpointKind[]).map((k) => <button key={k} onClick={() => loadCheckpoint(k)}>{k}</button>)}
+          <h4>Quick play (spoilers)</h4>
+          <button onClick={() => {
+            loadCheckpoint('vault');
+            gameStore.update((g) => {
+              g.puzzles.vault.order = correctScore();
+              g.puzzles.vault.chord = g.phase ? 'minor' : 'major';
+            });
+            teleport('vault');
+          }}>Quick finale · fill correct score</button>
+          <p>Loads an archived checkpoint, fills the melody and chord, and takes you to the vault. Close the dialogue, collapse this overlay, then click the vault to submit.</p>
           <h4>Inventory (test)</h4>
           {(['prism', 'cassette', 'metronomeKey'] as ItemId[]).map((it) => (
             <button key={it} onClick={() => gameStore.update((g) => { if (!g.inventory.items.includes(it)) g.inventory.items.push(it); if (!g.inventory.picked.includes(it)) g.inventory.picked.push(it); })}>grant {it}</button>

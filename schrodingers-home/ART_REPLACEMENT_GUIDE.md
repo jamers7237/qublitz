@@ -103,9 +103,9 @@ Regenerate this table at any time with `npx tsx scripts/asset-table.ts`.
 | `tile.wall` | tile | `public/assets/sprites/tiles/wall_face.png` | 16×16 | 0, 0 | Wall face (wallpaper) |
 | `tile.wall.cap` | tile | `public/assets/sprites/tiles/wall_cap.png` | 16×16 | 0, 0 | Top edge of a wall |
 | `tile.wall.side` | tile | `public/assets/sprites/tiles/wall_side.png` | 16×16 | 0, 0 | Side / bottom wall block |
-| `obj.window.closed` | sensor | `public/assets/sprites/objects/window_closed.png` | 32×28 | 0.5, 1 | Common-room window (CAT): closed |
-| `obj.window.open` | sensor | `public/assets/sprites/objects/window_open.png` | 32×28 | 0.5, 1 | Common-room window (CAT): open |
-| `obj.window.unresolved` | sensor | `public/assets/sprites/objects/window_unresolved.png` | 32×28 | 0.5, 1 | Common-room window (CAT): unresolved (optional; auto-composited from both states if absent) |
+| `obj.window.closed` | sensor | `public/assets/sprites/objects/window_closed.png` | 128×44 | 0.5, 1 | Common-room window (CAT): closed |
+| `obj.window.open` | sensor | `public/assets/sprites/objects/window_open.png` | 128×44 | 0.5, 1 | Common-room window (CAT): open |
+| `obj.window.unresolved` | sensor | `public/assets/sprites/objects/window_unresolved.png` | 128×44 | 0.5, 1 | Common-room window (CAT): unresolved (optional; auto-composited from both states if absent) |
 | `obj.closet.latched` | sensor | `public/assets/sprites/objects/left_closet_latched.png` | 32×44 | 0.5, 1 | Left closet (I1): latched |
 | `obj.closet.ajar` | sensor | `public/assets/sprites/objects/left_closet_ajar.png` | 32×44 | 0.5, 1 | Left closet (I1): ajar |
 | `obj.closet.unresolved` | sensor | `public/assets/sprites/objects/left_closet_unresolved.png` | 32×44 | 0.5, 1 | Left closet (I1): unresolved (optional; auto-composited from both states if absent) |
@@ -194,3 +194,8 @@ Regenerate this table at any time with `npx tsx scripts/asset-table.ts`.
 | `portrait.james` | portrait | `public/assets/portraits/james.png` | 64×64 | — | J / James dialogue portrait |
 | `portrait.player` | portrait | `public/assets/portraits/player.png` | 64×64 | — | Player dialogue portrait (optional) |
 | `audio.ambient` | audio | `public/assets/audio/ambient.mp3` | — | — | Ambient loop (replaces the synthesized drone) |
+
+
+D107 furniture is drawn in `src/assets/dorm.ts`. The bay window is now 128×44 px,
+and both main beds are 40×60 px. New `dorm.*` manifest entries document each
+furniture size; `node --import tsx scripts/asset-table.ts` prints the full current table.

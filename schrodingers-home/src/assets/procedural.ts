@@ -1,4 +1,5 @@
 import { C } from './palette';
+import { DORM, dormBed, bayWindow } from './dorm';
 
 /**
  * Original procedural stand-in sprites. Each drawer paints onto a canvas of the
@@ -148,10 +149,10 @@ const tiles: Record<string, Drawer> = {
     px(g, 7, 7, C.gold);
   },
   'tile.wall': (g) => {
-    r(g, 0, 0, 16, 16, C.purple);
-    for (let x = 1; x < 16; x += 4) vl(g, x, 0, 16, '#33284f');
-    px(g, 3, 5, C.purple2);
-    px(g, 11, 10, C.purple2);
+    r(g, 0, 0, 16, 16, '#b8b6b2');
+    hl(g, 0, 15, 16, '#98979a');
+    px(g, 3, 5, '#b2b0ad');
+    px(g, 11, 10, '#c1beb8');
   },
   'tile.wall.cap': (g) => {
     r(g, 0, 0, 16, 16, C.navy);
@@ -259,11 +260,11 @@ const sensors: Record<string, Drawer> = {
 
 function drawCouch(g: G, stained: boolean) {
   shadow(g, 0, 26, 48);
-  box(g, 0, 4, 48, 22, C.purple3);
-  box(g, 0, 2, 7, 22, C.purple2);
-  box(g, 41, 2, 7, 22, C.purple2);
-  box(g, 6, 2, 36, 9, '#7d6aa3');
-  for (const x of [7, 19, 30]) box(g, x, 12, 12, 10, '#8a77b0', C.purple2);
+  box(g, 0, 4, 48, 22, '#687578');
+  box(g, 0, 2, 7, 22, '#7e8889');
+  box(g, 41, 2, 7, 22, '#7e8889');
+  box(g, 6, 2, 36, 9, '#929b9b');
+  for (const x of [7, 19, 30]) box(g, x, 12, 12, 10, '#879293', '#647075');
   hl(g, 7, 22, 34, C.purple);
   r(g, 2, 24, 3, 3, C.wood);
   r(g, 43, 24, 3, 3, C.wood);
@@ -972,6 +973,11 @@ export const PROCEDURAL: Record<string, Drawer> = {
   ...gadgets,
   ...objects,
   ...items,
+  ...DORM,
+  'obj.window.open': bayWindow,
+  'obj.window.closed': bayWindow,
+  'obj.bed.left': dormBed('#425a74'),
+  'obj.bed.right': dormBed('#899b94'),
 };
 
 /** Unresolved (ECHO timeline) variant: superpose both physical states with cyan/rose ghosting. */

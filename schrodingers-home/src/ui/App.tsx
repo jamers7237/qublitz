@@ -54,7 +54,8 @@ const isTyping = (e: KeyboardEvent) => {
 };
 
 export function App() {
-  boot();
+  // Initialize stores after React commits; publishing from render triggers warnings.
+  useEffect(() => { boot(); }, []);
   const ui = useUI();
   const settings = useSettings();
 

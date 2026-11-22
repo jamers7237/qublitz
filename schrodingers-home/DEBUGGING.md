@@ -70,3 +70,77 @@ The mode chosen at the gramophone applies to the **next** fresh entry only. It n
 | A sprite is offset | Its anchor is bottom-centre at the layout's `x, y`. Adjust the coordinates in `roomLayouts.ts`, not the gameplay code. |
 | Blank screen | The error boundary shows the stack and a "Reload in debug mode" button. Asset failures fall back to procedural art and are logged as `[assets] …` warnings. |
 | Tests | `npm test` (logic and quantum, no browser), `npm run smoke` (drives the real game in Chrome; screenshots in `smoke-screenshots/`). |
+
+## Quick play and complete solutions (spoilers)
+
+Open `http://localhost:5173/?debug=1&seed=2025`, choose New Game, enter a name,
+and begin. The seed applies to New Game; Continue preserves the saved seed.
+WASD/arrows move; E/Space or click interacts; N opens the notebook; Esc closes panels.
+
+For a quick ending: DEBUG → tools → **Quick finale · fill correct score**.
+This loads a clearly labelled archived checkpoint, fills the correct melody/chord,
+and teleports to the vault. Advance the checkpoint dialogue, collapse DEBUG with ▼,
+click the vault, and submit. For room exploration use DEBUG → world → teleport.
+Teleporting does not write route symbols or prepare a fresh measurement.
+
+### Routes and House Manual
+
+Start each route with an empty buffer. Enter a bedroom and return to common for
+each L/R symbol, then pull the brass lever to commit and clear the route.
+
+| Address | Route | Object | Zero | One | Property |
+|---|---|---|---|---|---|
+| 1 | R | Window | closed (never sampled) | open | cat |
+| 2 | RL | Left closet | latched | ajar | voice |
+| 3 | RR | Trash | empty | full | voice |
+| 4 | RLL | Couch | clean | stained | height |
+| 5 | RLR | Clock | stopped | ticking | height |
+| 6 | RRL | Lamp | dark | lit | height |
+| 7 | RRR | Sink | dry | dripping | breath |
+| 8 | RLLL | Radiator | cold | warm | breath |
+
+### Puzzle solutions
+
+- Notebook: match the first recorded note. Candidate positions depend on the seed;
+  replay the first recording and the three candidate sounds.
+- Cabinet: measure with an **empty slot**, then insert **X** and measure again.
+- Listening: **2–3 voice; 4–6 height; 7–8 breath**.
+- Switchboard: target **6**, inputs **2,4**; target **7**, inputs **3,5**;
+  target **8**, inputs **2,5**.
+- Mirror: final orientations **╲, ╱, ╱** (`[2,0,0]`). From the untouched puzzle,
+  click shard 1 once, shard 2 once, shard 3 three times.
+- Cartridge: after the mirror, open the hatch under the gramophone and install it.
+- Ledger: **2 → 2:1; 3 → 3:1; 4 → 5:1; 5 → 7:1**.
+- Toaster: choose the higher observed count, then **evidence, not certainty**.
+- Lantern: optional; any address is valid. No secret code.
+- Optional exchange: **prism → right projector; cassette → left Listening Desk;
+  wind-up key → right metronome**.
+- Ending: open the box and choose **Alive**. Dead is a fake-reset joke.
+
+### Vault order (least to most probable)
+
+Labels are `CAT I1 I0 P2 P1 P0 T1 T0`. The order is the same for every seed.
+
+| # | Label | Weight | Note |
+|---|---|---|---|
+| 1 | 10000000 | 1 | Felt piano · C3 · eighth |
+| 2 | 11000101 | 2 | Pizz. cello · D3 · quarter |
+| 3 | 10100010 | 3 | Music box · C3 · half |
+| 4 | 10010100 | 5 | Felt piano · A3 · eighth |
+| 5 | 11100111 | 6 | Pulse synth · D3 · whole |
+| 6 | 10001011 | 7 | Felt piano · E3 · whole |
+| 7 | 11010001 | 10 | Pizz. cello · G3 · quarter |
+| 8 | 11001110 | 14 | Pizz. cello · F3 · half |
+| 9 | 10110110 | 15 | Music box · A3 · half |
+| 10 | 10101001 | 21 | Music box · E3 · quarter |
+| 11 | 11110011 | 30 | Pulse synth · G3 · whole |
+| 12 | 10011111 | 35 | Felt piano · B3 · whole |
+| 13 | 11101100 | 42 | Pulse synth · F3 · eighth |
+| 14 | 11011010 | 70 | Pizz. cello · B♭3 · half |
+| 15 | 10111101 | 105 | Music box · B3 · quarter |
+| 16 | 11111000 | 210 | Pulse synth · B♭3 · eighth |
+
+Chord: **C major for phase 0; C minor for phase 1**. New-game seed **2025 = C major**.
+DEBUG → session reveals the exact phase of your current save. Without debug, a
+SIDE X hollow (0) majority suggests minor; a bright (1) majority suggests major.
+This is statistical evidence, so small samples can mislead you.
