@@ -1,5 +1,5 @@
 import { C } from './palette';
-import { DORM, dormBed, bayWindow } from './dorm';
+import { DORM, dormBed, horizontalDormBed, bayWindow } from './dorm';
 
 /**
  * Original procedural stand-in sprites. Each drawer paints onto a canvas of the
@@ -252,8 +252,8 @@ const sensors: Record<string, Drawer> = {
   'obj.clock.ticking': (g) => drawClock(g, true),
   'obj.lamp.dark': (g) => drawLamp(g, false),
   'obj.lamp.lit': (g) => drawLamp(g, true),
-  'obj.sink.dry': (g) => drawSink(g, false),
-  'obj.sink.dripping': (g) => drawSink(g, true),
+  'obj.bottle.sealed': (g) => drawBottle(g, false),
+  'obj.bottle.spilled': (g) => drawBottle(g, true),
   'obj.radiator.cold': (g) => drawRadiator(g, false),
   'obj.radiator.warm': (g) => drawRadiator(g, true),
 };
@@ -323,24 +323,26 @@ function drawLamp(g: G, lit: boolean) {
   if (lit) r(g, 6, 9, 4, 1, '#fff1c2');
 }
 
-function drawSink(g: G, dripping: boolean) {
-  shadow(g, 0, 26, 32);
-  box(g, 0, 8, 32, 19, C.wood2);
-  hl(g, 1, 9, 30, C.wood3);
-  box(g, 1, 6, 30, 5, C.steel);
-  box(g, 8, 7, 16, 4, '#2a3048', C.steel2);
-  // faucet
-  r(g, 15, 1, 2, 6, C.steel);
-  r(g, 15, 1, 6, 2, C.steel);
-  r(g, 19, 3, 2, 2, C.steel2);
-  box(g, 5, 13, 10, 11, C.wood3, C.wood);
-  box(g, 17, 13, 10, 11, C.wood3, C.wood);
-  px(g, 13, 18, C.gold);
-  px(g, 18, 18, C.gold);
-  if (dripping) {
-    px(g, 20, 5, C.cyan);
-    px(g, 20, 7, C.teal2);
-    r(g, 16, 9, 7, 1, C.teal2);
+function drawBottle(g: G, spilled: boolean) {
+  if (spilled) {
+    // Irregular juice stain is part of the floor sprite, not a floating effect.
+    r(g, 2, 18, 25, 4, '#a65c28');
+    r(g, 6, 16, 16, 7, '#bb7130');
+    r(g, 0, 20, 7, 2, '#a65c28');
+    px(g, 29, 21, '#a65c28');
+    box(g, 10, 9, 16, 8, '#a7bba0');
+    r(g, 11, 13, 13, 3, '#d89542');
+    box(g, 15, 10, 6, 6, '#f1e5bb');
+    r(g, 26, 11, 3, 4, '#809184');
+    box(g, 27, 19, 4, 3, '#c66d38');
+  } else {
+    shadow(g, 10, 22, 12);
+    box(g, 12, 8, 9, 14, '#a7bba0');
+    r(g, 13, 14, 7, 7, '#d89542');
+    box(g, 13, 4, 7, 5, '#b5c7ad');
+    box(g, 13, 12, 7, 6, '#f1e5bb');
+    hl(g, 15, 15, 3, '#bf7034');
+    box(g, 13, 2, 7, 3, '#c66d38');
   }
 }
 
@@ -976,7 +978,7 @@ export const PROCEDURAL: Record<string, Drawer> = {
   ...DORM,
   'obj.window.open': bayWindow,
   'obj.window.closed': bayWindow,
-  'obj.bed.left': dormBed('#425a74'),
+  'obj.bed.left': horizontalDormBed,
   'obj.bed.right': dormBed('#899b94'),
 };
 

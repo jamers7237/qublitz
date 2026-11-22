@@ -238,18 +238,6 @@ export class WorldScene extends Phaser.Scene {
       this.glows.set(v, glow);
       if (!reduced) this.tweens.add({ targets: glow, alpha: { from: 0.65, to: 0.85 }, duration: 900, yoyo: true, repeat: -1 });
     }
-    if (k === 'obj.sink.dripping') {
-      this.ambientTimers.push(
-        this.time.addEvent({
-          delay: 1400, loop: true, callback: () => {
-            if (!v.sprite.active || v.key !== 'obj.sink.dripping') return;
-            const d = this.add.rectangle(v.placed.x + 4, v.placed.y - 22, 1, 2, 0x6ff3ff).setDepth(v.sprite.depth + 0.1);
-            this.tweens.add({ targets: d, y: d.y + 4, alpha: 0, duration: 400, onComplete: () => d.destroy() });
-            if (this.near(v, 70)) audio.sfx('tick');
-          },
-        }),
-      );
-    }
     if (k === 'obj.clock.ticking') {
       this.ambientTimers.push(this.time.addEvent({ delay: 1000, loop: true, callback: () => v.sprite.active && v.key === 'obj.clock.ticking' && this.near(v, 60) && audio.sfx('tick') }));
     }

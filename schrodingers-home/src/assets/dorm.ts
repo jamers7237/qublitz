@@ -16,6 +16,20 @@ export const dormBed = (color:string):Drawer => (g) => {
   // Storage drawers under each bed.
   box(g,6,55,12,3,'#8b725c');box(g,22,55,12,3,'#8b725c');
 };
+/** Long sides run horizontally along the bedroom wall; pillow at the left. */
+export const horizontalBed = (color:string):Drawer => (g) => {
+  box(g,0,1,60,38,edge);
+  grain(g,1,2,58,4);
+  box(g,3,6,54,27,color);
+  box(g,4,8,12,22,'#cbd8e1');
+  r(g,18,7,37,25,color);
+  for(const x of [24,34,44,53]) r(g,x,10,1,20,'#697782');
+  r(g,17,7,2,25,'#a9b5ba');
+  grain(g,0,33,60,5);
+  box(g,18,35,15,3,'#8b725c'); box(g,37,35,15,3,'#8b725c');
+  r(g,2,38,4,2,edge); r(g,54,38,4,2,edge);
+};
+export const horizontalDormBed = horizontalBed('#425a74');
 export const bayWindow:Drawer = (g,w,h) => {
   // Four dark wood framed panes, angled outer returns, cream roller blinds.
   r(g,0,0,w,h,'#b7b5bb');
@@ -37,6 +51,17 @@ export const DORM:Record<string,Drawer> = {
   'dorm.whiteboard':(g)=>{box(g,0,0,50,28,'#dfdfd7');for(let y=6;y<23;y+=4)r(g,5,y,18+(y%7),1,'#7f8994');r(g,31,9,10,1,'#ad665e');r(g,37,6,1,12,'#ad665e');r(g,7,26,35,2,'#7a7d82');},
   'dorm.desk':(g)=>{grain(g,0,10,64,10);r(g,0,10,64,1,'#e7c697');box(g,3,20,17,14,'#ad865c');r(g,6,25,11,1,edge);r(g,6,30,11,1,edge);r(g,58,20,3,14,edge);box(g,24,4,21,12,'#454953');r(g,26,6,17,7,'#808b9e');r(g,23,17,24,2,'#484852');box(g,5,5,9,6,'#ede4ce');r(g,51,6,4,7,'#a96762');r(g,52,4,2,2,'#e2dfd3');},
   'dorm.chair':(g)=>{box(g,3,0,18,18,'#7d8587');r(g,5,2,14,13,'#969d9b');box(g,1,15,22,8,'#6b7578');r(g,11,23,2,4,ink);r(g,4,27,16,1,ink);},
+  'dorm.couch':(g)=>{
+    box(g,0,4,48,22,'#687578'); box(g,1,1,46,10,'#929b9b');
+    box(g,0,2,7,22,'#7e8889'); box(g,41,2,7,22,'#7e8889');
+    for(const x of [7,19,30]) box(g,x,12,12,10,'#879293');
+    r(g,3,26,3,2,edge);r(g,42,26,3,2,edge);
+  },
+  'dorm.recliner':(g)=>{
+    box(g,2,0,20,17,'#878c87'); box(g,0,7,6,17,'#6b756f');
+    box(g,18,7,6,17,'#6b756f');box(g,6,15,12,9,'#9ba29a');
+    r(g,7,24,10,2,ink);box(g,4,26,16,6,'#7a857b');
+  },
   'dorm.ottoman':(g)=>{box(g,0,4,30,19,'#933e49');box(g,1,0,28,16,'#b95160');r(g,4,2,22,1,'#ce6d73');box(g,10,2,14,10,'#8075a6');r(g,13,3,8,2,'#b1a4cc');},
   'dorm.dino':(g)=>{ // Green foil dinosaur balloon, with a trailing string.
     r(g,21,38,1,24,'#b4b0ad');r(g,18,53,4,1,'#b4b0ad');
@@ -51,5 +76,5 @@ export const DORM:Record<string,Drawer> = {
   'dorm.blinds':(g)=>{box(g,0,0,80,40,edge);for(const x of [3,42]){r(g,x,3,35,32,'#203044');r(g,x,3,35,23,'#e3dece');r(g,x,25,35,2,'#bcb6a7');r(g,x+18,27,1,9,'#d7cdb5');}r(g,0,37,80,3,edge);},
   'dorm.sconce':(g)=>{r(g,1,1,16,12,'#c7c5be');r(g,2,3,14,3,'#f3e9bc');r(g,2,10,14,2,'#f3e9bc');r(g,3,0,12,1,'#fff2bf');},
   'dorm.rack':(g)=>{r(g,2,0,26,2,ink);r(g,3,1,2,50,ink);r(g,26,1,2,50,ink);r(g,0,52,30,2,ink);box(g,6,6,8,29,'#4c769b');box(g,17,8,9,27,'#55565b');r(g,8,7,4,1,'#a6bed0');},
-  'dorm.bed.blue':dormBed('#425a74'), 'dorm.bed.sage':dormBed('#899b94'),
+  'dorm.bed.blue':horizontalDormBed, 'dorm.bed.sage':dormBed('#899b94'), 'dorm.bed.sage.horizontal':horizontalBed('#899b94'),
 };

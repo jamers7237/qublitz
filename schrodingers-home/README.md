@@ -4,7 +4,7 @@
 
 ![Title](docs/screenshots/01-title.png)
 
-You live in Suite 8. Each time you walk in from the hallway, the gramophone plays **one note**: one fresh copy of the same hidden 8-qubit quantum state, measured once. The household objects (window, closet, trash, couch, clock, lamp, sink, radiator) *are* the measured qubits. Map them, decode the music, discover the XOR constraints, find the hidden **Hadamard's Harmonics™** cartridge to hear the phase that ordinary notes can never reveal, and play the vault its sixteen-note melody, from rarest to most probable, with the right closing chord. Then find out what the qubit that was always 1 really was.
+You live in Suite 8. Each time you walk in from the hallway, the gramophone plays **one note**: one fresh copy of the same hidden 8-qubit quantum state, measured once. The household objects (window, closet, trash, couch, clock, lamp, juice bottle, radiator) *are* the measured qubits. Map them, decode the music, discover the XOR constraints, find the hidden **Hadamard's Harmonics™** cartridge to hear the phase that ordinary notes can never reveal, and play the vault its sixteen-note melody, from rarest to most probable, with the right closing chord. Then find out what the qubit that was always 1 really was.
 
 Everything quantum runs on a **from-scratch TypeScript statevector simulator** (256 complex amplitudes, real unitary gates, the Born rule, projective collapse). It is cross-checked against Qiskit. No server, account, network or quantum backend is needed.
 
@@ -176,13 +176,16 @@ The white hover outline is generated from whatever texture is loaded, so replace
 
 The three main rooms now use the supplied suite photographs: pale dorm walls,
 wood floors, four-pane bay window and mini hoop, LED strip, photo collage,
-whiteboard, study desks, gray seating, red ottoman, mini fridge and green dinosaur
+whiteboard, four corner desks, three couches, one recliner, red ottoman, mini fridge and green dinosaur
 balloon in common; two beds, wood wardrobes, roller blinds, storage and garment
-racks in each bedroom. Left bedding is blue; right bedding is sage/gray.
+racks in each bedroom. The left room has two blue horizontal beds on opposite walls. The right has a
+sage horizontal bed at the top and a vertical bed along the far-right wall.
 
 The floor plan is rotated for the game's view: hallway below, common in the
 middle, bay window ahead, bedrooms on either side. Furniture and circulation are
-adapted to the 512×288 canvas. The vault door, sink and quantum gadgets remain
+adapted to the 512×288 canvas. Each main room has a 24×12-tile floor, down from
+30×14 (31.4% less floor area), with furniture and player sizes preserved. The
+address-7 sensor is now a sealed/spilled juice bottle on the floor, with an orange stain in the spilled state. The vault door and quantum gadgets remain
 fictional gameplay additions. Original photos and resident names are not bundled;
 furniture is drawn as original pixel art in `src/assets/dorm.ts`.
 

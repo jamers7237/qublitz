@@ -121,9 +121,9 @@ Regenerate this table at any time with `npx tsx scripts/asset-table.ts`.
 | `obj.lamp.dark` | sensor | `public/assets/sprites/objects/desk_lamp_dark.png` | 16×28 | 0.5, 1 | Desk lamp (P0): dark |
 | `obj.lamp.lit` | sensor | `public/assets/sprites/objects/desk_lamp_lit.png` | 16×28 | 0.5, 1 | Desk lamp (P0): lit |
 | `obj.lamp.unresolved` | sensor | `public/assets/sprites/objects/desk_lamp_unresolved.png` | 16×28 | 0.5, 1 | Desk lamp (P0): unresolved (optional; auto-composited from both states if absent) |
-| `obj.sink.dry` | sensor | `public/assets/sprites/objects/sink_dry.png` | 32×28 | 0.5, 1 | Sink faucet (T1): dry |
-| `obj.sink.dripping` | sensor | `public/assets/sprites/objects/sink_dripping.png` | 32×28 | 0.5, 1 | Sink faucet (T1): dripping |
-| `obj.sink.unresolved` | sensor | `public/assets/sprites/objects/sink_unresolved.png` | 32×28 | 0.5, 1 | Sink faucet (T1): unresolved (optional; auto-composited from both states if absent) |
+| `obj.bottle.sealed` | sensor | `public/assets/sprites/objects/juice_bottle_sealed.png` | 32×24 | 0.5, 1 | Floor juice bottle and stain (T1): sealed |
+| `obj.bottle.spilled` | sensor | `public/assets/sprites/objects/juice_bottle_spilled.png` | 32×24 | 0.5, 1 | Floor juice bottle and stain (T1): spilled |
+| `obj.bottle.unresolved` | sensor | `public/assets/sprites/objects/juice_bottle_unresolved.png` | 32×24 | 0.5, 1 | Floor juice bottle and stain (T1): unresolved (optional; auto-composited from both states if absent) |
 | `obj.radiator.cold` | sensor | `public/assets/sprites/objects/radiator_cold.png` | 32×20 | 0.5, 1 | Radiator (T0): cold |
 | `obj.radiator.warm` | sensor | `public/assets/sprites/objects/radiator_warm.png` | 32×20 | 0.5, 1 | Radiator (T0): warm |
 | `obj.radiator.unresolved` | sensor | `public/assets/sprites/objects/radiator_unresolved.png` | 32×20 | 0.5, 1 | Radiator (T0): unresolved (optional; auto-composited from both states if absent) |
@@ -154,8 +154,8 @@ Regenerate this table at any time with `npx tsx scripts/asset-table.ts`.
 | `obj.metronome.fixed` | gadget | `public/assets/sprites/gadgets/metronome_fixed.png` | 12×20 | 0.5, 1 | Metronome (ticking) |
 | `obj.vault.locked` | gadget | `public/assets/sprites/gadgets/vault_locked.png` | 64×60 | 0.5, 1 | Vault door (sealed) |
 | `obj.vault.ready` | gadget | `public/assets/sprites/gadgets/vault_ready.png` | 64×60 | 0.5, 1 | Vault door (sixteen grooves glowing) |
-| `obj.bed.left` | object | `public/assets/sprites/objects/bed_left.png` | 32×48 | 0.5, 1 | Your bed |
-| `obj.bed.right` | object | `public/assets/sprites/objects/bed_right.png` | 32×48 | 0.5, 1 | J’s bed |
+| `obj.bed.left` | object | `public/assets/sprites/objects/bed_left.png` | 60×40 | 0.5, 1 | Your bed |
+| `obj.bed.right` | object | `public/assets/sprites/objects/bed_right.png` | 40×60 | 0.5, 1 | J’s bed |
 | `obj.desk` | object | `public/assets/sprites/objects/desk.png` | 48×28 | 0.5, 1 | Left desk |
 | `obj.notebook` | object | `public/assets/sprites/objects/notebook.png` | 12×8 | 0.5, 1 | Notebook under the desk |
 | `obj.jnote` | object | `public/assets/sprites/objects/j_note.png` | 10×8 | 0.5, 1 | Folded note from J |
@@ -183,6 +183,22 @@ Regenerate this table at any time with `npx tsx scripts/asset-table.ts`.
 | `deco.table` | decor | `public/assets/sprites/objects/coffee_table.png` | 32×16 | 0.5, 1 | Coffee table |
 | `deco.fridge` | decor | `public/assets/sprites/objects/fridge.png` | 20×36 | 0.5, 1 | Fridge |
 | `deco.armchair` | decor | `public/assets/sprites/objects/armchair.png` | 24×24 | 0.5, 1 | Armchair |
+| `dorm.led` | decor | `public/assets/sprites/objects/dorm_led.png` | 384×8 | 0.5, 1 | D107 reference: led |
+| `dorm.collage` | decor | `public/assets/sprites/objects/dorm_collage.png` | 84×30 | 0.5, 1 | D107 reference: collage |
+| `dorm.whiteboard` | decor | `public/assets/sprites/objects/dorm_whiteboard.png` | 50×28 | 0.5, 1 | D107 reference: whiteboard |
+| `dorm.dino` | decor | `public/assets/sprites/objects/dorm_dino.png` | 40×64 | 0.5, 1 | D107 reference: dino |
+| `dorm.desk` | decor | `public/assets/sprites/objects/dorm_desk.png` | 64×34 | 0.5, 1 | D107 reference: desk |
+| `dorm.chair` | decor | `public/assets/sprites/objects/dorm_chair.png` | 24×28 | 0.5, 1 | D107 reference: chair |
+| `dorm.ottoman` | decor | `public/assets/sprites/objects/dorm_ottoman.png` | 30×24 | 0.5, 1 | D107 reference: ottoman |
+| `dorm.wardrobe` | decor | `public/assets/sprites/objects/dorm_wardrobe.png` | 44×64 | 0.5, 1 | D107 reference: wardrobe |
+| `dorm.blinds` | decor | `public/assets/sprites/objects/dorm_blinds.png` | 80×40 | 0.5, 1 | D107 reference: blinds |
+| `dorm.sconce` | decor | `public/assets/sprites/objects/dorm_sconce.png` | 18×14 | 0.5, 1 | D107 reference: sconce |
+| `dorm.rack` | decor | `public/assets/sprites/objects/dorm_rack.png` | 30×54 | 0.5, 1 | D107 reference: rack |
+| `dorm.bed.blue` | decor | `public/assets/sprites/objects/dorm_bed.blue.png` | 60×40 | 0.5, 1 | D107 reference: bed.blue |
+| `dorm.bed.sage` | decor | `public/assets/sprites/objects/dorm_bed.sage.png` | 40×60 | 0.5, 1 | D107 reference: bed.sage |
+| `dorm.bed.sage.horizontal` | decor | `public/assets/sprites/objects/dorm_bed.sage.horizontal.png` | 60×40 | 0.5, 1 | D107 reference: bed.sage.horizontal |
+| `dorm.couch` | decor | `public/assets/sprites/objects/dorm_couch.png` | 48×28 | 0.5, 1 | D107 reference: couch |
+| `dorm.recliner` | decor | `public/assets/sprites/objects/dorm_recliner.png` | 24×32 | 0.5, 1 | D107 reference: recliner |
 | `item.prism` | item | `public/assets/sprites/items/prism.png` | 16×16 | 0.5, 1 | Small glass prism |
 | `item.cassette` | item | `public/assets/sprites/items/cassette.png` | 16×16 | 0.5, 1 | Red cassette tape |
 | `item.key` | item | `public/assets/sprites/items/metronome_key.png` | 16×16 | 0.5, 1 | Brass wind-up key |
@@ -197,5 +213,5 @@ Regenerate this table at any time with `npx tsx scripts/asset-table.ts`.
 
 
 D107 furniture is drawn in `src/assets/dorm.ts`. The bay window is now 128×44 px,
-and both main beds are 40×60 px. New `dorm.*` manifest entries document each
+both left beds and the top right bed are 60×40 px; the far-right bed is 40×60 px. New `dorm.*` manifest entries document each
 furniture size; `node --import tsx scripts/asset-table.ts` prints the full current table.

@@ -56,10 +56,11 @@ export const SENSORS: SensorDef[] = [
     unresolved: 'The lamp glows in a colour that does not quite exist.',
   },
   {
-    id: 'sink', address: 7, name: 'Sink faucet', room: 'common', assetBase: 'obj.sink',
-    zero: { key: 'dry', desc: 'The faucet is dry. Not a single drop.', colorBlind: 'basin empty' },
-    one: { key: 'dripping', desc: 'The faucet is dripping. Plip. Plip.', colorBlind: 'drop falling, puddle in basin' },
-    unresolved: 'A droplet hangs at the faucet, undecided about gravity.',
+    // Keep the legacy object ID so existing route discoveries remain valid.
+    id: 'sink', address: 7, name: 'Juice bottle', room: 'common', assetBase: 'obj.bottle',
+    zero: { key: 'sealed', desc: 'The juice bottle stands sealed on the floor. Its cap is tight, and the boards around it are clean.', colorBlind: 'bottle upright, cap screwed on, clean floor' },
+    one: { key: 'spilled', desc: 'The juice bottle has tipped over. A sticky orange stain spreads across the floor beside its loose cap.', colorBlind: 'bottle on its side, cap off, irregular stain on the floor' },
+    unresolved: 'The bottle seems upright and tipped over at once. A sticky stain appears and disappears on the floor.',
   },
   {
     id: 'radiator', address: 8, name: 'Radiator', room: 'common', assetBase: 'obj.radiator',

@@ -96,7 +96,7 @@ each L/R symbol, then pull the brass lever to commit and clear the route.
 | 4 | RLL | Couch | clean | stained | height |
 | 5 | RLR | Clock | stopped | ticking | height |
 | 6 | RRL | Lamp | dark | lit | height |
-| 7 | RRR | Sink | dry | dripping | breath |
+| 7 | RRR | Juice bottle | sealed | spilled | breath |
 | 8 | RLLL | Radiator | cold | warm | breath |
 
 ### Puzzle solutions
@@ -144,3 +144,6 @@ Chord: **C major for phase 0; C minor for phase 1**. New-game seed **2025 = C ma
 DEBUG → session reveals the exact phase of your current save. Without debug, a
 SIDE X hollow (0) majority suggests minor; a bright (1) majority suggests major.
 This is statistical evidence, so small samples can mislead you.
+
+Existing saves migrate the old address-7 dry/dripping notebook entries to sealed/spilled (including earlier leaking-bottle entries).
+The legacy internal object ID `sink` is retained only for save compatibility.

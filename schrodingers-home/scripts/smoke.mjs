@@ -78,10 +78,19 @@ async function toScreen(x, y) {
   const z = b.width / 512;
   return { x: b.x + x * z, y: b.y + y * z };
 }
-async function clickWorld(x, y) {
-  // The fictional vault doorway now sits beside the photo-referenced bay window.
-  if ((await gs()).room === 'common' && x === 256 && y <= 30) x = 448;
-  const p = await toScreen(x, y);
+// Read the current hotspot geometry so room-size edits cannot leave stale clicks.
+async function screenObject(id) {
+  const point = await sh((objectId) => {
+    const scene = window.__game.scene.getScene('world');
+    const view = scene.views.find(v => v.placed.id === objectId);
+    if (!view) throw new Error(`Missing world object: ${objectId}`);
+    const rect = view.hitRect();
+    return { x: rect.x + rect.width / 2, y: rect.y + rect.height / 2 };
+  }, id);
+  return toScreen(point.x, point.y);
+}
+async function clickObject(id) {
+  const p = await screenObject(id);
   await page.mouse.move(p.x, p.y);
   await page.waitForTimeout(80);
   await page.mouse.click(p.x, p.y);
@@ -129,7 +138,7 @@ try {
   await drain();
 
   // hover outline + prompt on the window
-  const w = await toScreen(256, 26);
+  const w = await screenObject('window');
   await page.mouse.move(w.x, w.y);
   await page.waitForTimeout(250);
   const prompt = await page.locator('[data-testid=prompt]').textContent().catch(() => '');
@@ -145,17 +154,21 @@ try {
   const d = (await ui()).dialogue.map((l) => l.text).join(' ');
   check('click-to-inspect opens descriptive (non-binary) text', /window/i.test(d) && !/\b[01]\b/.test(d), d.slice(0, 80));
   await drain();
+  await clickObject('sink');
+  const bottleText = (await ui()).dialogue.map(l => l.text).join(' ');
+  check('address 7 is a floor juice bottle with sealed/spilled states', /juice bottle/i.test(bottleText) && /sealed|tipped over|stain/.test(bottleText) && !/sink|faucet/i.test(bottleText));
+  await drain();
   // decorative plant must not glow
-  const plant = await toScreen(36, 74);
+  const plant = await screenObject('deco.plant');
   await page.mouse.move(plant.x, plant.y);
   await page.waitForTimeout(200);
   check('decor does not highlight', (await ui()).hovered === null);
 
   // prologue: vault -> forced rewind
-  await clickWorld(256, 24); // north door
+  await clickObject('door.common.north'); // north door
   await waitRoom('vault');
   await snap({ path: `${OUT}/06-vault-room.png` });
-  await clickWorld(256, 30);
+  await clickObject((await gs()).room === 'foyer' ? 'door.foyer.north' : 'vault');
   await drain();
   await page.waitForTimeout(900);
   s = await gs();
@@ -163,29 +176,29 @@ try {
   await drain();
 
   // second timeline, left first, lever => knock only
-  await clickWorld(256, 30);
+  await clickObject((await gs()).room === 'foyer' ? 'door.foyer.north' : 'vault');
   await waitRoom('common');
   await drain();
-  await clickWorld(8, 160);
+  await clickObject('door.common.west');
   await waitRoom('left');
   await drain();
   await snap({ path: `${OUT}/07-left-bedroom.png` });
-  await clickWorld(504, 160);
+  await clickObject('door.left.east');
   await waitRoom('common');
   s = await gs();
   check('route buffer recorded Left on entry', s.route === 'L', s.route);
   const before = JSON.stringify(s.journal);
-  await clickWorld(282, 140); // lever
+  await clickObject('lever'); // lever
   await page.waitForTimeout(400);
   const u2 = await ui();
   s = await gs();
   check('Left-first lever: no popup, no log, buffer cleared', u2.dialogue.length === 0 && u2.panel === null && JSON.stringify(s.journal) === before && s.route === '', `dialogue=${u2.dialogue.length}`);
 
   // notebook under left desk
-  await clickWorld(8, 160);
+  await clickObject('door.common.west');
   await waitRoom('left');
   await drain();
-  await clickWorld(190, 100);
+  await clickObject('notebook');
   await drain();
   check('notebook match minigame opens', JSON.stringify((await ui()).panel).includes('notebookMatch'));
   await snap({ path: `${OUT}/08-notebook-match.png` });
@@ -223,13 +236,13 @@ try {
   // fresh live shot from the foyer, then the vault
   await sh(() => window.__sh.session.loadCheckpoint('vault'));
   await drain();
-  await clickWorld(256, 30);
+  await clickObject((await gs()).room === 'foyer' ? 'door.foyer.north' : 'vault');
   await waitRoom('common');
   await drain();
   check('checkpoint still allows a fresh live measurement', (await gs()).journal.shots.some((x) => x.source === 'timeline'));
-  await clickWorld(256, 24);
+  await clickObject('door.common.north');
   await waitRoom('vault');
-  await clickWorld(256, 30);
+  await clickObject((await gs()).room === 'foyer' ? 'door.foyer.north' : 'vault');
   await drain();
   check('vault sequencer opens when ready', JSON.stringify((await ui()).panel).includes('vault'));
   await snap({ path: `${OUT}/13-vault-sequencer.png` });
@@ -243,9 +256,9 @@ try {
   check('wrong vault answer rewinds with the same secret', s.room === 'foyer' && s.seed === secret.seed && s.phase === secret.phase);
   await snap({ path: `${OUT}/14-wrong-vault-rewind.png` });
   await drain();
-  await clickWorld(256, 30); await waitRoom('common'); await drain();
-  await clickWorld(256, 24); await waitRoom('vault');
-  await clickWorld(256, 30); await drain();
+  await clickObject((await gs()).room === 'foyer' ? 'door.foyer.north' : 'vault'); await waitRoom('common'); await drain();
+  await clickObject('door.common.north'); await waitRoom('vault');
+  await clickObject((await gs()).room === 'foyer' ? 'door.foyer.north' : 'vault'); await drain();
   await page.getByRole('button', { name: secret.phase ? 'C minor' : 'C major' }).click();
   await page.click('[data-testid=vault-submit]');
   await page.waitForTimeout(400);
@@ -379,20 +392,21 @@ try {
   await page.waitForTimeout(1000);
   await sh(() => window.__sh.session.loadCheckpoint('midpoint'));
   await drain();
-  await clickWorld(256, 30);
+  await clickObject((await gs()).room === 'foyer' ? 'door.foyer.north' : 'vault');
   await waitRoom('common');
   await drain();
   const loaded = await sh(() => window.__sh.loadReport.loaded);
   check('replacement sprite loaded from manifest path', loaded.includes('obj.window.open'));
-  const w2 = await toScreen(256, 26);
+  const w2 = await screenObject('window');
   await page.mouse.move(w2.x, w2.y);
   await page.waitForTimeout(250);
   const ring2 = await page.evaluate(() => window.__game.scene.getScene('world').children.list.some((o) => o.texture?.key === 'obj.window.open__ring' && o.visible));
   check('replaced sprite inherits the white hover outline', ring2);
   await snap({ path: `${OUT}/19-replaced-sprite-hover.png`, clip: { x: w2.x - 120, y: w2.y - 90, width: 300, height: 220 } });
-  await clickWorld(504, 160);
+  await clickObject('door.common.east');
   await waitRoom('right');
-  await clickWorld(320, 26);
+  await snap({ path: `${OUT}/21-compact-right-bedroom.png` });
+  await clickObject('portrait');
   await drain();
   await page.waitForTimeout(300);
   const imgOk = await page.evaluate(() => [...document.querySelectorAll('.photo-frame img')].some((i) => i.src.includes('james.jpg') && i.naturalWidth > 0));

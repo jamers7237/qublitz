@@ -51,6 +51,13 @@ export function loadGame(): LoadResult {
   try {
     const parsed = JSON.parse(raw);
     if (!validateSave(parsed)) return { ok: false, reason: 'corrupt', raw };
+    // Address 7 was reskinned from the old faucet to a floor juice bottle.
+    // Preserve the player's discovered routes, polarity guesses and observations.
+    const bottleState = (value: string) => value === 'dry' ? 'sealed' : value === 'dripping' || value === 'leaking' ? 'spilled' : value;
+    for (const row of parsed.manual) if (row.object === 'sink') row.zero = bottleState(row.zero);
+    for (const observation of parsed.journal.observations ?? []) {
+      if (observation.objectId === 'sink') observation.state = bottleState(observation.state);
+    }
     return { ok: true, state: parsed };
   } catch {
     return { ok: false, reason: 'corrupt', raw };

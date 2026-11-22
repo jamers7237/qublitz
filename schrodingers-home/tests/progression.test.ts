@@ -229,3 +229,23 @@ describe('16. inventory and Roommate Exchange', () => {
     expect(gameStore.get().journal.shots.length).toBe(shots);
   });
 });
+
+describe('juice bottle save compatibility', () => {
+  it.each([['dry','sealed'],['dripping','spilled'],['leaking','spilled']])('migrates an old %s guess without losing progress', (oldState,newState) => {
+    (globalThis as any).localStorage = memoryStorage();
+    const old = buildCheckpoint('vault', 2025);
+    old.manual[6].zero = oldState;
+    old.journal.observations.push({ timeline: 1, objectId: 'sink', state: oldState, via: 'lever' });
+    saveGame(old);
+    const loaded = loadGame();
+    expect(loaded.ok).toBe(true);
+    if (!loaded.ok) return;
+    expect(loaded.state.manual[6].zero).toBe(newState);
+    expect(loaded.state.journal.observations[0].state).toBe(newState);
+    expect(loaded.state.journal.routes).toEqual(old.journal.routes);
+    expect(loaded.state.puzzles).toEqual(old.puzzles);
+    expect(manualRowStatus(loaded.state)[6].verified).toBe(newState === 'sealed');
+    saveGame(loaded.state);
+    expect(loadGame()).toEqual(loaded);
+  });
+});

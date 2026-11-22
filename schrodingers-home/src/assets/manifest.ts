@@ -61,7 +61,7 @@ sensor('trash', 'trash', 16, 20, ['empty', 'full'], 'Trash bin (I0)');
 sensor('couch', 'couch', 48, 28, ['clean', 'stained'], 'Couch (P2)');
 sensor('clock', 'clock', 16, 16, ['stopped', 'ticking'], 'Wall clock (P1)');
 sensor('lamp', 'desk_lamp', 16, 28, ['dark', 'lit'], 'Desk lamp (P0)');
-sensor('sink', 'sink', 32, 28, ['dry', 'dripping'], 'Sink faucet (T1)');
+sensor('bottle', 'juice_bottle', 32, 24, ['sealed', 'spilled'], 'Floor juice bottle and stain (T1)');
 sensor('radiator', 'radiator', 32, 20, ['cold', 'warm'], 'Radiator (T0)');
 
 // Gadgets
@@ -96,7 +96,7 @@ gad('obj.vault.ready', 'vault_ready', 64, 60, 'Vault door (sixteen grooves glowi
 
 // Objects / furniture
 const obj = (id: string, file: string, w: number, h: number, d: string) => img(id, `assets/sprites/objects/${file}.png`, w, h, 'object', d);
-obj('obj.bed.left', 'bed_left', 40, 60, 'Your bed');
+obj('obj.bed.left', 'bed_left', 60, 40, 'Your bed');
 obj('obj.bed.right', 'bed_right', 40, 60, 'J’s bed');
 obj('obj.desk', 'desk', 48, 28, 'Left desk');
 obj('obj.notebook', 'notebook', 12, 8, 'Notebook under the desk');
@@ -134,10 +134,10 @@ deco('deco.armchair', 'armchair', 24, 24, 'Armchair');
 
 // Photo-referenced dorm furniture, drawn locally at native pixel resolution.
 for (const [id, w, h] of [
-  ['led', 480, 8], ['collage', 84, 30], ['whiteboard', 50, 28],
+  ['led', 384, 8], ['collage', 84, 30], ['whiteboard', 50, 28],
   ['dino', 40, 64], ['desk', 64, 34], ['chair', 24, 28],
   ['ottoman', 30, 24], ['wardrobe', 44, 64], ['blinds', 80, 40],
-  ['sconce', 18, 14], ['rack', 30, 54], ['bed.blue', 40, 60], ['bed.sage', 40, 60],
+  ['sconce', 18, 14], ['rack', 30, 54], ['bed.blue', 60, 40], ['bed.sage', 40, 60], ['bed.sage.horizontal', 60, 40], ['couch', 48, 28], ['recliner', 24, 32],
 ] as const) deco(`dorm.${id}`, `dorm_${id}`, w, h, `D107 reference: ${id}`);
 
 // Items (16x16 icons, also used for world pickups)
