@@ -15,101 +15,53 @@ python run_ablations.py
 python verify_reference.py /path/to/organizer/CircuitHelp.py  # Optional external check
 ```
 
-## Complete competition-ready study and teaching package
+## Submission and Verification
 
-**New to the project? Start with `START_HERE.md`; it is a paced 15-minute
-walkthrough of the code, evidence, and presentation.**
+PRISM is submitted as part of the QUBLITZ 2026 monorepo.
 
-The competition entrypoint is **still only `submission.py` plus NumPy**. The
-following independent files provide the submission report, complete experiment
-ledger, figures, physical-hardware runbook, and judges' speaking preparation:
+The repository-root `submission.py` is a standalone copy of the optimizer in `prism_quantum_circuit_golf/submission.py`. Both implement the official `optimize(circuit, config)` interface and require only NumPy.
+
+### Run the optimizer tests
+
+From the `prism_quantum_circuit_golf` directory:
 
 ```bash
-# All offline tests, including the phase-sensitive IQM probe math
+python -m pip install -r requirements.txt
 python -m unittest discover -s tests -v
+```
 
-# Original curated experiment suite and organizer cross-check
+### Reproduce the experiments
+
+```bash
 python run_experiments.py
 python run_ablations.py
-
-# Full measured evidence suite: 380 circuits x 7 weights = 2660 runs
-python full_study.py
-python verify_full_study_external.py  # Recheck all stored pairs using provided organizer helper
-
-# Additional controlled timing: 1-6 qubits x 6 sizes x 3 seeds = 108 trials
-python study_scaling.py
-
-# Install reporting tools and regenerate *all figures and the report* from CSV
-python -m pip install -r requirements-reporting.txt
-python create_study_visuals.py
-python create_iqm_notebook.py
-python create_experiment_notebook.py
-python build_full_report.py
-
-# Separately, regenerate the POST-report physical-hardware addendum
-# from actual, completed IQM job results saved in results/iqm_evidence/.
-python make_iqm_addendum.py
-
-# No-hardware judge demonstrations
-python demo_live.py
-python demo_live.py --random-family mixed --seed 538812
 ```
 
-Submission assets:
+For independent verification using the organizer's supplied checker:
 
-- **`PRISM_Competition_Report.pdf`** — data-driven OFFLINE challenge-compliance and results report, frozen before hardware execution.
-- **`results/IQM_Emerald_Hardware_Addendum.pdf`** — later physical Emerald evidence, real job IDs, TVD uncertainty, calibration caveats, and native resource comparisons.
-- **`results/IQM_Emerald_Hardware_Addendum.md`**, **`results/iqm_hardware_run_summary.csv`**,
-  and **`results/iqm_evidence/`** — reproducible, independently rechecked completed QPU results. Add subsequent uniquely named IQM JSON files and rerun `make_iqm_addendum.py`.
-- **`results/iqm_level3_compile_only.json`** — separately labeled Qiskit level-3 dry-run evidence; NOT a QPU execution.
-- **`PRISM_Experiment_Replay.ipynb`** — interactive evidence replay and new-seed
-  demos, with complete stored-circuit unitary checks.
-- **`full_study/EXPERIMENT_LOG.md`** — verified execution summary; its raw
-  `cases.jsonl`, `circuits.jsonl`, `runs.csv`, `ablations.csv`, `scaling.csv`,
-  `study_manifest.json`, and `failure_cases.json` are the audit trail.
-- **`full_study/organizer_rechecked_runs.csv`** — a SECOND implementation's
-  equivalence and score assessment on every stored pair, using the supplied
-  `CircuitHelp.py`; this is not the hidden organizer test set.
-- **`visuals/`** — six charts generated from measured CSV files.
-- **`UNDERSTAND_PRISM.md`** — detailed mathematics and code-level teaching.
-- **`LIBRARIES_AND_QUANTUM_SDK.md`** — NumPy, Qiskit, IQM, Python standard
-  library, and the original screenshot's code explained line-by-line.
-- **`JUDGE_SCRIPT_FULL.md`** — word-for-word four-minute talk and Q&A.
-- **`NOTEBOOK_DRAWINGS.md`** — exact sketches and lab-note templates.
-- **`SUBMISSION_CHECKLIST.md`** — official requirement-by-requirement final audit.
-- **`IQM_LIVE_RUNBOOK.md`** and **`IQM_Emerald_Demo.ipynb`** — safe IQM workflow;
-  new physical execution remains explicit opt-in. One initial Emerald job pair is included in the newer hardware addendum.
-- **`challenge_materials/`** — preserved organizer-provided PDFs and
-  `CircuitHelp.py` for direct comparison; these are external reference inputs,
-  **not** part of our authored optimizer.
-
-The 49-to-1 example is intentionally constructed to reveal an invariant. The
-full 380-circuit / seven-profile data, including unchanged cases and ablations,
-is required to assess broader behavior. The 2660-run study is from local full-unitary tests,
-**not** the organizers' unknown held-out benchmark or physical QPU runs.
-Later physical IQM records are documented **separately** in the hardware addendum.
-
-**To submit:** create/push a GitHub repository containing the contents of this
-directory, verify the expected files are at its root, then submit the GitHub URL
-under the organizers' instructions. A ZIP itself is not the required GitHub URL.
-
-The organizers only need `submission.py` (and the declared NumPy dependency):
-
-```python
-from submission import optimize
-
-circuit = {
-    "n_qubits": 2,
-    "gates": [
-        {"gate": "CX", "qubits": [0, 1]},
-        {"gate": "Z", "qubits": [0]},
-        {"gate": "CX", "qubits": [0, 1]},
-    ],
-}
-config = {"w1": 1.0, "w2": 6.0, "wd": 0.2}
-print(optimize(circuit, config))
-# {'n_qubits': 2, 'gates': [{'gate': 'Z', 'qubits': [0]}]}
+```bash
+python verify_reference.py /path/to/CircuitHelp.py
 ```
+
+The original organizer checker must be provided separately. It is not included in this repository.
+
+### Evidence and reports
+
+- `PRISM_Competition_Report.pdf` — main competition report.
+- `full_study/EXPERIMENT_LOG.md` — experimental methodology, results, and limitations.
+- `full_study/` — 2,660 recorded optimization evaluations, including original and optimized circuits.
+- `full_study/organizer_rechecked_runs.csv` — recorded independent checker results for all 2,660 evaluations.
+- `results/EXPERIMENTS.md` — concise benchmark results.
+- `results/ABLATION.md` — comparison of optimization techniques.
+- `JUDGE_DEMO.md` — live presentation guide.
+- `RESEARCH_AND_ATTRIBUTION.md` — theory, references, and AI attribution.
+- `results/IQM_Emerald_Hardware_Addendum.pdf` — separately documented real-hardware experiments.
+
+All 2,660 recorded evaluations passed independent equivalence and non-regression checks. These are synthetic, locally generated experiments—not the organizers' hidden benchmark.
+
+The optimizer preserves circuit functionality up to global phase, supports the eight permitted gates and 1–6 qubits, and minimizes the specified weighted cost without requiring quantum hardware.
+
+**For judges:** Import `optimize` from the root-level `submission.py`. The remaining project files provide the experiments, explanations, and presentation materials.
 
 ## What distinguishes PRISM?
 
