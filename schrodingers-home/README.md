@@ -15,7 +15,7 @@ Everything quantum runs on a **from-scratch TypeScript statevector simulator** (
 ```bash
 npm install
 npm run dev          # http://localhost:5173
-npm test             # 56 unit/logic/quantum tests (Vitest)
+npm test             # 67 unit/logic/quantum tests (Vitest)
 npm run build        # type-check + production build to dist/
 npm run preview      # serve the production build
 npm run experiments  # regenerate experiments/sample-log.json + results.md from the engine
@@ -131,7 +131,7 @@ The white hover outline is generated from whatever texture is loaded, so replace
 
 | Check | Status |
 |---|---|
-| `npm test`: 56 tests (quantum maths, Qiskit cross-check, route cipher, one-shot rule, echo no-Z rule, toaster, inventory, save/load, vault scoring, golden path for both phases) | ✅ pass |
+| `npm test`: 67 tests (quantum maths, Qiskit cross-check, route cipher, one-shot rule, echo no-Z rule, toaster, inventory, save/load, vault scoring, golden path for both phases) | ✅ pass |
 | `npm run build` (tsc strict + Vite) | ✅ pass |
 | `npm run smoke`: 32 checks in real Chrome (boot, fonts offline, integer scaling, keyboard walking, hover outline, click inspect, decor not highlighted, prologue rewind, Left-first knock, notebook puzzle, manual typing, checkpoint + live shot, every minigame rendered, Mirror/Ledger/Toaster/Switchboard solved through their UI, all 8 notebook pages, wrong vault rewind, vault solve, cat ending, phone viewport, sprite + photo replacement) | ✅ pass |
 | Qiskit 1.4.2 reproduces probabilities, order and echo values | ✅ |
