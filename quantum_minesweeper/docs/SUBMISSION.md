@@ -2,6 +2,8 @@
 
 Repository: [github.com/jamers7237/qublitz](https://github.com/jamers7237/qublitz)
 
+Project folder: `quantum_minesweeper/`. Run commands from this folder. Paths below are relative to this project folder.
+
 ## 1. Project and completed levels
 
 We protect one unknown logical qubit against the challenge's specified error sets. Levels 1-3 correct one physical error along a known Pauli axis at an unknown location. Level 4 identifies an unknown single-qubit Pauli error's type without measuring individual data values. We implement established stabilizer codes and compare an explicit syndrome circuit with a compact coherent decoder.
