@@ -1,0 +1,10 @@
+{
+  "source": "User-provided Emerald Qiskit notebook output, 2026-11-22",
+  "backend": "emerald",
+  "level": 3,
+  "executed_on_qpu": false,
+  "shots": 0,
+  "original": {"r": 72, "cz": 41, "measure": 4, "barrier": 1, "native_depth": 74},
+  "prism": {"r": 62, "cz": 39, "measure": 4, "barrier": 1, "native_depth": 65},
+  "note": "Compile-only record. Do not describe these native counts as an executed hardware job."
+}
