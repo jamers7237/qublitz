@@ -184,9 +184,9 @@ sage horizontal bed at the top and a vertical bed along the far-right wall.
 The floor plan is rotated for the game's view: hallway below, common in the
 middle, bay window ahead, bedrooms on either side. Furniture and circulation are
 adapted to the 512×288 canvas. The common room has a 28×14-tile floor and each
-bedroom a compact 22×11 floor, making common about 62% larger. Two vertical
-sofas face each other around the ottoman, with a third couch and recliner completing
-the lounge. Chairs are part of the desk sprites to keep circulation clear. Furniture
+bedroom a compact 22×11 floor, making common about 62% larger. Two couches sit with their backs against the top wall; a sideways sofa and
+recliner face inward toward the ottoman. The record player sits centrally below
+the lounge, clear of the entrance. Chairs are part of the desk sprites to keep circulation clear. Furniture
 and player sizes are preserved. The
 address-7 sensor is now a sealed/spilled juice bottle on the floor, with an orange stain in the spilled state. The vault door and quantum gadgets remain
 fictional gameplay additions. Original photos and resident names are not bundled;

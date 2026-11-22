@@ -201,6 +201,7 @@ Regenerate this table at any time with `npx tsx scripts/asset-table.ts`.
 | `dorm.couch.faceRight` | decor | `public/assets/sprites/objects/dorm_couch.faceRight.png` | 28×48 | 0.5, 1 | D107 reference: couch.faceRight |
 | `dorm.couch.faceLeft` | decor | `public/assets/sprites/objects/dorm_couch.faceLeft.png` | 28×48 | 0.5, 1 | D107 reference: couch.faceLeft |
 | `dorm.recliner` | decor | `public/assets/sprites/objects/dorm_recliner.png` | 24×32 | 0.5, 1 | D107 reference: recliner |
+| `dorm.recliner.faceLeft` | decor | `public/assets/sprites/objects/dorm_recliner.faceLeft.png` | 32×24 | 0.5, 1 | D107 reference: recliner.faceLeft |
 | `item.prism` | item | `public/assets/sprites/items/prism.png` | 16×16 | 0.5, 1 | Small glass prism |
 | `item.cassette` | item | `public/assets/sprites/items/cassette.png` | 16×16 | 0.5, 1 | Red cassette tape |
 | `item.key` | item | `public/assets/sprites/items/metronome_key.png` | 16×16 | 0.5, 1 | Brass wind-up key |

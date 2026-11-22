@@ -75,6 +75,10 @@ export const DORM:Record<string,Drawer> = {
     box(g,18,7,6,17,'#6b756f');box(g,6,15,12,9,'#9ba29a');
     r(g,7,24,10,2,ink);box(g,4,26,16,6,'#7a857b');
   },
+  'dorm.recliner.faceLeft':(g)=>{
+    g.save();g.translate(32,0);g.rotate(Math.PI/2);
+    DORM['dorm.recliner'](g,24,32);g.restore();
+  },
   'dorm.ottoman':(g)=>{box(g,0,4,30,19,'#933e49');box(g,1,0,28,16,'#b95160');r(g,4,2,22,1,'#ce6d73');box(g,10,2,14,10,'#8075a6');r(g,13,3,8,2,'#b1a4cc');},
   'dorm.dino':(g)=>{ // Green foil dinosaur balloon, with a trailing string.
     r(g,21,38,1,24,'#b4b0ad');r(g,18,53,4,1,'#b4b0ad');
