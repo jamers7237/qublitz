@@ -1,8 +1,0 @@
-{
-  "completed_utc": "2026-11-22T14:20:47.601787+00:00",
-  "checker_source": "challenge_materials/CircuitHelp.py (original organizer-supplied file)",
-  "pairs_verified": 2660,
-  "equivalence_passes": 2660,
-  "cost_regression_passes": 2660,
-  "important_note": "Organizer's public local checker, not its independent hidden evaluation set"
-}
